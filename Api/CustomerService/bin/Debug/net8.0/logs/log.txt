@@ -1,0 +1,478 @@
+2025-03-21 15:32:26.1072 ERROR Fallo en servicio Customer Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\jack\Documents\Api\CustomerService\Program.cs:line 24
+2025-03-21 15:32:55.1342 ERROR Fallo en servicio Customer Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\jack\Documents\Api\CustomerService\Program.cs:line 24
+2025-03-21 15:40:24.7634 ERROR Fallo en servicio Customer Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\jack\Documents\Api\CustomerService\Program.cs:line 24
+2025-03-21 15:40:30.5734 ERROR Fallo en servicio Customer Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\jack\Documents\Api\CustomerService\Program.cs:line 24
+2025-03-21 16:06:39.4473 ERROR Fallo en servicio Customer System.InvalidOperationException: The service collection cannot be modified because it is read-only.
+   at Microsoft.Extensions.DependencyInjection.ServiceCollection.ThrowReadOnlyException()
+   at Microsoft.Extensions.DependencyInjection.ServiceCollection.System.Collections.Generic.ICollection<Microsoft.Extensions.DependencyInjection.ServiceDescriptor>.Add(ServiceDescriptor item)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddSingleton(IServiceCollection services, Type serviceType, Object implementationInstance)
+   at Microsoft.Extensions.DependencyInjection.OptionsServiceCollectionExtensions.Configure[TOptions](IServiceCollection services, String name, Action`1 configureOptions)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenServiceCollectionExtensions.AddSwaggerGen(IServiceCollection services, Action`1 setupAction)
+   at Program.<Main>$(String[] args) in C:\Users\jack\Documents\Api\CustomerService\Program.cs:line 26
+2025-03-21 16:06:54.3020 ERROR Fallo en servicio Customer System.InvalidOperationException: The service collection cannot be modified because it is read-only.
+   at Microsoft.Extensions.DependencyInjection.ServiceCollection.ThrowReadOnlyException()
+   at Microsoft.Extensions.DependencyInjection.ServiceCollection.System.Collections.Generic.ICollection<Microsoft.Extensions.DependencyInjection.ServiceDescriptor>.Add(ServiceDescriptor item)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddSingleton(IServiceCollection services, Type serviceType, Object implementationInstance)
+   at Microsoft.Extensions.DependencyInjection.OptionsServiceCollectionExtensions.Configure[TOptions](IServiceCollection services, String name, Action`1 configureOptions)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenServiceCollectionExtensions.AddSwaggerGen(IServiceCollection services, Action`1 setupAction)
+   at Program.<Main>$(String[] args) in C:\Users\jack\Documents\Api\CustomerService\Program.cs:line 26
+2025-03-21 16:07:07.2623 ERROR Fallo en servicio Customer System.InvalidOperationException: The service collection cannot be modified because it is read-only.
+   at Microsoft.Extensions.DependencyInjection.ServiceCollection.ThrowReadOnlyException()
+   at Microsoft.Extensions.DependencyInjection.ServiceCollection.System.Collections.Generic.ICollection<Microsoft.Extensions.DependencyInjection.ServiceDescriptor>.Add(ServiceDescriptor item)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddSingleton(IServiceCollection services, Type serviceType, Object implementationInstance)
+   at Microsoft.Extensions.DependencyInjection.OptionsServiceCollectionExtensions.Configure[TOptions](IServiceCollection services, String name, Action`1 configureOptions)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenServiceCollectionExtensions.AddSwaggerGen(IServiceCollection services, Action`1 setupAction)
+   at Program.<Main>$(String[] args) in C:\Users\jack\Documents\Api\CustomerService\Program.cs:line 26
+2025-03-21 16:14:55.8088 ERROR Fallo en servicio Customer System.InvalidOperationException: The service collection cannot be modified because it is read-only.
+   at Microsoft.Extensions.DependencyInjection.ServiceCollection.ThrowReadOnlyException()
+   at Microsoft.Extensions.DependencyInjection.ServiceCollection.System.Collections.Generic.ICollection<Microsoft.Extensions.DependencyInjection.ServiceDescriptor>.Add(ServiceDescriptor item)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddSingleton(IServiceCollection services, Type serviceType, Object implementationInstance)
+   at Microsoft.Extensions.DependencyInjection.OptionsServiceCollectionExtensions.Configure[TOptions](IServiceCollection services, String name, Action`1 configureOptions)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenServiceCollectionExtensions.AddSwaggerGen(IServiceCollection services, Action`1 setupAction)
+   at Program.<Main>$(String[] args) in C:\Users\jack\Documents\Api\CustomerService\Program.cs:line 26
+2025-03-21 16:15:24.6262 ERROR Fallo en servicio Customer System.InvalidOperationException: The service collection cannot be modified because it is read-only.
+   at Microsoft.Extensions.DependencyInjection.ServiceCollection.ThrowReadOnlyException()
+   at Microsoft.Extensions.DependencyInjection.ServiceCollection.System.Collections.Generic.ICollection<Microsoft.Extensions.DependencyInjection.ServiceDescriptor>.Add(ServiceDescriptor item)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddSingleton(IServiceCollection services, Type serviceType, Object implementationInstance)
+   at Microsoft.Extensions.DependencyInjection.OptionsServiceCollectionExtensions.Configure[TOptions](IServiceCollection services, String name, Action`1 configureOptions)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenServiceCollectionExtensions.AddSwaggerGen(IServiceCollection services, Action`1 setupAction)
+   at Program.<Main>$(String[] args) in C:\Users\jack\Documents\Api\CustomerService\Program.cs:line 26
+2025-03-24 16:21:52.4098 INFO Now listening on: https://localhost:7221 
+2025-03-24 16:21:52.4497 INFO Now listening on: http://localhost:5222 
+2025-03-24 16:21:52.5031 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-24 16:21:52.5063 INFO Hosting environment: Development 
+2025-03-24 16:21:52.5063 INFO Content root path: C:\Users\jack\Documents\Api\CustomerService 
+2025-03-24 16:21:59.7068 INFO Request starting HTTP/2 GET https://localhost:7221/swagger - - - 
+2025-03-24 16:22:00.6216 INFO Request finished HTTP/2 GET https://localhost:7221/swagger - 301 0 - 910.8068ms 
+2025-03-24 16:22:00.6739 INFO Request starting HTTP/2 GET https://localhost:7221/swagger/index.html - - - 
+2025-03-24 16:22:00.8937 INFO Request finished HTTP/2 GET https://localhost:7221/swagger/index.html - 200 - text/html;charset=utf-8 219.5608ms 
+2025-03-24 16:22:06.5083 INFO Request starting HTTP/2 GET https://localhost:7221/swagger/swagger-ui.css - - - 
+2025-03-24 16:22:06.5083 INFO Request starting HTTP/2 GET https://localhost:7221/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-24 16:22:06.5083 INFO Request starting HTTP/2 GET https://localhost:7221/swagger/swagger-ui-standalone-preset.js - - - 
+2025-03-24 16:22:06.5083 INFO Request starting HTTP/2 GET https://localhost:7221/swagger/swagger-ui-bundle.js - - - 
+2025-03-24 16:22:06.5083 INFO Request starting HTTP/2 GET https://localhost:7221/_vs/browserLink - - - 
+2025-03-24 16:22:06.5568 INFO Request finished HTTP/2 GET https://localhost:7221/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript;+charset=utf-8 48.0259ms 
+2025-03-24 16:22:06.6476 INFO Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A' 
+2025-03-24 16:22:06.6476 INFO Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A' 
+2025-03-24 16:22:06.6476 INFO Request finished HTTP/2 GET https://localhost:7221/swagger/swagger-ui.css - 200 152034 text/css 145.6115ms 
+2025-03-24 16:22:06.6476 INFO Request finished HTTP/2 GET https://localhost:7221/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 146.9144ms 
+2025-03-24 16:22:06.8511 INFO Request finished HTTP/2 GET https://localhost:7221/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 331.3637ms 
+2025-03-24 16:22:06.8511 INFO Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A' 
+2025-03-24 16:22:06.8511 INFO Request finished HTTP/2 GET https://localhost:7221/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 353.3459ms 
+2025-03-24 16:22:07.3211 INFO Request starting HTTP/2 GET https://localhost:7221/swagger/v1/swagger.json - - - 
+2025-03-24 16:22:07.4359 INFO Request starting HTTP/2 GET https://localhost:7221/swagger/favicon-32x32.png - - - 
+2025-03-24 16:22:07.4725 INFO Request finished HTTP/2 GET https://localhost:7221/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 151.3733ms 
+2025-03-24 16:22:07.4785 INFO Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A' 
+2025-03-24 16:22:07.4785 INFO Request finished HTTP/2 GET https://localhost:7221/swagger/favicon-32x32.png - 200 628 image/png 45.4416ms 
+2025-03-24 16:25:51.7694 INFO Request starting HTTP/2 GET https://localhost:7221/api/Costumer/1 - - - 
+2025-03-24 16:25:51.7949 INFO Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user. 
+2025-03-24 16:25:52.2807 ERROR An unhandled exception has occurred while executing the request. System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.<>c__DisplayClass0_0.<<HandleAsync>g__Handle|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-03-24 16:25:52.2902 INFO Request finished HTTP/2 GET https://localhost:7221/api/Costumer/1 - 500 - text/plain;+charset=utf-8 520.7986ms 
+2025-03-24 16:55:57.0559 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-24 16:55:57.7786 INFO Now listening on: https://localhost:7221 
+2025-03-24 16:55:58.2310 INFO Now listening on: http://localhost:5222 
+2025-03-24 16:55:58.5095 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-24 16:55:58.5095 INFO Hosting environment: Development 
+2025-03-24 16:55:58.5095 INFO Content root path: C:\Users\jack\Documents\Api\CustomerService 
+2025-03-24 16:56:02.9292 INFO Request starting HTTP/2 GET https://localhost:7221/swagger/index.html - - - 
+2025-03-24 16:56:04.5686 INFO Request finished HTTP/2 GET https://localhost:7221/swagger/index.html - 200 - text/html;charset=utf-8 1652.2386ms 
+2025-03-24 16:56:06.0754 INFO Request starting HTTP/2 GET https://localhost:7221/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-24 16:56:06.0754 INFO Request starting HTTP/2 GET https://localhost:7221/_vs/browserLink - - - 
+2025-03-24 16:56:06.0987 INFO Request finished HTTP/2 GET https://localhost:7221/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript;+charset=utf-8 23.1615ms 
+2025-03-24 16:56:06.2037 INFO Request finished HTTP/2 GET https://localhost:7221/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 122.8904ms 
+2025-03-24 16:56:06.5262 INFO Request starting HTTP/2 GET https://localhost:7221/swagger/v1/swagger.json - - - 
+2025-03-24 16:56:06.5871 INFO Request finished HTTP/2 GET https://localhost:7221/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 61.0083ms 
+2025-03-24 16:59:11.1970 INFO Request starting HTTP/2 GET https://localhost:7221/api/Costumer/1 - - - 
+2025-03-24 16:59:11.7098 INFO Executing endpoint 'CustomerService.Controllers.CustomersController.GetCustomerDetails (CustomerService)' 
+2025-03-24 16:59:11.7442 INFO Route matched with {action = "GetCustomerDetails", controller = "Customers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCustomerDetails(Int32) on controller CustomerService.Controllers.CustomersController (CustomerService). 
+2025-03-24 16:59:14.5366 INFO Executed DbCommand (450ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[Email], [c].[FirstName], [c].[LastName]
+FROM [Customers] AS [c]
+WHERE [c].[Id] = @__p_0 
+2025-03-24 16:59:14.6243 INFO Executing ObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2025-03-24 16:59:14.6374 INFO Executed action CustomerService.Controllers.CustomersController.GetCustomerDetails (CustomerService) in 2886.5773ms 
+2025-03-24 16:59:14.6374 INFO Executed endpoint 'CustomerService.Controllers.CustomersController.GetCustomerDetails (CustomerService)' 
+2025-03-24 16:59:14.6483 INFO Request finished HTTP/2 GET https://localhost:7221/api/Costumer/1 - 404 - application/json;+charset=utf-8 3451.4577ms 
+2025-03-24 16:59:33.5608 INFO Request starting HTTP/2 GET https://localhost:7221/api/Costumer/2 - - - 
+2025-03-24 16:59:33.5882 INFO Executing endpoint 'CustomerService.Controllers.CustomersController.GetCustomerDetails (CustomerService)' 
+2025-03-24 16:59:33.5882 INFO Route matched with {action = "GetCustomerDetails", controller = "Customers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCustomerDetails(Int32) on controller CustomerService.Controllers.CustomersController (CustomerService). 
+2025-03-24 16:59:33.6696 INFO Executed DbCommand (6ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[Email], [c].[FirstName], [c].[LastName]
+FROM [Customers] AS [c]
+WHERE [c].[Id] = @__p_0 
+2025-03-24 16:59:33.6696 INFO Executing ObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2025-03-24 16:59:33.6696 INFO Executed action CustomerService.Controllers.CustomersController.GetCustomerDetails (CustomerService) in 84.3887ms 
+2025-03-24 16:59:33.6696 INFO Executed endpoint 'CustomerService.Controllers.CustomersController.GetCustomerDetails (CustomerService)' 
+2025-03-24 16:59:33.6696 INFO Request finished HTTP/2 GET https://localhost:7221/api/Costumer/2 - 404 - application/json;+charset=utf-8 114.0905ms 
+2025-03-24 17:21:34.1619 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-24 17:21:34.7062 INFO Now listening on: https://localhost:7221 
+2025-03-24 17:21:34.7062 INFO Now listening on: http://localhost:5222 
+2025-03-24 17:21:35.0311 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-24 17:21:35.0311 INFO Hosting environment: Development 
+2025-03-24 17:21:35.0311 INFO Content root path: C:\Users\jack\Documents\Api\CustomerService 
+2025-03-24 17:21:41.5166 INFO Request starting HTTP/2 GET https://localhost:7221/swagger/index.html - - - 
+2025-03-24 17:21:41.9788 INFO Request finished HTTP/2 GET https://localhost:7221/swagger/index.html - 200 - text/html;charset=utf-8 468.0687ms 
+2025-03-24 17:21:42.0230 INFO Request starting HTTP/2 GET https://localhost:7221/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-24 17:21:42.0230 INFO Request starting HTTP/2 GET https://localhost:7221/_vs/browserLink - - - 
+2025-03-24 17:21:42.0328 INFO Request finished HTTP/2 GET https://localhost:7221/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript;+charset=utf-8 9.8806ms 
+2025-03-24 17:21:42.2543 INFO Request finished HTTP/2 GET https://localhost:7221/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 231.5726ms 
+2025-03-24 17:21:42.4717 INFO Request starting HTTP/2 GET https://localhost:7221/swagger/v1/swagger.json - - - 
+2025-03-24 17:21:42.5235 INFO Request finished HTTP/2 GET https://localhost:7221/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 51.8141ms 
+2025-03-24 19:18:05.2282 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-24 19:18:05.8874 INFO Now listening on: https://localhost:7221 
+2025-03-24 19:18:05.8874 INFO Now listening on: http://localhost:5222 
+2025-03-24 19:18:05.9489 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-24 19:18:05.9489 INFO Hosting environment: Development 
+2025-03-24 19:18:05.9489 INFO Content root path: C:\Users\jack\Documents\Api\CustomerService 
+2025-03-24 19:18:35.8476 INFO Request starting HTTP/2 GET https://localhost:7221/swagger/index.html - - - 
+2025-03-24 19:18:37.5176 INFO Request finished HTTP/2 GET https://localhost:7221/swagger/index.html - 200 - text/html;charset=utf-8 1679.9581ms 
+2025-03-24 19:19:09.8579 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-24 19:19:11.6403 INFO Now listening on: https://localhost:7221 
+2025-03-24 19:19:11.6433 INFO Now listening on: http://localhost:5222 
+2025-03-24 19:19:11.7033 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-24 19:19:11.7055 INFO Hosting environment: Development 
+2025-03-24 19:19:11.7055 INFO Content root path: C:\Users\jack\Documents\Api\CustomerService 
+2025-03-24 19:19:19.6735 INFO Request starting HTTP/2 GET https://localhost:7221/swagger/index.html - - - 
+2025-03-24 19:19:20.2495 INFO Request finished HTTP/2 GET https://localhost:7221/swagger/index.html - 200 - text/html;charset=utf-8 585.7171ms 
+2025-03-24 19:20:07.3990 INFO Request starting HTTP/2 GET https://localhost:7221/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-24 19:20:07.3990 INFO Request starting HTTP/2 GET https://localhost:7221/_vs/browserLink - - - 
+2025-03-24 19:20:07.4532 INFO Request finished HTTP/2 GET https://localhost:7221/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript;+charset=utf-8 53.9785ms 
+2025-03-24 19:20:07.6079 INFO Request finished HTTP/2 GET https://localhost:7221/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 202.5200ms 
+2025-03-24 19:20:07.8351 INFO Request starting HTTP/2 GET https://localhost:7221/swagger/v1/swagger.json - - - 
+2025-03-24 19:20:08.1151 INFO Request finished HTTP/2 GET https://localhost:7221/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 280.1167ms 
+2025-03-24 19:55:32.4249 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-24 19:55:32.9186 INFO Now listening on: https://localhost:7221 
+2025-03-24 19:55:32.9186 INFO Now listening on: http://localhost:5222 
+2025-03-24 19:55:33.0063 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-24 19:55:33.0107 INFO Hosting environment: Development 
+2025-03-24 19:55:33.0107 INFO Content root path: C:\Users\jack\Documents\Api\CustomerService 
+2025-03-24 19:55:35.8655 INFO Request starting HTTP/2 GET https://localhost:7221/swagger/index.html - - - 
+2025-03-24 19:55:36.6063 INFO Request finished HTTP/2 GET https://localhost:7221/swagger/index.html - 200 - text/html;charset=utf-8 742.6181ms 
+2025-03-24 19:55:36.7614 INFO Request starting HTTP/2 GET https://localhost:7221/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-24 19:55:36.7821 INFO Request starting HTTP/2 GET https://localhost:7221/_vs/browserLink - - - 
+2025-03-24 19:55:36.9596 INFO Request finished HTTP/2 GET https://localhost:7221/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript;+charset=utf-8 198.0661ms 
+2025-03-24 19:55:38.1852 INFO Request finished HTTP/2 GET https://localhost:7221/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 1403.1985ms 
+2025-03-24 19:55:38.3304 INFO Request starting HTTP/2 GET https://localhost:7221/swagger/v1/swagger.json - - - 
+2025-03-24 19:55:38.3688 INFO Request finished HTTP/2 GET https://localhost:7221/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 38.3656ms 
+2025-03-24 20:02:19.2613 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-24 20:02:19.7622 INFO Now listening on: https://localhost:7221 
+2025-03-24 20:02:19.7622 INFO Now listening on: http://localhost:5222 
+2025-03-24 20:02:19.8418 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-24 20:02:19.8578 INFO Hosting environment: Development 
+2025-03-24 20:02:19.9070 INFO Content root path: C:\Users\jack\Documents\Api\CustomerService 
+2025-03-24 20:02:25.1851 INFO Request starting HTTP/2 GET https://localhost:7221/swagger/index.html - - - 
+2025-03-24 20:02:28.0482 INFO Request finished HTTP/2 GET https://localhost:7221/swagger/index.html - 200 - text/html;charset=utf-8 2870.9747ms 
+2025-03-24 20:02:31.1789 INFO Request starting HTTP/2 GET https://localhost:7221/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-24 20:02:31.1865 INFO Request starting HTTP/2 GET https://localhost:7221/_vs/browserLink - - - 
+2025-03-24 20:02:31.3472 INFO Request finished HTTP/2 GET https://localhost:7221/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript;+charset=utf-8 168.3496ms 
+2025-03-24 20:02:31.9810 INFO Request finished HTTP/2 GET https://localhost:7221/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 796.0912ms 
+2025-03-24 20:02:32.1459 INFO Request starting HTTP/2 GET https://localhost:7221/swagger/v1/swagger.json - - - 
+2025-03-24 20:02:32.1646 INFO Request finished HTTP/2 GET https://localhost:7221/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 18.7714ms 
+2025-03-24 20:10:22.0742 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-24 20:10:23.4130 INFO Now listening on: https://localhost:7221 
+2025-03-24 20:10:23.4180 INFO Now listening on: http://localhost:5222 
+2025-03-24 20:10:23.6064 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-24 20:10:23.9678 INFO Hosting environment: Development 
+2025-03-24 20:10:24.0502 INFO Content root path: C:\Users\jack\Documents\Api\CustomerService 
+2025-03-24 20:10:28.4968 INFO Request starting HTTP/2 GET https://localhost:7221/swagger/index.html - - - 
+2025-03-24 20:10:29.0303 INFO Request starting HTTP/2 GET https://localhost:7221/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-24 20:10:29.0303 INFO Request starting HTTP/2 GET https://localhost:7221/_vs/browserLink - - - 
+2025-03-24 20:10:29.0303 INFO Request finished HTTP/2 GET https://localhost:7221/swagger/index.html - 200 - text/html;charset=utf-8 551.0224ms 
+2025-03-24 20:10:29.3372 INFO Request finished HTTP/2 GET https://localhost:7221/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript;+charset=utf-8 307.0049ms 
+2025-03-24 20:10:30.9983 INFO Request finished HTTP/2 GET https://localhost:7221/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 1967.5839ms 
+2025-03-24 20:10:31.4121 INFO Request starting HTTP/2 GET https://localhost:7221/swagger/v1/swagger.json - - - 
+2025-03-24 20:10:31.4781 INFO Request finished HTTP/2 GET https://localhost:7221/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 66.1438ms 
+2025-03-24 20:14:00.7187 INFO Executed DbCommand (1,341ms) [Parameters=[@__request_CustomerId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Customers] AS [c]
+        WHERE [c].[Id] = @__request_CustomerId_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END 
+2025-03-24 20:15:03.8686 INFO Executed DbCommand (8ms) [Parameters=[@__request_CustomerId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Customers] AS [c]
+        WHERE [c].[Id] = @__request_CustomerId_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END 
+2025-03-24 20:16:33.9173 INFO Executed DbCommand (23ms) [Parameters=[@__request_CustomerId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Customers] AS [c]
+        WHERE [c].[Id] = @__request_CustomerId_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END 
+2025-03-24 20:19:50.7643 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-24 20:19:58.9839 INFO Now listening on: https://localhost:7221 
+2025-03-24 20:19:59.0085 INFO Now listening on: http://localhost:5222 
+2025-03-24 20:19:59.1302 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-24 20:19:59.1422 INFO Hosting environment: Development 
+2025-03-24 20:19:59.1422 INFO Content root path: C:\Users\jack\Documents\Api\CustomerService 
+2025-03-24 20:20:06.2072 INFO Request starting HTTP/2 GET https://localhost:7221/swagger/index.html - - - 
+2025-03-24 20:20:08.5202 INFO Request finished HTTP/2 GET https://localhost:7221/swagger/index.html - 200 - text/html;charset=utf-8 2319.9415ms 
+2025-03-24 20:20:08.5800 INFO Request starting HTTP/2 GET https://localhost:7221/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-24 20:20:08.5800 INFO Request starting HTTP/2 GET https://localhost:7221/_vs/browserLink - - - 
+2025-03-24 20:20:09.0776 INFO Request finished HTTP/2 GET https://localhost:7221/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript;+charset=utf-8 497.5606ms 
+2025-03-24 20:20:10.1400 INFO Request finished HTTP/2 GET https://localhost:7221/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 1557.7013ms 
+2025-03-24 20:20:10.3105 INFO Request starting HTTP/2 GET https://localhost:7221/swagger/v1/swagger.json - - - 
+2025-03-24 20:20:10.3537 INFO Request finished HTTP/2 GET https://localhost:7221/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 43.2511ms 
+2025-03-24 20:22:31.6085 INFO Executed DbCommand (114ms) [Parameters=[@__request_CustomerId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Customers] AS [c]
+        WHERE [c].[Id] = @__request_CustomerId_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END 
+2025-03-24 20:22:41.0643 INFO Executed DbCommand (90ms) [Parameters=[@__request_CustomerId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Customers] AS [c]
+        WHERE [c].[Id] = @__request_CustomerId_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END 
+2025-03-24 20:25:01.2304 INFO Executed DbCommand (131ms) [Parameters=[@__request_CustomerId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Customers] AS [c]
+        WHERE [c].[Id] = @__request_CustomerId_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END 
+2025-03-24 21:44:18.8275 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-24 21:45:27.9279 INFO Now listening on: https://localhost:7221 
+2025-03-24 21:45:27.9434 INFO Now listening on: http://localhost:5222 
+2025-03-24 21:45:28.0692 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-24 21:45:28.1599 INFO Hosting environment: Development 
+2025-03-24 21:45:28.2754 INFO Content root path: C:\Users\jack\Documents\Api\CustomerService 
+2025-03-24 21:45:31.9786 INFO Request starting HTTP/2 GET https://localhost:7221/swagger/index.html - - - 
+2025-03-24 21:45:32.4990 INFO Request finished HTTP/2 GET https://localhost:7221/swagger/index.html - 200 - text/html;charset=utf-8 529.1365ms 
+2025-03-24 21:45:36.7357 INFO Request starting HTTP/2 GET https://localhost:7221/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-24 21:45:36.7357 INFO Request starting HTTP/2 GET https://localhost:7221/_vs/browserLink - - - 
+2025-03-24 21:45:36.7722 INFO Request finished HTTP/2 GET https://localhost:7221/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript;+charset=utf-8 36.5403ms 
+2025-03-24 21:45:37.0316 INFO Request finished HTTP/2 GET https://localhost:7221/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 294.1411ms 
+2025-03-24 21:45:37.1039 INFO Request starting HTTP/2 GET https://localhost:7221/swagger/v1/swagger.json - - - 
+2025-03-24 21:45:37.1384 INFO Request finished HTTP/2 GET https://localhost:7221/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 34.5413ms 
+2025-03-24 21:47:28.0857 INFO Executed DbCommand (250ms) [Parameters=[@__request_CustomerId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Customers] AS [c]
+        WHERE [c].[Id] = @__request_CustomerId_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END 
+2025-03-24 21:51:57.5892 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-24 21:51:58.9123 INFO Now listening on: https://localhost:7221 
+2025-03-24 21:51:58.9123 INFO Now listening on: http://localhost:5222 
+2025-03-24 21:51:59.0078 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-24 21:51:59.0123 INFO Hosting environment: Development 
+2025-03-24 21:51:59.0123 INFO Content root path: C:\Users\jack\Documents\Api\CustomerService 
+2025-03-24 21:52:04.7700 INFO Request starting HTTP/2 GET https://localhost:7221/swagger/index.html - - - 
+2025-03-24 21:52:05.9119 INFO Request finished HTTP/2 GET https://localhost:7221/swagger/index.html - 200 - text/html;charset=utf-8 1149.4327ms 
+2025-03-24 21:52:06.2254 INFO Request starting HTTP/2 GET https://localhost:7221/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-24 21:52:06.3840 INFO Request starting HTTP/2 GET https://localhost:7221/_vs/browserLink - - - 
+2025-03-24 21:52:06.4626 INFO Request finished HTTP/2 GET https://localhost:7221/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript;+charset=utf-8 237.1087ms 
+2025-03-24 21:52:08.1343 INFO Request finished HTTP/2 GET https://localhost:7221/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 1750.2936ms 
+2025-03-24 21:52:08.3653 INFO Request starting HTTP/2 GET https://localhost:7221/swagger/v1/swagger.json - - - 
+2025-03-24 21:52:08.4108 INFO Request finished HTTP/2 GET https://localhost:7221/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 45.5551ms 
+2025-03-24 21:55:54.6042 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-24 21:55:55.8512 INFO Now listening on: https://localhost:7221 
+2025-03-24 21:55:55.8871 INFO Now listening on: http://localhost:5222 
+2025-03-24 21:55:56.9081 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-24 21:55:57.0133 INFO Hosting environment: Development 
+2025-03-24 21:55:57.1045 INFO Content root path: C:\Users\jack\Documents\Api\CustomerService 
+2025-03-24 21:55:59.6242 INFO Request starting HTTP/2 GET https://localhost:7221/swagger/index.html - - - 
+2025-03-24 21:56:02.7696 INFO Request finished HTTP/2 GET https://localhost:7221/swagger/index.html - 200 - text/html;charset=utf-8 3152.7740ms 
+2025-03-24 21:56:07.9654 INFO Request starting HTTP/2 GET https://localhost:7221/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-24 21:56:08.1700 INFO Request starting HTTP/2 GET https://localhost:7221/_vs/browserLink - - - 
+2025-03-24 21:56:08.2266 INFO Request finished HTTP/2 GET https://localhost:7221/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript;+charset=utf-8 261.2406ms 
+2025-03-24 21:56:08.6736 INFO Request finished HTTP/2 GET https://localhost:7221/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 503.6259ms 
+2025-03-24 21:56:08.9234 INFO Request starting HTTP/2 GET https://localhost:7221/swagger/v1/swagger.json - - - 
+2025-03-24 21:56:08.9578 INFO Request finished HTTP/2 GET https://localhost:7221/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 34.4270ms 
+2025-03-24 22:15:34.8019 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-24 22:15:35.4374 INFO Now listening on: https://localhost:7221 
+2025-03-24 22:15:35.4374 INFO Now listening on: http://localhost:5222 
+2025-03-24 22:15:35.7171 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-24 22:15:35.8472 INFO Hosting environment: Development 
+2025-03-24 22:15:35.9201 INFO Content root path: C:\Users\jack\Documents\Api\CustomerService 
+2025-03-24 22:15:39.5623 INFO Request starting HTTP/2 GET https://localhost:7221/swagger/index.html - - - 
+2025-03-24 22:15:40.1790 INFO Request finished HTTP/2 GET https://localhost:7221/swagger/index.html - 200 - text/html;charset=utf-8 623.6968ms 
+2025-03-24 22:15:42.4022 INFO Request starting HTTP/2 GET https://localhost:7221/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-24 22:15:42.4064 INFO Request starting HTTP/2 GET https://localhost:7221/_vs/browserLink - - - 
+2025-03-24 22:15:42.4565 INFO Request finished HTTP/2 GET https://localhost:7221/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript;+charset=utf-8 54.2732ms 
+2025-03-24 22:15:42.7005 INFO Request finished HTTP/2 GET https://localhost:7221/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 294.7572ms 
+2025-03-24 22:15:42.8567 INFO Request starting HTTP/2 GET https://localhost:7221/swagger/v1/swagger.json - - - 
+2025-03-24 22:15:42.9295 INFO Request finished HTTP/2 GET https://localhost:7221/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 72.8011ms 
+2025-03-24 22:17:09.0306 INFO Executed DbCommand (500ms) [Parameters=[@__request_CustomerId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Customers] AS [c]
+        WHERE [c].[Id] = @__request_CustomerId_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END 
+2025-03-24 22:34:19.2179 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-24 22:34:20.0752 INFO Now listening on: https://localhost:7221 
+2025-03-24 22:34:20.0752 INFO Now listening on: http://localhost:5222 
+2025-03-24 22:34:20.1835 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-24 22:34:20.1907 INFO Hosting environment: Development 
+2025-03-24 22:34:20.3088 INFO Content root path: C:\Users\jack\Documents\Api\CustomerService 
+2025-03-24 22:34:25.4521 INFO Request starting HTTP/2 GET https://localhost:7221/swagger/index.html - - - 
+2025-03-24 22:34:25.8538 INFO Request finished HTTP/2 GET https://localhost:7221/swagger/index.html - 200 - text/html;charset=utf-8 408.1177ms 
+2025-03-24 22:34:31.2069 INFO Request starting HTTP/2 GET https://localhost:7221/_vs/browserLink - - - 
+2025-03-24 22:34:31.2069 INFO Request starting HTTP/2 GET https://localhost:7221/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-24 22:34:31.7475 INFO Request finished HTTP/2 GET https://localhost:7221/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript;+charset=utf-8 479.3082ms 
+2025-03-24 22:34:32.4040 INFO Request finished HTTP/2 GET https://localhost:7221/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 1197.1610ms 
+2025-03-24 22:34:32.5424 INFO Request starting HTTP/2 GET https://localhost:7221/swagger/v1/swagger.json - - - 
+2025-03-24 22:34:32.5637 INFO Request finished HTTP/2 GET https://localhost:7221/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 21.4262ms 
+2025-03-24 22:48:36.3162 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-24 22:48:37.5110 INFO Now listening on: https://localhost:7221 
+2025-03-24 22:48:37.6345 INFO Now listening on: http://localhost:5222 
+2025-03-24 22:48:37.9240 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-24 22:48:37.9370 INFO Hosting environment: Development 
+2025-03-24 22:48:37.9370 INFO Content root path: C:\Users\jack\Documents\Api\CustomerService 
+2025-03-24 22:48:41.0219 INFO Request starting HTTP/2 GET https://localhost:7221/swagger/index.html - - - 
+2025-03-24 22:48:42.0715 INFO Request finished HTTP/2 GET https://localhost:7221/swagger/index.html - 200 - text/html;charset=utf-8 1056.1436ms 
+2025-03-24 22:48:45.0307 INFO Request starting HTTP/2 GET https://localhost:7221/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-24 22:48:45.0807 INFO Request starting HTTP/2 GET https://localhost:7221/_vs/browserLink - - - 
+2025-03-24 22:48:45.2396 INFO Request finished HTTP/2 GET https://localhost:7221/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript;+charset=utf-8 208.8778ms 
+2025-03-24 22:48:45.4990 INFO Request finished HTTP/2 GET https://localhost:7221/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 432.3894ms 
+2025-03-24 22:48:45.6656 INFO Request starting HTTP/2 GET https://localhost:7221/swagger/v1/swagger.json - - - 
+2025-03-24 22:48:45.7563 INFO Request finished HTTP/2 GET https://localhost:7221/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 90.8030ms 
+2025-03-24 23:03:20.4770 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-24 23:03:22.4595 INFO Now listening on: https://localhost:7221 
+2025-03-24 23:03:22.4976 INFO Now listening on: http://localhost:5222 
+2025-03-24 23:03:22.6190 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-24 23:03:22.6340 INFO Hosting environment: Development 
+2025-03-24 23:03:22.6498 INFO Content root path: C:\Users\jack\Documents\Api\CustomerService 
+2025-03-24 23:03:27.0574 INFO Request starting HTTP/2 GET https://localhost:7221/swagger/index.html - - - 
+2025-03-24 23:03:28.0726 INFO Request finished HTTP/2 GET https://localhost:7221/swagger/index.html - 200 - text/html;charset=utf-8 1016.2280ms 
+2025-03-24 23:03:28.3331 INFO Request starting HTTP/2 GET https://localhost:7221/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-24 23:03:28.3427 INFO Request starting HTTP/2 GET https://localhost:7221/_vs/browserLink - - - 
+2025-03-24 23:03:28.4907 INFO Request finished HTTP/2 GET https://localhost:7221/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript;+charset=utf-8 157.7690ms 
+2025-03-24 23:03:28.6212 INFO Request finished HTTP/2 GET https://localhost:7221/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 278.5515ms 
+2025-03-24 23:03:28.8060 INFO Request starting HTTP/2 GET https://localhost:7221/swagger/v1/swagger.json - - - 
+2025-03-24 23:03:28.8506 INFO Request finished HTTP/2 GET https://localhost:7221/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 44.7139ms 
+2025-03-24 23:03:30.2367 INFO Executed DbCommand (1,663ms) [Parameters=[@__request_CustomerId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Customers] AS [c]
+        WHERE [c].[Id] = @__request_CustomerId_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END 
+2025-03-24 23:03:30.3655 INFO Executed DbCommand (11ms) [Parameters=[@__request_CustomerId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Customers] AS [c]
+        WHERE [c].[Id] = @__request_CustomerId_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END 
+2025-03-24 23:04:11.1579 INFO Executed DbCommand (81ms) [Parameters=[@__request_CustomerId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Customers] AS [c]
+        WHERE [c].[Id] = @__request_CustomerId_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END 
+2025-03-24 23:04:30.5742 INFO Executed DbCommand (4ms) [Parameters=[@__request_CustomerId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Customers] AS [c]
+        WHERE [c].[Id] = @__request_CustomerId_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END 
+2025-03-24 23:05:24.3518 INFO Executed DbCommand (85ms) [Parameters=[@__request_CustomerId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Customers] AS [c]
+        WHERE [c].[Id] = @__request_CustomerId_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END 
+2025-03-25 12:54:10.9923 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-25 12:54:11.7801 INFO Now listening on: https://localhost:7221 
+2025-03-25 12:54:11.7801 INFO Now listening on: http://localhost:5222 
+2025-03-25 12:54:11.9291 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-25 12:54:11.9291 INFO Hosting environment: Development 
+2025-03-25 12:54:11.9291 INFO Content root path: C:\Users\jack\Documents\Api\CustomerService 
+2025-03-25 12:54:15.3442 INFO Request starting HTTP/2 GET https://localhost:7221/swagger/index.html - - - 
+2025-03-25 12:54:16.3617 INFO Request finished HTTP/2 GET https://localhost:7221/swagger/index.html - 200 - text/html;charset=utf-8 1021.7088ms 
+2025-03-25 12:54:16.4749 INFO Request starting HTTP/2 GET https://localhost:7221/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-25 12:54:16.4749 INFO Request starting HTTP/2 GET https://localhost:7221/_vs/browserLink - - - 
+2025-03-25 12:54:16.6025 INFO Request finished HTTP/2 GET https://localhost:7221/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript;+charset=utf-8 127.1275ms 
+2025-03-25 12:54:17.0057 INFO Request finished HTTP/2 GET https://localhost:7221/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 524.6780ms 
+2025-03-25 12:54:17.1494 INFO Request starting HTTP/2 GET https://localhost:7221/swagger/v1/swagger.json - - - 
+2025-03-25 12:54:17.1850 INFO Request finished HTTP/2 GET https://localhost:7221/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 35.6602ms 
+2025-03-25 12:54:52.0814 INFO Request starting HTTP/2 GET https://localhost:7221/api/Costumer/1 - - - 
+2025-03-25 12:54:52.4694 INFO Executing endpoint 'CustomerService.Controllers.CustomersController.GetCustomerDetails (CustomerService)' 
+2025-03-25 12:54:52.5363 INFO Route matched with {action = "GetCustomerDetails", controller = "Customers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCustomerDetails(Int32) on controller CustomerService.Controllers.CustomersController (CustomerService). 
+2025-03-25 12:54:55.4678 INFO Executed DbCommand (118ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[Email], [c].[FirstName], [c].[LastName]
+FROM [Customers] AS [c]
+WHERE [c].[Id] = @__p_0 
+2025-03-25 12:54:55.6718 INFO Executing OkObjectResult, writing value of type '<>f__AnonymousType1`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2025-03-25 12:54:55.6892 INFO Executed action CustomerService.Controllers.CustomersController.GetCustomerDetails (CustomerService) in 3144.563ms 
+2025-03-25 12:54:55.6892 INFO Executed endpoint 'CustomerService.Controllers.CustomersController.GetCustomerDetails (CustomerService)' 
+2025-03-25 12:54:55.7114 INFO Request finished HTTP/2 GET https://localhost:7221/api/Costumer/1 - 200 - application/json;+charset=utf-8 3631.1992ms 
+2025-03-25 13:06:04.1258 INFO Executed DbCommand (494ms) [Parameters=[@__request_CustomerId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Customers] AS [c]
+        WHERE [c].[Id] = @__request_CustomerId_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END 
+2025-03-25 13:08:04.5831 INFO Executed DbCommand (4ms) [Parameters=[@__request_CustomerId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Customers] AS [c]
+        WHERE [c].[Id] = @__request_CustomerId_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END 

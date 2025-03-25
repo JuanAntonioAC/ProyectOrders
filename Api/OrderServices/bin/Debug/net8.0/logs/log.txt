@@ -1,0 +1,1044 @@
+2025-03-21 15:35:07.2528 ERROR Fallo en servicio Customer Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\jack\Documents\Api\OrderServices\Program.cs:line 26
+2025-03-21 15:35:14.8606 ERROR Fallo en servicio Customer Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\jack\Documents\Api\OrderServices\Program.cs:line 26
+2025-03-21 15:40:06.7163 ERROR Fallo en servicio Customer Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\jack\Documents\Api\OrderServices\Program.cs:line 26
+2025-03-21 15:40:12.7695 ERROR Fallo en servicio Customer Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\jack\Documents\Api\OrderServices\Program.cs:line 26
+2025-03-21 16:07:31.5025 ERROR Fallo en servicio Customer System.InvalidOperationException: The service collection cannot be modified because it is read-only.
+   at Microsoft.Extensions.DependencyInjection.ServiceCollection.ThrowReadOnlyException()
+   at Microsoft.Extensions.DependencyInjection.ServiceCollection.System.Collections.Generic.ICollection<Microsoft.Extensions.DependencyInjection.ServiceDescriptor>.Add(ServiceDescriptor item)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddSingleton(IServiceCollection services, Type serviceType, Object implementationInstance)
+   at Microsoft.Extensions.DependencyInjection.OptionsServiceCollectionExtensions.Configure[TOptions](IServiceCollection services, String name, Action`1 configureOptions)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenServiceCollectionExtensions.AddSwaggerGen(IServiceCollection services, Action`1 setupAction)
+   at Program.<Main>$(String[] args) in C:\Users\jack\Documents\Api\OrderServices\Program.cs:line 28
+2025-03-21 16:07:46.7055 ERROR Fallo en servicio Customer System.InvalidOperationException: The service collection cannot be modified because it is read-only.
+   at Microsoft.Extensions.DependencyInjection.ServiceCollection.ThrowReadOnlyException()
+   at Microsoft.Extensions.DependencyInjection.ServiceCollection.System.Collections.Generic.ICollection<Microsoft.Extensions.DependencyInjection.ServiceDescriptor>.Add(ServiceDescriptor item)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddSingleton(IServiceCollection services, Type serviceType, Object implementationInstance)
+   at Microsoft.Extensions.DependencyInjection.OptionsServiceCollectionExtensions.Configure[TOptions](IServiceCollection services, String name, Action`1 configureOptions)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenServiceCollectionExtensions.AddSwaggerGen(IServiceCollection services, Action`1 setupAction)
+   at Program.<Main>$(String[] args) in C:\Users\jack\Documents\Api\OrderServices\Program.cs:line 28
+2025-03-21 16:08:24.3677 ERROR Fallo en servicio Customer System.InvalidOperationException: The service collection cannot be modified because it is read-only.
+   at Microsoft.Extensions.DependencyInjection.ServiceCollection.ThrowReadOnlyException()
+   at Microsoft.Extensions.DependencyInjection.ServiceCollection.System.Collections.Generic.ICollection<Microsoft.Extensions.DependencyInjection.ServiceDescriptor>.Add(ServiceDescriptor item)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddSingleton(IServiceCollection services, Type serviceType, Object implementationInstance)
+   at Microsoft.Extensions.DependencyInjection.OptionsServiceCollectionExtensions.Configure[TOptions](IServiceCollection services, String name, Action`1 configureOptions)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenServiceCollectionExtensions.AddSwaggerGen(IServiceCollection services, Action`1 setupAction)
+   at Program.<Main>$(String[] args) in C:\Users\jack\Documents\Api\OrderServices\Program.cs:line 28
+2025-03-21 23:16:03.2319 INFO Now listening on: https://localhost:7145 
+2025-03-21 23:16:03.2685 INFO Now listening on: http://localhost:5082 
+2025-03-21 23:16:03.5486 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-21 23:16:03.5486 INFO Hosting environment: Development 
+2025-03-21 23:16:03.5486 INFO Content root path: C:\Users\jack\Documents\Api\OrderServices 
+2025-03-21 23:16:04.7525 INFO Request starting HTTP/2 GET https://localhost:7145/swagger - - - 
+2025-03-21 23:16:04.8919 INFO Request finished HTTP/2 GET https://localhost:7145/swagger - 301 0 - 147.4691ms 
+2025-03-21 23:16:04.8919 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - - - 
+2025-03-21 23:16:05.0175 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 - text/html;charset=utf-8 117.6584ms 
+2025-03-21 23:16:05.0175 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/swagger-ui.css - - - 
+2025-03-21 23:16:05.0175 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/swagger-ui-bundle.js - - - 
+2025-03-21 23:16:05.0324 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/swagger-ui-standalone-preset.js - - - 
+2025-03-21 23:16:05.0324 INFO Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-21 23:16:05.0324 INFO Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - - - 
+2025-03-21 23:16:05.0324 INFO Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript;+charset=utf-8 8.6639ms 
+2025-03-21 23:16:05.1071 INFO Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A' 
+2025-03-21 23:16:05.1071 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/swagger-ui.css - 200 152034 text/css 78.2261ms 
+2025-03-21 23:16:05.1120 INFO Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A' 
+2025-03-21 23:16:05.1120 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 88.9921ms 
+2025-03-21 23:16:05.1411 INFO Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 108.4343ms 
+2025-03-21 23:16:05.1980 INFO Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A' 
+2025-03-21 23:16:05.1980 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 166.8073ms 
+2025-03-21 23:16:05.3976 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - - - 
+2025-03-21 23:16:05.4308 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/favicon-32x32.png - - - 
+2025-03-21 23:16:05.4308 INFO Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A' 
+2025-03-21 23:16:05.4308 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 35.4000ms 
+2025-03-21 23:16:05.4308 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/favicon-32x32.png - 200 628 image/png 2.6854ms 
+2025-03-24 16:15:20.3694 INFO Now listening on: https://localhost:7145 
+2025-03-24 16:15:20.4691 INFO Now listening on: http://localhost:5082 
+2025-03-24 16:15:20.5598 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-24 16:15:20.5703 INFO Hosting environment: Development 
+2025-03-24 16:15:20.5703 INFO Content root path: C:\Users\jack\Documents\Api\OrderServices 
+2025-03-24 16:15:27.8596 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - - - 
+2025-03-24 16:15:29.0884 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 - text/html;charset=utf-8 1235.3086ms 
+2025-03-24 16:15:33.2841 INFO Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-24 16:15:33.2888 INFO Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - - - 
+2025-03-24 16:15:33.3199 INFO Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript;+charset=utf-8 35.9413ms 
+2025-03-24 16:15:36.6008 INFO Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 3312.0768ms 
+2025-03-24 16:15:47.2221 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - - - 
+2025-03-24 16:15:47.8072 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 585.1592ms 
+2025-03-24 16:49:39.8234 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-24 16:49:40.4266 INFO Now listening on: https://localhost:7145 
+2025-03-24 16:49:40.4313 INFO Now listening on: http://localhost:5082 
+2025-03-24 16:49:40.5720 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-24 16:49:40.5720 INFO Hosting environment: Development 
+2025-03-24 16:49:40.5720 INFO Content root path: C:\Users\jack\Documents\Api\OrderServices 
+2025-03-24 16:49:45.8181 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - - - 
+2025-03-24 16:49:48.1168 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 - text/html;charset=utf-8 2306.2803ms 
+2025-03-24 16:49:48.1929 INFO Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-24 16:49:48.1980 INFO Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - - - 
+2025-03-24 16:49:48.4528 INFO Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript;+charset=utf-8 259.9065ms 
+2025-03-24 16:49:50.0028 INFO Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 1804.8269ms 
+2025-03-24 16:49:50.1312 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - - - 
+2025-03-24 16:49:50.2073 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 76.2205ms 
+2025-03-24 16:50:12.2691 INFO Request starting HTTP/2 GET https://localhost:7145/api/Orders - - - 
+2025-03-24 16:50:12.5809 INFO Executing endpoint 'OrderServices.Controllers.OrdersController.GetAll (OrderServices)' 
+2025-03-24 16:50:12.6037 INFO Route matched with {action = "GetAll", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller OrderServices.Controllers.OrdersController (OrderServices). 
+2025-03-24 16:50:13.5826 WARN No store type was specified for the decimal property 'TotalAmount' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2025-03-24 16:50:15.8091 INFO Executed DbCommand (463ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [o].[Id], [o].[CustomerId], [o].[OrderDate], [o].[ProductId], [o].[Quantity], [o].[TotalAmount]
+FROM [Orders] AS [o] 
+2025-03-24 16:50:15.9400 INFO Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[OrderServices.Data.Models.Order, OrderServices, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[<>f__AnonymousType0`3[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], OrderServices, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2025-03-24 16:50:16.0558 INFO Executed action OrderServices.Controllers.OrdersController.GetAll (OrderServices) in 3444.8968ms 
+2025-03-24 16:50:16.0558 INFO Executed endpoint 'OrderServices.Controllers.OrdersController.GetAll (OrderServices)' 
+2025-03-24 16:50:16.0743 INFO Request finished HTTP/2 GET https://localhost:7145/api/Orders - 200 - application/json;+charset=utf-8 3805.3763ms 
+2025-03-24 16:50:36.6778 INFO Request starting HTTP/2 POST https://localhost:7145/api/Orders - application/json 57 
+2025-03-24 16:50:36.6778 INFO Executing endpoint 'OrderServices.Controllers.OrdersController.CreateOrder (OrderServices)' 
+2025-03-24 16:50:36.7169 INFO Route matched with {action = "CreateOrder", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(OrderServices.Data.DTOS.CreateOrderDto) on controller OrderServices.Controllers.OrdersController (OrderServices). 
+2025-03-24 16:50:41.2596 INFO Executed action OrderServices.Controllers.OrdersController.CreateOrder (OrderServices) in 4541.6827ms 
+2025-03-24 16:50:41.5007 INFO Executed endpoint 'OrderServices.Controllers.OrdersController.CreateOrder (OrderServices)' 
+2025-03-24 16:50:42.2372 ERROR An unhandled exception has occurred while executing the request. System.InvalidOperationException: In the async mode you have to use an async consumer
+   at RabbitMQ.Client.Impl.ModelBase.BasicConsume(String queue, Boolean autoAck, String consumerTag, Boolean noLocal, Boolean exclusive, IDictionary`2 arguments, IBasicConsumer consumer)
+   at RabbitMQ.Client.Impl.AutorecoveringModel.BasicConsume(String queue, Boolean autoAck, String consumerTag, Boolean noLocal, Boolean exclusive, IDictionary`2 arguments, IBasicConsumer consumer)
+   at RabbitMQ.Client.IModelExensions.BasicConsume(IModel model, String queue, Boolean autoAck, IBasicConsumer consumer)
+   at OrderServices.Stocks.CustomerValidatorSender.ValidateCustomerAsync(Int32 customerId) in C:\Users\jack\Documents\Api\OrderServices\Stocks\CustomerValidatorSender.cs:line 43
+   at OrderServices.Controllers.OrdersController.CreateOrder(CreateOrderDto order) in C:\Users\jack\Documents\Api\OrderServices\Controllers\OrdersController.cs:line 84
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-03-24 16:50:42.2676 INFO Request finished HTTP/2 POST https://localhost:7145/api/Orders - 500 - text/plain;+charset=utf-8 5589.8517ms 
+2025-03-24 16:55:21.9846 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-24 16:55:24.0076 INFO Now listening on: https://localhost:7145 
+2025-03-24 16:55:24.0076 INFO Now listening on: http://localhost:5082 
+2025-03-24 16:55:24.0784 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-24 16:55:24.0950 INFO Hosting environment: Development 
+2025-03-24 16:55:24.0950 INFO Content root path: C:\Users\jack\Documents\Api\OrderServices 
+2025-03-24 16:55:33.3589 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - - - 
+2025-03-24 16:55:39.3002 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 - text/html;charset=utf-8 5962.1594ms 
+2025-03-24 16:55:39.6688 INFO Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-24 16:55:39.7034 INFO Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - - - 
+2025-03-24 16:55:39.9374 INFO Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript;+charset=utf-8 268.6608ms 
+2025-03-24 16:55:42.2481 INFO Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 2544.7652ms 
+2025-03-24 16:55:42.4675 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - - - 
+2025-03-24 16:55:42.8139 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 346.4723ms 
+2025-03-24 16:56:45.1619 INFO Request starting HTTP/2 GET https://localhost:7145/api/Orders - - - 
+2025-03-24 16:56:45.3968 INFO Executing endpoint 'OrderServices.Controllers.OrdersController.GetAll (OrderServices)' 
+2025-03-24 16:56:45.4345 INFO Route matched with {action = "GetAll", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller OrderServices.Controllers.OrdersController (OrderServices). 
+2025-03-24 16:56:46.5436 WARN No store type was specified for the decimal property 'TotalAmount' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2025-03-24 16:56:48.4116 INFO Executed DbCommand (82ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [o].[Id], [o].[CustomerId], [o].[OrderDate], [o].[ProductId], [o].[Quantity], [o].[TotalAmount]
+FROM [Orders] AS [o] 
+2025-03-24 16:56:48.5350 INFO Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[OrderServices.Data.Models.Order, OrderServices, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[<>f__AnonymousType0`3[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], OrderServices, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2025-03-24 16:56:48.5669 INFO Executed action OrderServices.Controllers.OrdersController.GetAll (OrderServices) in 3123.6368ms 
+2025-03-24 16:56:48.5679 INFO Executed endpoint 'OrderServices.Controllers.OrdersController.GetAll (OrderServices)' 
+2025-03-24 16:56:48.5919 INFO Request finished HTTP/2 GET https://localhost:7145/api/Orders - 200 - application/json;+charset=utf-8 3430.0783ms 
+2025-03-24 16:57:05.0297 INFO Request starting HTTP/2 POST https://localhost:7145/api/Orders - application/json 56 
+2025-03-24 16:57:05.0297 INFO Executing endpoint 'OrderServices.Controllers.OrdersController.CreateOrder (OrderServices)' 
+2025-03-24 16:57:05.0455 INFO Route matched with {action = "CreateOrder", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(OrderServices.Data.DTOS.CreateOrderDto) on controller OrderServices.Controllers.OrdersController (OrderServices). 
+2025-03-24 17:01:31.7387 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-24 17:01:32.1765 INFO Now listening on: https://localhost:7145 
+2025-03-24 17:01:32.2177 INFO Now listening on: http://localhost:5082 
+2025-03-24 17:01:32.4911 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-24 17:01:32.4911 INFO Hosting environment: Development 
+2025-03-24 17:01:32.4911 INFO Content root path: C:\Users\jack\Documents\Api\OrderServices 
+2025-03-24 17:01:35.5266 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - - - 
+2025-03-24 17:01:37.0717 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 - text/html;charset=utf-8 1552.9249ms 
+2025-03-24 17:01:37.3215 INFO Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-24 17:01:37.3502 INFO Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - - - 
+2025-03-24 17:01:37.8068 INFO Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript;+charset=utf-8 485.2556ms 
+2025-03-24 17:01:38.5192 INFO Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 1169.0636ms 
+2025-03-24 17:01:38.6824 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - - - 
+2025-03-24 17:01:38.7201 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 37.6577ms 
+2025-03-24 17:02:02.2023 INFO Request starting HTTP/2 POST https://localhost:7145/api/Orders - application/json 56 
+2025-03-24 17:02:02.4048 INFO Executing endpoint 'OrderServices.Controllers.OrdersController.CreateOrder (OrderServices)' 
+2025-03-24 17:02:02.4663 INFO Route matched with {action = "CreateOrder", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(OrderServices.Data.DTOS.CreateOrderDto) on controller OrderServices.Controllers.OrdersController (OrderServices). 
+2025-03-24 17:02:03.3571 WARN No store type was specified for the decimal property 'TotalAmount' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2025-03-24 17:02:57.5270 INFO Executed action OrderServices.Controllers.OrdersController.CreateOrder (OrderServices) in 55053.7557ms 
+2025-03-24 17:02:57.7554 INFO Executed endpoint 'OrderServices.Controllers.OrdersController.CreateOrder (OrderServices)' 
+2025-03-24 17:02:58.4356 ERROR An unhandled exception has occurred while executing the request. System.InvalidOperationException: In the async mode you have to use an async consumer
+   at RabbitMQ.Client.Impl.ModelBase.BasicConsume(String queue, Boolean autoAck, String consumerTag, Boolean noLocal, Boolean exclusive, IDictionary`2 arguments, IBasicConsumer consumer)
+   at RabbitMQ.Client.Impl.AutorecoveringModel.BasicConsume(String queue, Boolean autoAck, String consumerTag, Boolean noLocal, Boolean exclusive, IDictionary`2 arguments, IBasicConsumer consumer)
+   at RabbitMQ.Client.IModelExensions.BasicConsume(IModel model, String queue, Boolean autoAck, IBasicConsumer consumer)
+   at OrderServices.Stocks.CustomerValidatorSender.ValidateCustomerAsync(Int32 customerId) in C:\Users\jack\Documents\Api\OrderServices\Stocks\CustomerValidatorSender.cs:line 43
+   at OrderServices.Controllers.OrdersController.CreateOrder(CreateOrderDto order) in C:\Users\jack\Documents\Api\OrderServices\Controllers\OrdersController.cs:line 84
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-03-24 17:02:58.4869 INFO Request finished HTTP/2 POST https://localhost:7145/api/Orders - 500 - text/plain;+charset=utf-8 56284.6210ms 
+2025-03-24 17:04:32.7501 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - - - 
+2025-03-24 17:04:32.8027 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 - text/html;charset=utf-8 52.6648ms 
+2025-03-24 17:04:32.8480 INFO Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-24 17:04:32.8480 INFO Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - - - 
+2025-03-24 17:04:32.8743 INFO Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript;+charset=utf-8 26.2703ms 
+2025-03-24 17:04:32.9257 INFO Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 77.3398ms 
+2025-03-24 17:04:33.0185 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - - - 
+2025-03-24 17:04:33.0322 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 13.9898ms 
+2025-03-24 17:05:02.4761 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - - - 
+2025-03-24 17:05:02.4820 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 - text/html;charset=utf-8 5.9921ms 
+2025-03-24 17:05:02.5228 INFO Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-24 17:05:02.5228 INFO Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - - - 
+2025-03-24 17:05:02.5597 INFO Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript;+charset=utf-8 37.0069ms 
+2025-03-24 17:05:02.6252 INFO Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 101.0314ms 
+2025-03-24 17:05:02.6995 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - - - 
+2025-03-24 17:05:02.7147 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 15.3110ms 
+2025-03-24 17:05:24.1576 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-24 17:05:24.5801 INFO Now listening on: https://localhost:7145 
+2025-03-24 17:05:24.5801 INFO Now listening on: http://localhost:5082 
+2025-03-24 17:05:24.7915 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-24 17:05:24.7950 INFO Hosting environment: Development 
+2025-03-24 17:05:24.7950 INFO Content root path: C:\Users\jack\Documents\Api\OrderServices 
+2025-03-24 17:05:28.4225 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - - - 
+2025-03-24 17:05:28.7597 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 - text/html;charset=utf-8 344.6697ms 
+2025-03-24 17:05:28.7986 INFO Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - - - 
+2025-03-24 17:05:28.7986 INFO Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-24 17:05:28.7986 INFO Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript;+charset=utf-8 9.0401ms 
+2025-03-24 17:05:28.9648 INFO Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 166.5423ms 
+2025-03-24 17:05:29.1047 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - - - 
+2025-03-24 17:05:29.3105 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 205.7619ms 
+2025-03-24 17:07:37.7400 INFO Request starting HTTP/2 POST https://localhost:7145/api/Orders - application/json 56 
+2025-03-24 17:07:37.9415 INFO Executing endpoint 'OrderServices.Controllers.OrdersController.CreateOrder (OrderServices)' 
+2025-03-24 17:07:37.9768 INFO Route matched with {action = "CreateOrder", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(OrderServices.Data.DTOS.CreateOrderDto) on controller OrderServices.Controllers.OrdersController (OrderServices). 
+2025-03-24 17:07:38.9643 WARN No store type was specified for the decimal property 'TotalAmount' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2025-03-24 17:07:58.1143 INFO Executed action OrderServices.Controllers.OrdersController.CreateOrder (OrderServices) in 20127.0095ms 
+2025-03-24 17:07:58.2554 INFO Executed endpoint 'OrderServices.Controllers.OrdersController.CreateOrder (OrderServices)' 
+2025-03-24 17:07:58.9202 ERROR An unhandled exception has occurred while executing the request. System.InvalidOperationException: In the async mode you have to use an async consumer
+   at RabbitMQ.Client.Impl.ModelBase.BasicConsume(String queue, Boolean autoAck, String consumerTag, Boolean noLocal, Boolean exclusive, IDictionary`2 arguments, IBasicConsumer consumer)
+   at RabbitMQ.Client.Impl.AutorecoveringModel.BasicConsume(String queue, Boolean autoAck, String consumerTag, Boolean noLocal, Boolean exclusive, IDictionary`2 arguments, IBasicConsumer consumer)
+   at RabbitMQ.Client.IModelExensions.BasicConsume(IModel model, String queue, Boolean autoAck, IBasicConsumer consumer)
+   at OrderServices.Stocks.CustomerValidatorSender.ValidateCustomerAsync(Int32 customerId) in C:\Users\jack\Documents\Api\OrderServices\Stocks\CustomerValidatorSender.cs:line 43
+   at OrderServices.Controllers.OrdersController.CreateOrder(CreateOrderDto order) in C:\Users\jack\Documents\Api\OrderServices\Controllers\OrdersController.cs:line 84
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-03-24 17:07:58.9495 INFO Request finished HTTP/2 POST https://localhost:7145/api/Orders - 500 - text/plain;+charset=utf-8 21208.9679ms 
+2025-03-24 17:09:51.4510 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - - - 
+2025-03-24 17:09:51.5074 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 - text/html;charset=utf-8 56.3182ms 
+2025-03-24 17:09:51.5782 INFO Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-24 17:09:51.5859 INFO Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - - - 
+2025-03-24 17:09:51.5859 INFO Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript;+charset=utf-8 23.5815ms 
+2025-03-24 17:09:51.6553 INFO Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 69.4357ms 
+2025-03-24 17:09:51.7926 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - - - 
+2025-03-24 17:09:51.8255 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 33.0226ms 
+2025-03-24 17:10:06.8398 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-24 17:10:07.2667 INFO Now listening on: https://localhost:7145 
+2025-03-24 17:10:07.2667 INFO Now listening on: http://localhost:5082 
+2025-03-24 17:10:07.7228 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-24 17:10:07.7228 INFO Hosting environment: Development 
+2025-03-24 17:10:07.7284 INFO Content root path: C:\Users\jack\Documents\Api\OrderServices 
+2025-03-24 17:10:10.7729 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - - - 
+2025-03-24 17:10:11.7062 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 - text/html;charset=utf-8 940.4889ms 
+2025-03-24 17:10:11.7636 INFO Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - - - 
+2025-03-24 17:10:11.7636 INFO Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-24 17:10:11.7941 INFO Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript;+charset=utf-8 29.9970ms 
+2025-03-24 17:10:12.1577 INFO Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 394.2134ms 
+2025-03-24 17:10:12.2262 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - - - 
+2025-03-24 17:10:12.2616 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 35.3303ms 
+2025-03-24 17:10:28.7260 INFO Request starting HTTP/2 POST https://localhost:7145/api/Orders - application/json 56 
+2025-03-24 17:10:28.8365 INFO Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user. 
+2025-03-24 17:10:28.8412 INFO AuthenticationScheme: Bearer was challenged. 
+2025-03-24 17:10:28.8412 INFO Request finished HTTP/2 POST https://localhost:7145/api/Orders - 401 0 - 115.7757ms 
+2025-03-24 17:10:49.7091 INFO Request starting HTTP/2 POST https://localhost:7145/api/Orders - application/json 56 
+2025-03-24 17:10:49.8144 INFO Executing endpoint 'OrderServices.Controllers.OrdersController.CreateOrder (OrderServices)' 
+2025-03-24 17:10:49.8460 INFO Route matched with {action = "CreateOrder", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(OrderServices.Data.DTOS.CreateOrderDto) on controller OrderServices.Controllers.OrdersController (OrderServices). 
+2025-03-24 17:10:50.5104 WARN No store type was specified for the decimal property 'TotalAmount' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2025-03-24 17:11:15.1224 INFO Request starting HTTP/2 POST https://localhost:7145/api/Orders - application/json 56 
+2025-03-24 17:11:15.1420 INFO Executing endpoint 'OrderServices.Controllers.OrdersController.CreateOrder (OrderServices)' 
+2025-03-24 17:11:15.1420 INFO Route matched with {action = "CreateOrder", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(OrderServices.Data.DTOS.CreateOrderDto) on controller OrderServices.Controllers.OrdersController (OrderServices). 
+2025-03-24 17:11:45.3461 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-24 17:11:45.7528 INFO Now listening on: https://localhost:7145 
+2025-03-24 17:11:45.7528 INFO Now listening on: http://localhost:5082 
+2025-03-24 17:11:45.8356 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-24 17:11:45.8356 INFO Hosting environment: Development 
+2025-03-24 17:11:45.8429 INFO Content root path: C:\Users\jack\Documents\Api\OrderServices 
+2025-03-24 17:11:48.4668 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - - - 
+2025-03-24 17:11:49.0066 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 - text/html;charset=utf-8 558.6602ms 
+2025-03-24 17:11:49.1305 INFO Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - - - 
+2025-03-24 17:11:49.1305 INFO Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-24 17:11:49.1481 INFO Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript;+charset=utf-8 17.6213ms 
+2025-03-24 17:11:49.3746 INFO Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 244.2498ms 
+2025-03-24 17:11:49.5890 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - - - 
+2025-03-24 17:11:49.6298 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 40.7654ms 
+2025-03-24 17:12:25.7767 INFO Request starting HTTP/2 POST https://localhost:7145/api/Orders - application/json 56 
+2025-03-24 17:12:25.9333 INFO Executing endpoint 'OrderServices.Controllers.OrdersController.CreateOrder (OrderServices)' 
+2025-03-24 17:12:25.9603 INFO Route matched with {action = "CreateOrder", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(OrderServices.Data.DTOS.CreateOrderDto) on controller OrderServices.Controllers.OrdersController (OrderServices). 
+2025-03-24 17:12:26.5939 WARN No store type was specified for the decimal property 'TotalAmount' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2025-03-24 17:23:53.7602 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-24 17:23:54.1490 INFO Now listening on: https://localhost:7145 
+2025-03-24 17:23:54.1490 INFO Now listening on: http://localhost:5082 
+2025-03-24 17:23:54.2259 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-24 17:23:54.2259 INFO Hosting environment: Development 
+2025-03-24 17:23:54.2259 INFO Content root path: C:\Users\jack\Documents\Api\OrderServices 
+2025-03-24 17:23:57.9621 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - - - 
+2025-03-24 17:23:58.6407 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 - text/html;charset=utf-8 677.9346ms 
+2025-03-24 17:23:59.7295 INFO Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-24 17:23:59.8015 INFO Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - - - 
+2025-03-24 17:24:00.0437 INFO Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript;+charset=utf-8 313.9859ms 
+2025-03-24 17:24:00.1678 INFO Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 366.3329ms 
+2025-03-24 17:24:00.3362 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - - - 
+2025-03-24 17:24:00.3830 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 46.7507ms 
+2025-03-24 17:24:53.0544 INFO Request starting HTTP/2 POST https://localhost:7145/api/Orders - application/json 56 
+2025-03-24 17:24:53.2535 INFO Executing endpoint 'OrderServices.Controllers.OrdersController.CreateOrder (OrderServices)' 
+2025-03-24 17:24:53.2898 INFO Route matched with {action = "CreateOrder", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(OrderServices.Data.DTOS.CreateOrderDto) on controller OrderServices.Controllers.OrdersController (OrderServices). 
+2025-03-24 17:24:54.1815 WARN No store type was specified for the decimal property 'TotalAmount' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2025-03-24 19:22:38.3282 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-24 19:22:39.6678 INFO Now listening on: https://localhost:7145 
+2025-03-24 19:22:39.6678 INFO Now listening on: http://localhost:5082 
+2025-03-24 19:22:39.8918 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-24 19:22:39.9190 INFO Hosting environment: Development 
+2025-03-24 19:22:39.9190 INFO Content root path: C:\Users\jack\Documents\Api\OrderServices 
+2025-03-24 19:22:44.0021 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - - - 
+2025-03-24 19:22:44.6033 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 - text/html;charset=utf-8 600.6094ms 
+2025-03-24 19:22:45.9122 INFO Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-24 19:22:45.9122 INFO Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - - - 
+2025-03-24 19:22:46.1405 INFO Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript;+charset=utf-8 228.2378ms 
+2025-03-24 19:22:46.6830 INFO Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 767.2580ms 
+2025-03-24 19:22:46.9356 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - - - 
+2025-03-24 19:22:46.9854 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 49.9168ms 
+2025-03-24 19:24:32.4510 INFO Request starting HTTP/2 POST https://localhost:7145/api/Orders - application/json 56 
+2025-03-24 19:24:32.9141 INFO Executing endpoint 'OrderServices.Controllers.OrdersController.CreateOrder (OrderServices)' 
+2025-03-24 19:24:33.1598 INFO Route matched with {action = "CreateOrder", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(OrderServices.Data.DTOS.CreateOrderDto) on controller OrderServices.Controllers.OrdersController (OrderServices). 
+2025-03-24 19:24:34.2842 WARN No store type was specified for the decimal property 'TotalAmount' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2025-03-24 19:46:22.6685 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-24 19:46:23.6782 INFO Now listening on: https://localhost:7145 
+2025-03-24 19:46:23.6782 INFO Now listening on: http://localhost:5082 
+2025-03-24 19:46:23.9968 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-24 19:46:23.9968 INFO Hosting environment: Development 
+2025-03-24 19:46:23.9968 INFO Content root path: C:\Users\jack\Documents\Api\OrderServices 
+2025-03-24 19:46:27.5349 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - - - 
+2025-03-24 19:46:27.9200 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 - text/html;charset=utf-8 390.7435ms 
+2025-03-24 19:46:27.9401 INFO Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - - - 
+2025-03-24 19:46:27.9401 INFO Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-24 19:46:27.9553 INFO Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript;+charset=utf-8 15.2555ms 
+2025-03-24 19:46:28.1679 INFO Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 227.9378ms 
+2025-03-24 19:46:28.3428 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - - - 
+2025-03-24 19:46:28.4011 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 58.2207ms 
+2025-03-24 19:53:44.8391 INFO Request starting HTTP/2 POST https://localhost:7145/api/Orders - application/json 56 
+2025-03-24 19:53:45.0882 INFO Executing endpoint 'OrderServices.Controllers.OrdersController.CreateOrder (OrderServices)' 
+2025-03-24 19:53:45.1394 INFO Route matched with {action = "CreateOrder", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(OrderServices.Data.DTOS.CreateOrderDto) on controller OrderServices.Controllers.OrdersController (OrderServices). 
+2025-03-24 19:53:46.4102 WARN No store type was specified for the decimal property 'TotalAmount' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2025-03-24 19:55:59.2530 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-24 19:55:59.6556 INFO Now listening on: https://localhost:7145 
+2025-03-24 19:55:59.6633 INFO Now listening on: http://localhost:5082 
+2025-03-24 19:56:00.2143 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-24 19:56:00.2143 INFO Hosting environment: Development 
+2025-03-24 19:56:00.2143 INFO Content root path: C:\Users\jack\Documents\Api\OrderServices 
+2025-03-24 19:56:03.0521 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - - - 
+2025-03-24 19:56:03.8007 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 - text/html;charset=utf-8 742.1947ms 
+2025-03-24 19:56:03.8065 INFO Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - - - 
+2025-03-24 19:56:03.8065 INFO Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-24 19:56:04.0253 INFO Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript;+charset=utf-8 218.6128ms 
+2025-03-24 19:56:04.6411 INFO Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 834.9292ms 
+2025-03-24 19:56:04.8757 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - - - 
+2025-03-24 19:56:04.9761 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 100.6087ms 
+2025-03-24 19:56:27.8367 INFO Request starting HTTP/2 POST https://localhost:7145/api/Orders - application/json 56 
+2025-03-24 19:56:28.0470 INFO Executing endpoint 'OrderServices.Controllers.OrdersController.CreateOrder (OrderServices)' 
+2025-03-24 19:56:28.0776 INFO Route matched with {action = "CreateOrder", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(OrderServices.Data.DTOS.CreateOrderDto) on controller OrderServices.Controllers.OrdersController (OrderServices). 
+2025-03-24 19:56:28.7677 WARN No store type was specified for the decimal property 'TotalAmount' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2025-03-24 20:02:57.3462 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-24 20:02:57.8597 INFO Now listening on: https://localhost:7145 
+2025-03-24 20:02:57.8597 INFO Now listening on: http://localhost:5082 
+2025-03-24 20:02:57.9373 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-24 20:02:57.9373 INFO Hosting environment: Development 
+2025-03-24 20:02:57.9458 INFO Content root path: C:\Users\jack\Documents\Api\OrderServices 
+2025-03-24 20:03:02.6090 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - - - 
+2025-03-24 20:03:03.2048 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 - text/html;charset=utf-8 605.1115ms 
+2025-03-24 20:03:05.8831 INFO Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-24 20:03:05.8831 INFO Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - - - 
+2025-03-24 20:03:05.9020 INFO Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript;+charset=utf-8 18.8197ms 
+2025-03-24 20:03:06.1682 INFO Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 284.3704ms 
+2025-03-24 20:03:06.3497 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - - - 
+2025-03-24 20:03:06.3920 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 42.4200ms 
+2025-03-24 20:03:33.2306 INFO Request starting HTTP/2 POST https://localhost:7145/api/Orders - application/json 56 
+2025-03-24 20:03:33.5627 INFO Executing endpoint 'OrderServices.Controllers.OrdersController.CreateOrder (OrderServices)' 
+2025-03-24 20:03:33.6206 INFO Route matched with {action = "CreateOrder", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(OrderServices.Data.DTOS.CreateOrderDto) on controller OrderServices.Controllers.OrdersController (OrderServices). 
+2025-03-24 20:03:34.8989 WARN No store type was specified for the decimal property 'TotalAmount' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2025-03-24 20:04:53.8421 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-24 20:04:54.3559 INFO Now listening on: https://localhost:7145 
+2025-03-24 20:04:54.3559 INFO Now listening on: http://localhost:5082 
+2025-03-24 20:04:55.0152 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-24 20:04:55.0447 INFO Hosting environment: Development 
+2025-03-24 20:04:55.0697 INFO Content root path: C:\Users\jack\Documents\Api\OrderServices 
+2025-03-24 20:05:00.4958 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - - - 
+2025-03-24 20:05:01.7620 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 - text/html;charset=utf-8 1273.9231ms 
+2025-03-24 20:05:02.1895 INFO Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-24 20:05:02.3330 INFO Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - - - 
+2025-03-24 20:05:02.7740 INFO Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript;+charset=utf-8 584.5215ms 
+2025-03-24 20:05:04.1644 INFO Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 1831.4604ms 
+2025-03-24 20:05:04.3552 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - - - 
+2025-03-24 20:05:04.4307 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 75.6636ms 
+2025-03-24 20:06:21.0363 INFO Request starting HTTP/2 GET https://localhost:7145/api/Orders - - - 
+2025-03-24 20:06:21.3269 INFO Executing endpoint 'OrderServices.Controllers.OrdersController.GetAll (OrderServices)' 
+2025-03-24 20:06:21.3917 INFO Route matched with {action = "GetAll", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller OrderServices.Controllers.OrdersController (OrderServices). 
+2025-03-24 20:06:22.9249 WARN No store type was specified for the decimal property 'TotalAmount' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2025-03-24 20:06:27.7744 INFO Executed DbCommand (1,181ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [o].[Id], [o].[CustomerId], [o].[OrderDate], [o].[ProductId], [o].[Quantity], [o].[TotalAmount]
+FROM [Orders] AS [o] 
+2025-03-24 20:06:27.9987 INFO Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[OrderServices.Data.Models.Order, OrderServices, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[<>f__AnonymousType0`3[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], OrderServices, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2025-03-24 20:06:28.0394 INFO Executed action OrderServices.Controllers.OrdersController.GetAll (OrderServices) in 6576.5043ms 
+2025-03-24 20:06:28.0429 INFO Executed endpoint 'OrderServices.Controllers.OrdersController.GetAll (OrderServices)' 
+2025-03-24 20:06:28.0429 INFO Request finished HTTP/2 GET https://localhost:7145/api/Orders - 200 - application/json;+charset=utf-8 7016.2625ms 
+2025-03-24 20:06:46.3495 INFO Request starting HTTP/2 POST https://localhost:7145/api/Orders - application/json 56 
+2025-03-24 20:06:46.4435 INFO Executing endpoint 'OrderServices.Controllers.OrdersController.CreateOrder (OrderServices)' 
+2025-03-24 20:06:46.4938 INFO Route matched with {action = "CreateOrder", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(OrderServices.Data.DTOS.CreateOrderDto) on controller OrderServices.Controllers.OrdersController (OrderServices). 
+2025-03-24 20:08:22.7924 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - - - 
+2025-03-24 20:08:22.8484 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 - text/html;charset=utf-8 56.0919ms 
+2025-03-24 20:08:23.1811 INFO Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-24 20:08:23.1811 INFO Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - - - 
+2025-03-24 20:08:23.2037 INFO Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript;+charset=utf-8 22.5970ms 
+2025-03-24 20:08:23.5665 INFO Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 385.4596ms 
+2025-03-24 20:08:23.8970 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - - - 
+2025-03-24 20:08:24.2427 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 345.6754ms 
+2025-03-24 20:10:50.1342 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-24 20:10:50.9309 INFO Now listening on: https://localhost:7145 
+2025-03-24 20:10:50.9643 INFO Now listening on: http://localhost:5082 
+2025-03-24 20:10:51.9320 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-24 20:10:51.9320 INFO Hosting environment: Development 
+2025-03-24 20:10:51.9320 INFO Content root path: C:\Users\jack\Documents\Api\OrderServices 
+2025-03-24 20:10:54.7536 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - - - 
+2025-03-24 20:10:55.8371 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 - text/html;charset=utf-8 1088.6134ms 
+2025-03-24 20:10:58.4646 INFO Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-24 20:10:58.4646 INFO Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - - - 
+2025-03-24 20:10:58.6397 INFO Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript;+charset=utf-8 175.1054ms 
+2025-03-24 20:10:58.9615 INFO Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 496.7734ms 
+2025-03-24 20:10:59.9227 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - - - 
+2025-03-24 20:11:00.0092 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 86.6218ms 
+2025-03-24 20:11:30.6661 INFO Request starting HTTP/2 POST https://localhost:7145/api/Orders - application/json 56 
+2025-03-24 20:11:30.9626 INFO Executing endpoint 'OrderServices.Controllers.OrdersController.CreateOrder (OrderServices)' 
+2025-03-24 20:11:31.0133 INFO Route matched with {action = "CreateOrder", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(OrderServices.Data.DTOS.CreateOrderDto) on controller OrderServices.Controllers.OrdersController (OrderServices). 
+2025-03-24 20:11:32.7514 WARN No store type was specified for the decimal property 'TotalAmount' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2025-03-24 20:12:58.3576 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-24 20:13:00.1453 INFO Now listening on: https://localhost:7145 
+2025-03-24 20:13:00.1565 INFO Now listening on: http://localhost:5082 
+2025-03-24 20:13:02.5058 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-24 20:13:02.6853 INFO Hosting environment: Development 
+2025-03-24 20:13:02.9591 INFO Content root path: C:\Users\jack\Documents\Api\OrderServices 
+2025-03-24 20:13:05.2050 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - - - 
+2025-03-24 20:13:05.7263 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 - text/html;charset=utf-8 528.3652ms 
+2025-03-24 20:13:06.1785 INFO Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-24 20:13:06.2018 INFO Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - - - 
+2025-03-24 20:13:06.2859 INFO Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript;+charset=utf-8 107.1875ms 
+2025-03-24 20:13:07.5347 INFO Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 1333.0605ms 
+2025-03-24 20:13:07.7925 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - - - 
+2025-03-24 20:13:07.8995 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 107.4971ms 
+2025-03-24 20:13:52.9752 INFO Request starting HTTP/2 POST https://localhost:7145/api/Orders - application/json 56 
+2025-03-24 20:13:54.2069 INFO Executing endpoint 'OrderServices.Controllers.OrdersController.CreateOrder (OrderServices)' 
+2025-03-24 20:13:54.2859 INFO Route matched with {action = "CreateOrder", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(OrderServices.Data.DTOS.CreateOrderDto) on controller OrderServices.Controllers.OrdersController (OrderServices). 
+2025-03-24 20:13:55.3813 WARN No store type was specified for the decimal property 'TotalAmount' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2025-03-24 20:14:51.5721 INFO Executed DbCommand (673ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32), @p4='?' (Precision = 18) (Scale = 2) (DbType = Decimal)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Orders] ([CustomerId], [OrderDate], [ProductId], [Quantity], [TotalAmount])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4); 
+2025-03-24 20:14:51.6546 INFO Executing OkObjectResult, writing value of type 'OrderServices.Data.DTOS.CreateOrderDto'. 
+2025-03-24 20:14:51.6695 INFO Executed action OrderServices.Controllers.OrdersController.CreateOrder (OrderServices) in 57355.9001ms 
+2025-03-24 20:14:51.7016 INFO Executed endpoint 'OrderServices.Controllers.OrdersController.CreateOrder (OrderServices)' 
+2025-03-24 20:14:51.7129 INFO Request finished HTTP/2 POST https://localhost:7145/api/Orders - 200 - application/json;+charset=utf-8 58737.9506ms 
+2025-03-24 20:15:03.5023 INFO Request starting HTTP/2 POST https://localhost:7145/api/Orders - application/json 57 
+2025-03-24 20:15:03.5291 INFO Executing endpoint 'OrderServices.Controllers.OrdersController.CreateOrder (OrderServices)' 
+2025-03-24 20:15:03.5291 INFO Route matched with {action = "CreateOrder", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(OrderServices.Data.DTOS.CreateOrderDto) on controller OrderServices.Controllers.OrdersController (OrderServices). 
+2025-03-24 20:15:52.8089 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-24 20:15:53.4058 INFO Now listening on: https://localhost:7145 
+2025-03-24 20:15:53.4058 INFO Now listening on: http://localhost:5082 
+2025-03-24 20:15:53.7059 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-24 20:15:53.7059 INFO Hosting environment: Development 
+2025-03-24 20:15:53.7059 INFO Content root path: C:\Users\jack\Documents\Api\OrderServices 
+2025-03-24 20:15:58.6478 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - - - 
+2025-03-24 20:16:00.6418 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 - text/html;charset=utf-8 2000.3300ms 
+2025-03-24 20:16:01.1275 INFO Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-24 20:16:01.2643 INFO Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - - - 
+2025-03-24 20:16:01.5177 INFO Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript;+charset=utf-8 390.2518ms 
+2025-03-24 20:16:02.8783 INFO Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 1614.0232ms 
+2025-03-24 20:16:03.3121 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - - - 
+2025-03-24 20:16:03.5887 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 276.6006ms 
+2025-03-24 20:16:32.0209 INFO Request starting HTTP/2 POST https://localhost:7145/api/Orders - application/json 57 
+2025-03-24 20:16:32.1985 INFO Executing endpoint 'OrderServices.Controllers.OrdersController.CreateOrder (OrderServices)' 
+2025-03-24 20:16:32.2517 INFO Route matched with {action = "CreateOrder", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(OrderServices.Data.DTOS.CreateOrderDto) on controller OrderServices.Controllers.OrdersController (OrderServices). 
+2025-03-24 20:16:33.1356 WARN No store type was specified for the decimal property 'TotalAmount' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2025-03-24 20:20:37.1418 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-24 20:20:38.2504 INFO Now listening on: https://localhost:7145 
+2025-03-24 20:20:38.2906 INFO Now listening on: http://localhost:5082 
+2025-03-24 20:20:38.7809 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-24 20:20:38.7974 INFO Hosting environment: Development 
+2025-03-24 20:20:38.7974 INFO Content root path: C:\Users\jack\Documents\Api\OrderServices 
+2025-03-24 20:20:41.8028 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - - - 
+2025-03-24 20:20:42.4817 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 - text/html;charset=utf-8 685.5772ms 
+2025-03-24 20:20:44.6884 INFO Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-24 20:20:44.6884 INFO Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - - - 
+2025-03-24 20:20:44.8360 INFO Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript;+charset=utf-8 67.3099ms 
+2025-03-24 20:20:45.0850 INFO Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 396.7266ms 
+2025-03-24 20:20:45.2256 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - - - 
+2025-03-24 20:20:45.2872 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 61.6838ms 
+2025-03-24 20:21:15.3416 INFO Request starting HTTP/2 POST https://localhost:7145/api/Orders - application/json 57 
+2025-03-24 20:21:15.5099 INFO Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user. 
+2025-03-24 20:21:15.5099 INFO AuthenticationScheme: Bearer was challenged. 
+2025-03-24 20:21:15.5099 INFO Request finished HTTP/2 POST https://localhost:7145/api/Orders - 401 0 - 177.3583ms 
+2025-03-24 20:21:34.0804 INFO Request starting HTTP/2 POST https://localhost:7145/api/Orders - application/json 57 
+2025-03-24 20:21:34.2377 INFO Executing endpoint 'OrderServices.Controllers.OrdersController.CreateOrder (OrderServices)' 
+2025-03-24 20:21:34.2792 INFO Route matched with {action = "CreateOrder", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(OrderServices.Data.DTOS.CreateOrderDto) on controller OrderServices.Controllers.OrdersController (OrderServices). 
+2025-03-24 20:21:35.3261 WARN No store type was specified for the decimal property 'TotalAmount' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2025-03-24 20:21:56.2991 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-24 20:21:56.7257 INFO Now listening on: https://localhost:7145 
+2025-03-24 20:21:56.7335 INFO Now listening on: http://localhost:5082 
+2025-03-24 20:21:56.8242 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-24 20:21:56.8416 INFO Hosting environment: Development 
+2025-03-24 20:21:56.8416 INFO Content root path: C:\Users\jack\Documents\Api\OrderServices 
+2025-03-24 20:22:02.2974 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - - - 
+2025-03-24 20:22:03.9844 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 - text/html;charset=utf-8 1694.0967ms 
+2025-03-24 20:22:04.2524 INFO Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-24 20:22:04.2736 INFO Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - - - 
+2025-03-24 20:22:04.4445 INFO Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript;+charset=utf-8 192.2077ms 
+2025-03-24 20:22:06.7030 INFO Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 2429.4909ms 
+2025-03-24 20:22:07.2120 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - - - 
+2025-03-24 20:22:07.5047 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 290.7228ms 
+2025-03-24 20:22:38.0386 INFO Request starting HTTP/2 POST https://localhost:7145/api/Orders - application/json 56 
+2025-03-24 20:22:38.3225 INFO Executing endpoint 'OrderServices.Controllers.OrdersController.CreateOrder (OrderServices)' 
+2025-03-24 20:22:38.3620 INFO Route matched with {action = "CreateOrder", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(OrderServices.Data.DTOS.CreateOrderDto) on controller OrderServices.Controllers.OrdersController (OrderServices). 
+2025-03-24 20:22:39.7466 WARN No store type was specified for the decimal property 'TotalAmount' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2025-03-24 20:23:36.9983 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-24 20:23:37.4686 INFO Now listening on: https://localhost:7145 
+2025-03-24 20:23:37.4686 INFO Now listening on: http://localhost:5082 
+2025-03-24 20:23:37.6148 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-24 20:23:37.6265 INFO Hosting environment: Development 
+2025-03-24 20:23:37.6448 INFO Content root path: C:\Users\jack\Documents\Api\OrderServices 
+2025-03-24 20:23:41.6669 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - - - 
+2025-03-24 20:23:42.2796 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 - text/html;charset=utf-8 620.2796ms 
+2025-03-24 20:23:42.4942 INFO Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-24 20:23:42.4942 INFO Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - - - 
+2025-03-24 20:23:42.4942 INFO Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript;+charset=utf-8 14.6816ms 
+2025-03-24 20:23:42.8530 INFO Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 358.7122ms 
+2025-03-24 20:23:43.0244 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - - - 
+2025-03-24 20:23:43.1296 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 105.3626ms 
+2025-03-24 20:24:50.0534 INFO Request starting HTTP/2 POST https://localhost:7145/api/Orders - application/json 56 
+2025-03-24 20:24:50.2784 INFO Executing endpoint 'OrderServices.Controllers.OrdersController.CreateOrder (OrderServices)' 
+2025-03-24 20:24:50.3224 INFO Route matched with {action = "CreateOrder", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(OrderServices.Data.DTOS.CreateOrderDto) on controller OrderServices.Controllers.OrdersController (OrderServices). 
+2025-03-24 20:24:51.4784 WARN No store type was specified for the decimal property 'TotalAmount' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2025-03-24 20:26:58.3592 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-24 20:26:58.8138 INFO Now listening on: https://localhost:7145 
+2025-03-24 20:26:58.8138 INFO Now listening on: http://localhost:5082 
+2025-03-24 20:26:58.8857 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-24 20:26:58.8857 INFO Hosting environment: Development 
+2025-03-24 20:26:58.8857 INFO Content root path: C:\Users\jack\Documents\Api\OrderServices 
+2025-03-24 20:27:03.0373 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - - - 
+2025-03-24 20:27:04.0650 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 - text/html;charset=utf-8 1034.1850ms 
+2025-03-24 20:27:05.8956 INFO Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-24 20:27:05.8956 INFO Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - - - 
+2025-03-24 20:27:06.0320 INFO Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript;+charset=utf-8 136.4206ms 
+2025-03-24 20:27:06.3822 INFO Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 484.5980ms 
+2025-03-24 20:27:06.6827 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - - - 
+2025-03-24 20:27:06.7473 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 64.7105ms 
+2025-03-24 21:40:16.9522 INFO Request starting HTTP/2 POST https://localhost:7145/api/Orders - application/json 56 
+2025-03-24 21:40:17.7592 INFO Failed to validate the token. Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '25/03/2025 02:53:05 a. m.', Current time (UTC): '25/03/2025 03:40:17 a. m.'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-03-24 21:40:17.9695 INFO Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '25/03/2025 02:53:05 a. m.', Current time (UTC): '25/03/2025 03:40:17 a. m.'. 
+2025-03-24 21:40:17.9695 INFO Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user. 
+2025-03-24 21:40:17.9877 INFO AuthenticationScheme: Bearer was challenged. 
+2025-03-24 21:40:17.9877 INFO Request finished HTTP/2 POST https://localhost:7145/api/Orders - 401 0 - 1036.4441ms 
+2025-03-24 21:41:24.2244 INFO Request starting HTTP/2 GET https://localhost:7145/api/Orders - - - 
+2025-03-24 21:41:24.3444 INFO Failed to validate the token. Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '25/03/2025 02:53:05 a. m.', Current time (UTC): '25/03/2025 03:41:24 a. m.'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-03-24 21:41:24.3444 INFO Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '25/03/2025 02:53:05 a. m.', Current time (UTC): '25/03/2025 03:41:24 a. m.'. 
+2025-03-24 21:41:24.3444 INFO Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user. 
+2025-03-24 21:41:24.3444 INFO AuthenticationScheme: Bearer was challenged. 
+2025-03-24 21:41:24.3444 INFO Request finished HTTP/2 GET https://localhost:7145/api/Orders - 401 0 - 126.5062ms 
+2025-03-24 21:46:04.0004 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-24 21:46:04.5324 INFO Now listening on: https://localhost:7145 
+2025-03-24 21:46:04.5324 INFO Now listening on: http://localhost:5082 
+2025-03-24 21:46:04.6790 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-24 21:46:04.6893 INFO Hosting environment: Development 
+2025-03-24 21:46:04.6893 INFO Content root path: C:\Users\jack\Documents\Api\OrderServices 
+2025-03-24 21:46:08.7304 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - - - 
+2025-03-24 21:46:10.2255 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 - text/html;charset=utf-8 1500.6507ms 
+2025-03-24 21:46:10.4597 INFO Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-24 21:46:10.4878 INFO Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - - - 
+2025-03-24 21:46:10.5601 INFO Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript;+charset=utf-8 100.3916ms 
+2025-03-24 21:46:10.6624 INFO Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 174.6952ms 
+2025-03-24 21:46:11.0437 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - - - 
+2025-03-24 21:46:11.1078 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 64.0497ms 
+2025-03-24 21:46:41.9148 INFO Request starting HTTP/2 POST https://localhost:7145/api/Orders - application/json 56 
+2025-03-24 21:46:42.1826 INFO Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user. 
+2025-03-24 21:46:42.1906 INFO AuthenticationScheme: Bearer was challenged. 
+2025-03-24 21:46:42.1906 INFO Request finished HTTP/2 POST https://localhost:7145/api/Orders - 401 0 - 278.2788ms 
+2025-03-24 21:46:59.4485 INFO Request starting HTTP/2 POST https://localhost:7145/api/Orders - application/json 56 
+2025-03-24 21:46:59.5737 INFO Executing endpoint 'OrderServices.Controllers.OrdersController.CreateOrder (OrderServices)' 
+2025-03-24 21:46:59.6156 INFO Route matched with {action = "CreateOrder", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(OrderServices.Data.DTOS.CreateOrderDto) on controller OrderServices.Controllers.OrdersController (OrderServices). 
+2025-03-24 21:47:00.5475 WARN No store type was specified for the decimal property 'TotalAmount' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2025-03-24 21:48:19.5551 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-24 21:48:21.1094 INFO Now listening on: https://localhost:7145 
+2025-03-24 21:48:21.1094 INFO Now listening on: http://localhost:5082 
+2025-03-24 21:48:21.6926 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-24 21:48:21.6926 INFO Hosting environment: Development 
+2025-03-24 21:48:21.6926 INFO Content root path: C:\Users\jack\Documents\Api\OrderServices 
+2025-03-24 21:48:26.7435 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - - - 
+2025-03-24 21:48:27.8246 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 - text/html;charset=utf-8 1087.7779ms 
+2025-03-24 21:48:27.9904 INFO Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-24 21:48:28.0401 INFO Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - - - 
+2025-03-24 21:48:28.1915 INFO Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript;+charset=utf-8 201.0015ms 
+2025-03-24 21:48:29.0011 INFO Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 961.0051ms 
+2025-03-24 21:48:29.1845 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - - - 
+2025-03-24 21:48:29.2948 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 110.2744ms 
+2025-03-24 21:52:39.7571 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-24 21:52:40.4011 INFO Now listening on: https://localhost:7145 
+2025-03-24 21:52:40.4080 INFO Now listening on: http://localhost:5082 
+2025-03-24 21:52:40.9200 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-24 21:52:40.9200 INFO Hosting environment: Development 
+2025-03-24 21:52:40.9528 INFO Content root path: C:\Users\jack\Documents\Api\OrderServices 
+2025-03-24 21:52:44.9138 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - - - 
+2025-03-24 21:52:45.4418 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 - text/html;charset=utf-8 534.4933ms 
+2025-03-24 21:52:47.5903 INFO Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-24 21:52:47.5903 INFO Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - - - 
+2025-03-24 21:52:47.6434 INFO Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript;+charset=utf-8 53.1292ms 
+2025-03-24 21:52:47.8606 INFO Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 255.7483ms 
+2025-03-24 21:52:47.9415 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - - - 
+2025-03-24 21:52:48.0768 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 135.3378ms 
+2025-03-24 21:55:55.1263 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-24 21:55:56.1748 INFO Now listening on: https://localhost:7145 
+2025-03-24 21:55:56.1950 INFO Now listening on: http://localhost:5082 
+2025-03-24 21:55:56.2941 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-24 21:55:56.2941 INFO Hosting environment: Development 
+2025-03-24 21:55:56.3180 INFO Content root path: C:\Users\jack\Documents\Api\OrderServices 
+2025-03-24 21:56:02.4837 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - - - 
+2025-03-24 21:56:03.1861 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 - text/html;charset=utf-8 710.6367ms 
+2025-03-24 21:56:03.4924 INFO Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-24 21:56:03.4924 INFO Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - - - 
+2025-03-24 21:56:03.5170 INFO Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript;+charset=utf-8 24.6795ms 
+2025-03-24 21:56:03.7405 INFO Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 247.8514ms 
+2025-03-24 21:56:03.9450 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - - - 
+2025-03-24 21:56:04.0427 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 97.7841ms 
+2025-03-24 21:56:50.5651 INFO Request starting HTTP/2 POST https://localhost:7145/api/Orders - application/json 56 
+2025-03-24 21:56:51.2049 INFO Executing endpoint 'OrderServices.Controllers.OrdersController.CreateOrder (OrderServices)' 
+2025-03-24 21:56:51.2699 INFO Route matched with {action = "CreateOrder", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(OrderServices.Data.DTOS.CreateOrderDto) on controller OrderServices.Controllers.OrdersController (OrderServices). 
+2025-03-24 21:56:52.7629 WARN No store type was specified for the decimal property 'TotalAmount' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2025-03-24 22:11:43.9197 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-24 22:11:44.8365 INFO Now listening on: https://localhost:7145 
+2025-03-24 22:11:44.8809 INFO Now listening on: http://localhost:5082 
+2025-03-24 22:11:45.0941 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-24 22:11:45.0941 INFO Hosting environment: Development 
+2025-03-24 22:11:45.1373 INFO Content root path: C:\Users\jack\Documents\Api\OrderServices 
+2025-03-24 22:11:50.1729 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - - - 
+2025-03-24 22:11:52.5901 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 - text/html;charset=utf-8 2426.8097ms 
+2025-03-24 22:11:58.4241 INFO Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-24 22:11:58.4569 INFO Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - - - 
+2025-03-24 22:11:58.7409 INFO Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript;+charset=utf-8 316.7931ms 
+2025-03-24 22:11:59.4641 INFO Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 1007.2095ms 
+2025-03-24 22:16:07.2400 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-24 22:16:08.6589 INFO Now listening on: https://localhost:7145 
+2025-03-24 22:16:08.6589 INFO Now listening on: http://localhost:5082 
+2025-03-24 22:16:08.7763 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-24 22:16:08.8244 INFO Hosting environment: Development 
+2025-03-24 22:16:08.8376 INFO Content root path: C:\Users\jack\Documents\Api\OrderServices 
+2025-03-24 22:16:14.9205 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - - - 
+2025-03-24 22:16:15.7558 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 - text/html;charset=utf-8 843.5299ms 
+2025-03-24 22:16:18.6090 INFO Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-24 22:16:18.6090 INFO Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - - - 
+2025-03-24 22:16:18.9449 INFO Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript;+charset=utf-8 335.8705ms 
+2025-03-24 22:16:19.1516 INFO Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 537.8678ms 
+2025-03-24 22:16:19.2557 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - - - 
+2025-03-24 22:16:19.3511 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 95.4260ms 
+2025-03-24 22:16:42.9115 INFO Request starting HTTP/2 POST https://localhost:7145/api/Orders - application/json 56 
+2025-03-24 22:16:43.6058 INFO Executing endpoint 'OrderServices.Controllers.OrdersController.CreateOrder (OrderServices)' 
+2025-03-24 22:16:43.6745 INFO Route matched with {action = "CreateOrder", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(OrderServices.Data.DTOS.CreateOrderDto) on controller OrderServices.Controllers.OrdersController (OrderServices). 
+2025-03-24 22:16:44.9150 WARN No store type was specified for the decimal property 'TotalAmount' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2025-03-24 22:33:26.7047 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-24 22:33:28.4555 INFO Now listening on: https://localhost:7145 
+2025-03-24 22:33:28.4555 INFO Now listening on: http://localhost:5082 
+2025-03-24 22:33:28.6875 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-24 22:34:37.0257 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-24 22:34:38.5900 INFO Now listening on: https://localhost:7145 
+2025-03-24 22:34:38.6085 INFO Now listening on: http://localhost:5082 
+2025-03-24 22:34:39.3772 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-24 22:34:39.3772 INFO Hosting environment: Development 
+2025-03-24 22:34:39.3772 INFO Content root path: C:\Users\jack\Documents\Api\OrderServices 
+2025-03-24 22:34:47.4600 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - - - 
+2025-03-24 22:34:48.9343 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 - text/html;charset=utf-8 1481.4550ms 
+2025-03-24 22:34:50.6277 INFO Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-24 22:34:50.6277 INFO Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - - - 
+2025-03-24 22:34:50.7459 INFO Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript;+charset=utf-8 118.2182ms 
+2025-03-24 22:34:51.1629 INFO Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 535.1203ms 
+2025-03-24 22:34:51.3848 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - - - 
+2025-03-24 22:34:51.4740 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 88.6093ms 
+2025-03-24 22:35:10.8012 INFO Request starting HTTP/2 POST https://localhost:7145/api/Orders - application/json 56 
+2025-03-24 22:35:11.1246 INFO Executing endpoint 'OrderServices.Controllers.OrdersController.CreateOrder (OrderServices)' 
+2025-03-24 22:35:11.1679 INFO Route matched with {action = "CreateOrder", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(OrderServices.Data.DTOS.CreateOrderDto) on controller OrderServices.Controllers.OrdersController (OrderServices). 
+2025-03-24 22:35:12.5377 WARN No store type was specified for the decimal property 'TotalAmount' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2025-03-24 22:35:23.3790 INFO Executed action OrderServices.Controllers.OrdersController.CreateOrder (OrderServices) in 12190.9041ms 
+2025-03-24 22:35:23.6356 INFO Executed endpoint 'OrderServices.Controllers.OrdersController.CreateOrder (OrderServices)' 
+2025-03-24 22:35:26.3484 ERROR An unhandled exception has occurred while executing the request. System.TimeoutException: ❌ No se recibió respuesta del servicio de validación.
+   at OrderServices.Stocks.ProductStockValidatorSender.ValidateStockAsync(Int32 productId, Int32 quantity) in C:\Users\jack\Documents\Api\OrderServices\Stocks\ProductStockValidatorSender.cs:line 63
+   at OrderServices.Controllers.OrdersController.CreateOrder(CreateOrderDto order) in C:\Users\jack\Documents\Api\OrderServices\Controllers\OrdersController.cs:line 83
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-03-24 22:35:26.4432 INFO Request finished HTTP/2 POST https://localhost:7145/api/Orders - 500 - text/plain;+charset=utf-8 15642.0842ms 
+2025-03-24 22:39:51.9453 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-24 22:39:52.8295 INFO Now listening on: https://localhost:7145 
+2025-03-24 22:39:52.8295 INFO Now listening on: http://localhost:5082 
+2025-03-24 22:39:52.9360 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-24 22:39:52.9360 INFO Hosting environment: Development 
+2025-03-24 22:39:52.9360 INFO Content root path: C:\Users\jack\Documents\Api\OrderServices 
+2025-03-24 22:39:57.1965 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - - - 
+2025-03-24 22:39:58.0039 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 - text/html;charset=utf-8 813.5672ms 
+2025-03-24 22:39:58.0444 INFO Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-24 22:39:58.0444 INFO Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - - - 
+2025-03-24 22:39:58.0736 INFO Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript;+charset=utf-8 22.1185ms 
+2025-03-24 22:39:58.4007 INFO Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 356.4005ms 
+2025-03-24 22:39:58.6078 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - - - 
+2025-03-24 22:39:58.7400 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 132.3060ms 
+2025-03-24 22:40:20.8188 INFO Request starting HTTP/2 POST https://localhost:7145/api/Orders - application/json 56 
+2025-03-24 22:40:21.1085 INFO Executing endpoint 'OrderServices.Controllers.OrdersController.CreateOrder (OrderServices)' 
+2025-03-24 22:40:21.1544 INFO Route matched with {action = "CreateOrder", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(OrderServices.Data.DTOS.CreateOrderDto) on controller OrderServices.Controllers.OrdersController (OrderServices). 
+2025-03-24 22:40:21.9889 WARN No store type was specified for the decimal property 'TotalAmount' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2025-03-24 22:40:34.2084 INFO Executed action OrderServices.Controllers.OrdersController.CreateOrder (OrderServices) in 13040.3966ms 
+2025-03-24 22:40:34.3991 INFO Executed endpoint 'OrderServices.Controllers.OrdersController.CreateOrder (OrderServices)' 
+2025-03-24 22:40:35.0991 ERROR An unhandled exception has occurred while executing the request. System.TimeoutException: ❌ No se recibió respuesta del servicio de validación.
+   at OrderServices.Stocks.ProductStockValidatorSender.ValidateStockAsync(Int32 productId, Int32 quantity) in C:\Users\jack\Documents\Api\OrderServices\Stocks\ProductStockValidatorSender.cs:line 63
+   at OrderServices.Controllers.OrdersController.CreateOrder(CreateOrderDto order) in C:\Users\jack\Documents\Api\OrderServices\Controllers\OrdersController.cs:line 83
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-03-24 22:40:35.1306 INFO Request finished HTTP/2 POST https://localhost:7145/api/Orders - 500 - text/plain;+charset=utf-8 14315.9197ms 
+2025-03-24 22:49:10.3023 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-24 22:49:10.7882 INFO Now listening on: https://localhost:7145 
+2025-03-24 22:49:10.7882 INFO Now listening on: http://localhost:5082 
+2025-03-24 22:49:10.8741 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-24 22:49:10.8741 INFO Hosting environment: Development 
+2025-03-24 22:49:10.8741 INFO Content root path: C:\Users\jack\Documents\Api\OrderServices 
+2025-03-24 22:49:15.3768 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - - - 
+2025-03-24 22:49:16.2391 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 - text/html;charset=utf-8 932.8679ms 
+2025-03-24 22:49:16.6575 INFO Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-24 22:49:16.6575 INFO Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - - - 
+2025-03-24 22:49:16.6768 INFO Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript;+charset=utf-8 19.6034ms 
+2025-03-24 22:49:16.7596 INFO Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 99.8842ms 
+2025-03-24 22:49:17.0062 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - - - 
+2025-03-24 22:49:17.0792 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 72.9842ms 
+2025-03-24 22:50:05.2386 INFO Request starting HTTP/2 POST https://localhost:7145/api/Orders - application/json 56 
+2025-03-24 22:50:05.6247 INFO Executing endpoint 'OrderServices.Controllers.OrdersController.CreateOrder (OrderServices)' 
+2025-03-24 22:50:05.6996 INFO Route matched with {action = "CreateOrder", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(OrderServices.Data.DTOS.CreateOrderDto) on controller OrderServices.Controllers.OrdersController (OrderServices). 
+2025-03-24 22:50:07.0812 WARN No store type was specified for the decimal property 'TotalAmount' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2025-03-24 22:56:26.5234 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-24 22:56:27.0126 INFO Now listening on: https://localhost:7145 
+2025-03-24 22:56:27.0126 INFO Now listening on: http://localhost:5082 
+2025-03-24 22:56:27.5381 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-24 22:56:27.6510 INFO Hosting environment: Development 
+2025-03-24 22:56:27.7014 INFO Content root path: C:\Users\jack\Documents\Api\OrderServices 
+2025-03-24 22:56:30.3186 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - - - 
+2025-03-24 22:56:32.0138 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 - text/html;charset=utf-8 1701.3983ms 
+2025-03-24 22:56:32.2448 INFO Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-24 22:56:32.2889 INFO Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - - - 
+2025-03-24 22:56:32.5593 INFO Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript;+charset=utf-8 314.7373ms 
+2025-03-24 22:56:34.4959 INFO Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 2209.3794ms 
+2025-03-24 22:56:34.7594 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - - - 
+2025-03-24 22:56:34.9955 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 235.9774ms 
+2025-03-24 22:56:41.6666 INFO Request starting HTTP/2 POST https://localhost:7145/api/Orders - application/json 56 
+2025-03-24 22:56:41.9835 INFO Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user. 
+2025-03-24 22:56:41.9835 INFO AuthenticationScheme: Bearer was challenged. 
+2025-03-24 22:56:41.9988 INFO Request finished HTTP/2 POST https://localhost:7145/api/Orders - 401 0 - 332.2932ms 
+2025-03-24 22:56:57.9746 INFO Request starting HTTP/2 POST https://localhost:7145/api/Orders - application/json 56 
+2025-03-24 22:56:58.4868 INFO Failed to validate the token. Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '25/03/2025 04:45:09 a. m.', Current time (UTC): '25/03/2025 04:56:58 a. m.'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-03-24 22:56:58.5865 INFO Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '25/03/2025 04:45:09 a. m.', Current time (UTC): '25/03/2025 04:56:58 a. m.'. 
+2025-03-24 22:56:58.5865 INFO Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user. 
+2025-03-24 22:56:58.5945 INFO AuthenticationScheme: Bearer was challenged. 
+2025-03-24 22:56:58.5945 INFO Request finished HTTP/2 POST https://localhost:7145/api/Orders - 401 0 - 623.4878ms 
+2025-03-24 22:57:03.3355 INFO Request starting HTTP/2 POST https://localhost:7145/api/Orders - application/json 56 
+2025-03-24 22:57:03.4573 INFO Failed to validate the token. Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '25/03/2025 04:45:09 a. m.', Current time (UTC): '25/03/2025 04:57:03 a. m.'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-03-24 22:57:03.4573 INFO Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '25/03/2025 04:45:09 a. m.', Current time (UTC): '25/03/2025 04:57:03 a. m.'. 
+2025-03-24 22:57:03.4666 INFO Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user. 
+2025-03-24 22:57:03.4666 INFO AuthenticationScheme: Bearer was challenged. 
+2025-03-24 22:57:03.4666 INFO Request finished HTTP/2 POST https://localhost:7145/api/Orders - 401 0 - 132.5933ms 
+2025-03-24 22:57:17.9741 INFO Request starting HTTP/2 POST https://localhost:7145/api/Orders - application/json 56 
+2025-03-24 22:57:18.3767 INFO Failed to validate the token. Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '25/03/2025 04:45:09 a. m.', Current time (UTC): '25/03/2025 04:57:18 a. m.'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-03-24 22:57:18.3767 INFO Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '25/03/2025 04:45:09 a. m.', Current time (UTC): '25/03/2025 04:57:18 a. m.'. 
+2025-03-24 22:57:18.3767 INFO Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user. 
+2025-03-24 22:57:18.3767 INFO AuthenticationScheme: Bearer was challenged. 
+2025-03-24 22:57:18.3767 INFO Request finished HTTP/2 POST https://localhost:7145/api/Orders - 401 0 - 407.8336ms 
+2025-03-24 22:57:41.7416 INFO Request starting HTTP/2 POST https://localhost:7145/api/Orders - application/json 56 
+2025-03-24 22:57:41.8975 INFO Failed to validate the token. Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '25/03/2025 04:45:09 a. m.', Current time (UTC): '25/03/2025 04:57:41 a. m.'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-03-24 22:57:41.8975 INFO Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '25/03/2025 04:45:09 a. m.', Current time (UTC): '25/03/2025 04:57:41 a. m.'. 
+2025-03-24 22:57:41.8975 INFO Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user. 
+2025-03-24 22:57:41.8975 INFO AuthenticationScheme: Bearer was challenged. 
+2025-03-24 22:57:41.8975 INFO Request finished HTTP/2 POST https://localhost:7145/api/Orders - 401 0 - 160.0835ms 
+2025-03-24 22:59:28.9025 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-24 22:59:29.4621 INFO Now listening on: https://localhost:7145 
+2025-03-24 22:59:29.4709 INFO Now listening on: http://localhost:5082 
+2025-03-24 22:59:29.5852 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-24 22:59:29.5914 INFO Hosting environment: Development 
+2025-03-24 22:59:29.5914 INFO Content root path: C:\Users\jack\Documents\Api\OrderServices 
+2025-03-24 22:59:33.4786 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - - - 
+2025-03-24 22:59:34.0704 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 - text/html;charset=utf-8 597.9471ms 
+2025-03-24 22:59:37.0698 INFO Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-24 22:59:37.0896 INFO Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - - - 
+2025-03-24 22:59:37.1514 INFO Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript;+charset=utf-8 81.6165ms 
+2025-03-24 22:59:37.3505 INFO Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 260.9684ms 
+2025-03-24 22:59:37.4329 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - - - 
+2025-03-24 22:59:37.4734 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 40.5404ms 
+2025-03-24 23:00:00.6175 INFO Request starting HTTP/2 POST https://localhost:7145/api/Orders - application/json 56 
+2025-03-24 23:00:00.8834 INFO Executing endpoint 'OrderServices.Controllers.OrdersController.CreateOrder (OrderServices)' 
+2025-03-24 23:00:00.9269 INFO Route matched with {action = "CreateOrder", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(OrderServices.Data.DTOS.CreateOrderDto) on controller OrderServices.Controllers.OrdersController (OrderServices). 
+2025-03-24 23:00:01.9547 WARN No store type was specified for the decimal property 'TotalAmount' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2025-03-24 23:00:13.9493 INFO Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'. 
+2025-03-24 23:00:13.9788 INFO Executed action OrderServices.Controllers.OrdersController.CreateOrder (OrderServices) in 13043.7546ms 
+2025-03-24 23:00:13.9788 INFO Executed endpoint 'OrderServices.Controllers.OrdersController.CreateOrder (OrderServices)' 
+2025-03-24 23:00:13.9917 INFO Request finished HTTP/2 POST https://localhost:7145/api/Orders - 400 - application/problem+json;+charset=utf-8 13374.5592ms 
+2025-03-24 23:00:42.5303 INFO Request starting HTTP/2 POST https://localhost:7145/api/Orders - application/json 56 
+2025-03-24 23:00:42.5303 INFO Executing endpoint 'OrderServices.Controllers.OrdersController.CreateOrder (OrderServices)' 
+2025-03-24 23:00:42.5496 INFO Route matched with {action = "CreateOrder", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(OrderServices.Data.DTOS.CreateOrderDto) on controller OrderServices.Controllers.OrdersController (OrderServices). 
+2025-03-24 23:00:53.7988 INFO Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'. 
+2025-03-24 23:00:53.7988 INFO Executed action OrderServices.Controllers.OrdersController.CreateOrder (OrderServices) in 11253.3513ms 
+2025-03-24 23:00:53.7988 INFO Executed endpoint 'OrderServices.Controllers.OrdersController.CreateOrder (OrderServices)' 
+2025-03-24 23:00:53.7988 INFO Request finished HTTP/2 POST https://localhost:7145/api/Orders - 400 - application/problem+json;+charset=utf-8 11274.7435ms 
+2025-03-24 23:03:16.4802 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-24 23:03:17.2864 INFO Now listening on: https://localhost:7145 
+2025-03-24 23:03:17.2962 INFO Now listening on: http://localhost:5082 
+2025-03-24 23:03:17.7490 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-24 23:03:17.7770 INFO Hosting environment: Development 
+2025-03-24 23:03:17.7972 INFO Content root path: C:\Users\jack\Documents\Api\OrderServices 
+2025-03-24 23:03:21.3608 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - - - 
+2025-03-24 23:03:22.1915 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 - text/html;charset=utf-8 836.8893ms 
+2025-03-24 23:03:22.4177 INFO Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-24 23:03:22.4218 INFO Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - - - 
+2025-03-24 23:03:22.4685 INFO Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript;+charset=utf-8 50.8231ms 
+2025-03-24 23:03:22.8247 INFO Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 403.0702ms 
+2025-03-24 23:03:23.0033 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - - - 
+2025-03-24 23:03:23.1238 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 120.1861ms 
+2025-03-24 23:04:08.4741 INFO Request starting HTTP/2 POST https://localhost:7145/api/Orders - application/json 56 
+2025-03-24 23:04:08.8019 INFO Executing endpoint 'OrderServices.Controllers.OrdersController.CreateOrder (OrderServices)' 
+2025-03-24 23:04:08.8504 INFO Route matched with {action = "CreateOrder", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(OrderServices.Data.DTOS.CreateOrderDto) on controller OrderServices.Controllers.OrdersController (OrderServices). 
+2025-03-24 23:04:09.8568 WARN No store type was specified for the decimal property 'TotalAmount' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2025-03-24 23:04:11.3784 INFO Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'. 
+2025-03-24 23:04:11.4101 INFO Executed action OrderServices.Controllers.OrdersController.CreateOrder (OrderServices) in 2541.817ms 
+2025-03-24 23:04:11.4101 INFO Executed endpoint 'OrderServices.Controllers.OrdersController.CreateOrder (OrderServices)' 
+2025-03-24 23:04:11.4273 INFO Request finished HTTP/2 POST https://localhost:7145/api/Orders - 404 - application/problem+json;+charset=utf-8 2957.1781ms 
+2025-03-24 23:04:29.8822 INFO Request starting HTTP/2 POST https://localhost:7145/api/Orders - application/json 56 
+2025-03-24 23:04:29.8941 INFO Executing endpoint 'OrderServices.Controllers.OrdersController.CreateOrder (OrderServices)' 
+2025-03-24 23:04:29.8941 INFO Route matched with {action = "CreateOrder", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(OrderServices.Data.DTOS.CreateOrderDto) on controller OrderServices.Controllers.OrdersController (OrderServices). 
+2025-03-24 23:04:52.7039 INFO Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'. 
+2025-03-24 23:04:52.7039 INFO Executed action OrderServices.Controllers.OrdersController.CreateOrder (OrderServices) in 22814.4873ms 
+2025-03-24 23:04:52.7039 INFO Executed endpoint 'OrderServices.Controllers.OrdersController.CreateOrder (OrderServices)' 
+2025-03-24 23:04:52.7039 INFO Request finished HTTP/2 POST https://localhost:7145/api/Orders - 404 - application/problem+json;+charset=utf-8 22833.3764ms 
+2025-03-24 23:05:23.5582 INFO Request starting HTTP/2 POST https://localhost:7145/api/Orders - application/json 56 
+2025-03-24 23:05:23.5650 INFO Executing endpoint 'OrderServices.Controllers.OrdersController.CreateOrder (OrderServices)' 
+2025-03-24 23:05:23.5650 INFO Route matched with {action = "CreateOrder", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(OrderServices.Data.DTOS.CreateOrderDto) on controller OrderServices.Controllers.OrdersController (OrderServices). 
+2025-03-24 23:05:26.9978 INFO Executed DbCommand (577ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32), @p4='?' (Precision = 18) (Scale = 2) (DbType = Decimal)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Orders] ([CustomerId], [OrderDate], [ProductId], [Quantity], [TotalAmount])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4); 
+2025-03-24 23:05:27.1082 INFO Executing OkObjectResult, writing value of type 'OrderServices.Data.DTOS.CreateOrderDto'. 
+2025-03-24 23:05:27.1082 INFO Executed action OrderServices.Controllers.OrdersController.CreateOrder (OrderServices) in 3549.8997ms 
+2025-03-24 23:05:27.1082 INFO Executed endpoint 'OrderServices.Controllers.OrdersController.CreateOrder (OrderServices)' 
+2025-03-24 23:05:27.1253 INFO Request finished HTTP/2 POST https://localhost:7145/api/Orders - 200 - application/json;+charset=utf-8 3567.1235ms 
+2025-03-25 12:16:32.3149 ERROR Error starting customer order System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: OrderServices.Stocks.Interfaces.ICustomerValidatorSender Lifetime: Scoped ImplementationType: OrderServices.Stocks.CustomerValidatorSender': Unable to resolve service for type 'Microsoft.Extensions.Logging.ILogger' while attempting to activate 'OrderServices.Stocks.CustomerValidatorSender'.) (Error while validating the service descriptor 'ServiceType: OrderServices.Stocks.Interfaces.IProductStockValidatorSender Lifetime: Scoped ImplementationType: OrderServices.Stocks.ProductStockValidatorSender': Unable to resolve service for type 'Microsoft.Extensions.Logging.ILogger' while attempting to activate 'OrderServices.Stocks.ProductStockValidatorSender'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: OrderServices.Stocks.Interfaces.ICustomerValidatorSender Lifetime: Scoped ImplementationType: OrderServices.Stocks.CustomerValidatorSender': Unable to resolve service for type 'Microsoft.Extensions.Logging.ILogger' while attempting to activate 'OrderServices.Stocks.CustomerValidatorSender'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.Extensions.Logging.ILogger' while attempting to activate 'OrderServices.Stocks.CustomerValidatorSender'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+ ---> (Inner Exception #1) System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: OrderServices.Stocks.Interfaces.IProductStockValidatorSender Lifetime: Scoped ImplementationType: OrderServices.Stocks.ProductStockValidatorSender': Unable to resolve service for type 'Microsoft.Extensions.Logging.ILogger' while attempting to activate 'OrderServices.Stocks.ProductStockValidatorSender'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.Extensions.Logging.ILogger' while attempting to activate 'OrderServices.Stocks.ProductStockValidatorSender'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)<---
+
+2025-03-25 13:00:24.9798 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-25 13:00:25.4752 INFO Now listening on: https://localhost:7145 
+2025-03-25 13:00:25.4752 INFO Now listening on: http://localhost:5082 
+2025-03-25 13:00:25.5868 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-25 13:00:25.5868 INFO Hosting environment: Development 
+2025-03-25 13:00:25.5868 INFO Content root path: C:\Users\jack\Documents\Api\OrderServices 
+2025-03-25 13:00:32.0940 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - - - 
+2025-03-25 13:00:32.5853 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 - text/html;charset=utf-8 498.2972ms 
+2025-03-25 13:00:33.3947 INFO Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - - - 
+2025-03-25 13:00:33.4052 INFO Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-25 13:00:33.4871 INFO Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript;+charset=utf-8 81.8313ms 
+2025-03-25 13:00:33.6728 INFO Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 279.1772ms 
+2025-03-25 13:00:33.7455 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - - - 
+2025-03-25 13:00:33.8080 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 62.5518ms 
+2025-03-25 13:02:33.8862 INFO Request starting HTTP/2 POST https://localhost:7145/api/Orders - application/json 56 
+2025-03-25 13:02:34.2489 INFO Executing endpoint 'OrderServices.Controllers.OrdersController.CreateOrder (OrderServices)' 
+2025-03-25 13:02:34.2989 INFO Route matched with {action = "CreateOrder", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(OrderServices.Data.DTOS.CreateOrderDto) on controller OrderServices.Controllers.OrdersController (OrderServices). 
+2025-03-25 13:02:35.6207 WARN No store type was specified for the decimal property 'TotalAmount' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2025-03-25 13:04:59.6455 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-25 13:05:00.5246 INFO Now listening on: https://localhost:7145 
+2025-03-25 13:05:00.5246 INFO Now listening on: http://localhost:5082 
+2025-03-25 13:05:00.7212 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-25 13:05:00.7507 INFO Hosting environment: Development 
+2025-03-25 13:05:00.7849 INFO Content root path: C:\Users\jack\Documents\Api\OrderServices 
+2025-03-25 13:05:04.9298 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - - - 
+2025-03-25 13:05:07.4776 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 - text/html;charset=utf-8 2554.8210ms 
+2025-03-25 13:05:10.2133 INFO Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-25 13:05:10.2133 INFO Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - - - 
+2025-03-25 13:05:10.2778 INFO Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript;+charset=utf-8 64.4666ms 
+2025-03-25 13:05:10.6755 INFO Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 462.3560ms 
+2025-03-25 13:05:10.7424 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - - - 
+2025-03-25 13:05:10.7862 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 43.9687ms 
+2025-03-25 13:05:24.9961 INFO Request starting HTTP/2 GET https://localhost:7145/api/Orders - - - 
+2025-03-25 13:05:25.3391 INFO Executing endpoint 'OrderServices.Controllers.OrdersController.GetAll (OrderServices)' 
+2025-03-25 13:05:25.3810 INFO Route matched with {action = "GetAll", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller OrderServices.Controllers.OrdersController (OrderServices). 
+2025-03-25 13:05:26.8677 WARN No store type was specified for the decimal property 'TotalAmount' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2025-03-25 13:05:29.5203 INFO Executed DbCommand (190ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [o].[Id], [o].[CustomerId], [o].[OrderDate], [o].[ProductId], [o].[Quantity], [o].[TotalAmount]
+FROM [Orders] AS [o] 
+2025-03-25 13:05:29.7174 INFO Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[OrderServices.Data.Models.Order, OrderServices, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[<>f__AnonymousType0`3[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], OrderServices, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2025-03-25 13:05:29.7715 INFO Executed action OrderServices.Controllers.OrdersController.GetAll (OrderServices) in 4380.1124ms 
+2025-03-25 13:05:29.7715 INFO Executed endpoint 'OrderServices.Controllers.OrdersController.GetAll (OrderServices)' 
+2025-03-25 13:05:29.7879 INFO Request finished HTTP/2 GET https://localhost:7145/api/Orders - 200 - application/json;+charset=utf-8 4791.8682ms 
+2025-03-25 13:05:44.9610 INFO Request starting HTTP/2 POST https://localhost:7145/api/Orders - application/json 56 
+2025-03-25 13:05:44.9610 INFO Executing endpoint 'OrderServices.Controllers.OrdersController.CreateOrder (OrderServices)' 
+2025-03-25 13:05:44.9880 INFO Route matched with {action = "CreateOrder", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(OrderServices.Data.DTOS.CreateOrderDto) on controller OrderServices.Controllers.OrdersController (OrderServices). 
+2025-03-25 13:06:06.6480 INFO Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'. 
+2025-03-25 13:06:06.6840 INFO Executed action OrderServices.Controllers.OrdersController.CreateOrder (OrderServices) in 21694.6486ms 
+2025-03-25 13:06:06.6840 INFO Executed endpoint 'OrderServices.Controllers.OrdersController.CreateOrder (OrderServices)' 
+2025-03-25 13:06:06.6840 INFO Request finished HTTP/2 POST https://localhost:7145/api/Orders - 404 - application/problem+json;+charset=utf-8 21728.6470ms 
+2025-03-25 13:06:19.0394 INFO Request starting HTTP/2 POST https://localhost:7145/api/Orders - application/json 56 
+2025-03-25 13:06:19.0394 INFO Executing endpoint 'OrderServices.Controllers.OrdersController.CreateOrder (OrderServices)' 
+2025-03-25 13:06:19.0394 INFO Route matched with {action = "CreateOrder", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(OrderServices.Data.DTOS.CreateOrderDto) on controller OrderServices.Controllers.OrdersController (OrderServices). 
+2025-03-25 13:07:23.6610 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-25 13:07:24.0701 INFO Now listening on: https://localhost:7145 
+2025-03-25 13:07:24.0701 INFO Now listening on: http://localhost:5082 
+2025-03-25 13:07:24.1666 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-25 13:07:24.1666 INFO Hosting environment: Development 
+2025-03-25 13:07:24.1666 INFO Content root path: C:\Users\jack\Documents\Api\OrderServices 
+2025-03-25 13:07:27.4722 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - - - 
+2025-03-25 13:07:28.2837 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 - text/html;charset=utf-8 819.4870ms 
+2025-03-25 13:07:28.3427 INFO Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-25 13:07:28.3427 INFO Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - - - 
+2025-03-25 13:07:28.3665 INFO Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 16511 application/javascript;+charset=utf-8 23.8321ms 
+2025-03-25 13:07:28.5174 INFO Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 174.0274ms 
+2025-03-25 13:07:28.6635 INFO Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - - - 
+2025-03-25 13:07:28.6999 INFO Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 36.3098ms 
+2025-03-25 13:07:52.6578 INFO Request starting HTTP/2 POST https://localhost:7145/api/Orders - application/json 56 
+2025-03-25 13:07:52.9703 INFO Executing endpoint 'OrderServices.Controllers.OrdersController.CreateOrder (OrderServices)' 
+2025-03-25 13:07:53.0425 INFO Route matched with {action = "CreateOrder", controller = "Orders"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateOrder(OrderServices.Data.DTOS.CreateOrderDto) on controller OrderServices.Controllers.OrdersController (OrderServices). 
+2025-03-25 13:07:54.4777 WARN No store type was specified for the decimal property 'TotalAmount' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2025-03-25 13:08:06.4222 INFO Executed DbCommand (280ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32), @p4='?' (Precision = 18) (Scale = 2) (DbType = Decimal)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Orders] ([CustomerId], [OrderDate], [ProductId], [Quantity], [TotalAmount])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4); 
+2025-03-25 13:08:06.5893 INFO Executing OkObjectResult, writing value of type 'OrderServices.Data.DTOS.CreateOrderDto'. 
+2025-03-25 13:08:06.6536 INFO Executed action OrderServices.Controllers.OrdersController.CreateOrder (OrderServices) in 13600.052ms 
+2025-03-25 13:08:06.6726 INFO Executed endpoint 'OrderServices.Controllers.OrdersController.CreateOrder (OrderServices)' 
+2025-03-25 13:08:06.7292 INFO Request finished HTTP/2 POST https://localhost:7145/api/Orders - 200 - application/json;+charset=utf-8 14071.3743ms 

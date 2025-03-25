@@ -1,0 +1,1163 @@
+2025-03-21 15:35:44.1044 ERROR Fallo en servicio Customer Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\jack\Documents\Api\ProductServices\Program.cs:line 28
+2025-03-21 15:35:55.4416 ERROR Fallo en servicio Customer Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\jack\Documents\Api\ProductServices\Program.cs:line 28
+2025-03-21 15:39:35.5999 ERROR Fallo en servicio Customer Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\jack\Documents\Api\ProductServices\Program.cs:line 28
+2025-03-21 15:39:45.6512 ERROR Fallo en servicio Customer Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\jack\Documents\Api\ProductServices\Program.cs:line 28
+2025-03-21 16:15:42.0340 ERROR Fallo en servicio Customer System.InvalidOperationException: The service collection cannot be modified because it is read-only.
+   at Microsoft.Extensions.DependencyInjection.ServiceCollection.ThrowReadOnlyException()
+   at Microsoft.Extensions.DependencyInjection.ServiceCollection.System.Collections.Generic.ICollection<Microsoft.Extensions.DependencyInjection.ServiceDescriptor>.Add(ServiceDescriptor item)
+   at Microsoft.Extensions.DependencyInjection.DataProtectionServiceCollectionExtensions.AddDataProtection(IServiceCollection services)
+   at Microsoft.Extensions.DependencyInjection.AuthenticationServiceCollectionExtensions.AddAuthentication(IServiceCollection services)
+   at Microsoft.Extensions.DependencyInjection.AuthenticationServiceCollectionExtensions.AddAuthentication(IServiceCollection services, Action`1 configureOptions)
+   at Program.<Main>$(String[] args) in C:\Users\jack\Documents\Api\ProductServices\Program.cs:line 29
+2025-03-21 16:17:42.3667 ERROR Fallo en servicio Customer System.InvalidOperationException: The service collection cannot be modified because it is read-only.
+   at Microsoft.Extensions.DependencyInjection.ServiceCollection.ThrowReadOnlyException()
+   at Microsoft.Extensions.DependencyInjection.ServiceCollection.System.Collections.Generic.ICollection<Microsoft.Extensions.DependencyInjection.ServiceDescriptor>.Add(ServiceDescriptor item)
+   at Microsoft.Extensions.DependencyInjection.DataProtectionServiceCollectionExtensions.AddDataProtection(IServiceCollection services)
+   at Microsoft.Extensions.DependencyInjection.AuthenticationServiceCollectionExtensions.AddAuthentication(IServiceCollection services)
+   at Microsoft.Extensions.DependencyInjection.AuthenticationServiceCollectionExtensions.AddAuthentication(IServiceCollection services, Action`1 configureOptions)
+   at Program.<Main>$(String[] args) in C:\Users\jack\Documents\Api\ProductServices\Program.cs:line 29
+2025-03-21 16:36:21.2504 ERROR Fallo en servicio Customer System.InvalidOperationException: The service collection cannot be modified because it is read-only.
+   at Microsoft.Extensions.DependencyInjection.ServiceCollection.ThrowReadOnlyException()
+   at Microsoft.Extensions.DependencyInjection.ServiceCollection.System.Collections.Generic.ICollection<Microsoft.Extensions.DependencyInjection.ServiceDescriptor>.Add(ServiceDescriptor item)
+   at Microsoft.Extensions.DependencyInjection.DataProtectionServiceCollectionExtensions.AddDataProtection(IServiceCollection services)
+   at Microsoft.Extensions.DependencyInjection.AuthenticationServiceCollectionExtensions.AddAuthentication(IServiceCollection services)
+   at Microsoft.Extensions.DependencyInjection.AuthenticationServiceCollectionExtensions.AddAuthentication(IServiceCollection services, Action`1 configureOptions)
+   at Program.<Main>$(String[] args) in C:\Users\jack\Documents\Api\ProductServices\Program.cs:line 29
+2025-03-21 16:43:32.8674 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-21 16:43:33.1962 INFO Request starting HTTP/2 GET https://localhost:44372/swagger - - - 
+2025-03-21 16:43:33.2561 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-21 16:43:33.2561 INFO Hosting environment: Development 
+2025-03-21 16:43:33.2561 INFO Content root path: C:\Users\jack\Documents\Api\ProductServices 
+2025-03-21 16:43:33.9211 INFO Request starting HTTP/2 GET https://localhost:44372/swagger/index.html - - - 
+2025-03-21 16:43:34.0428 INFO Request finished HTTP/2 GET https://localhost:44372/swagger - 301 - - 856.0332ms 
+2025-03-21 16:43:34.1172 INFO Request finished HTTP/2 GET https://localhost:44372/swagger/index.html - 200 - text/html;charset=utf-8 196.0029ms 
+2025-03-21 16:43:34.1587 INFO Request starting HTTP/2 GET https://localhost:44372/swagger/swagger-ui-bundle.js - - - 
+2025-03-21 16:43:34.1587 INFO Request starting HTTP/2 GET https://localhost:44372/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-21 16:43:34.1587 INFO Request starting HTTP/2 GET https://localhost:44372/_vs/browserLink - - - 
+2025-03-21 16:43:34.1587 INFO Request starting HTTP/2 GET https://localhost:44372/swagger/swagger-ui.css - - - 
+2025-03-21 16:43:34.1587 INFO Request starting HTTP/2 GET https://localhost:44372/swagger/swagger-ui-standalone-preset.js - - - 
+2025-03-21 16:43:34.1587 INFO Request finished HTTP/2 GET https://localhost:44372/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript;+charset=utf-8 11.2914ms 
+2025-03-21 16:43:34.1930 INFO Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A' 
+2025-03-21 16:43:34.1930 INFO Request finished HTTP/2 GET https://localhost:44372/swagger/swagger-ui.css - 200 152034 text/css 31.4316ms 
+2025-03-21 16:43:34.1930 INFO Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A' 
+2025-03-21 16:43:34.2149 INFO Request finished HTTP/2 GET https://localhost:44372/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 46.3874ms 
+2025-03-21 16:43:34.2439 INFO Request finished HTTP/2 GET https://localhost:44372/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 83.3073ms 
+2025-03-21 16:43:34.2569 INFO Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A' 
+2025-03-21 16:43:34.2918 INFO Request finished HTTP/2 GET https://localhost:44372/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 135.4026ms 
+2025-03-21 16:43:34.5607 INFO Request starting HTTP/2 GET https://localhost:44372/swagger/v1/swagger.json - - - 
+2025-03-21 16:43:34.5899 INFO Request finished HTTP/2 GET https://localhost:44372/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 29.1845ms 
+2025-03-21 16:43:34.6270 INFO Request starting HTTP/2 GET https://localhost:44372/swagger/favicon-32x32.png - - - 
+2025-03-21 16:43:34.6270 INFO Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A' 
+2025-03-21 16:43:34.6270 INFO Request finished HTTP/2 GET https://localhost:44372/swagger/favicon-32x32.png - 200 628 image/png 1.1398ms 
+2025-03-21 16:45:47.0324 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-21 16:45:47.2779 INFO Request starting HTTP/2 GET https://localhost:44372/swagger - - - 
+2025-03-21 16:45:47.3411 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-21 16:45:47.3436 INFO Hosting environment: Development 
+2025-03-21 16:45:47.3436 INFO Content root path: C:\Users\jack\Documents\Api\ProductServices 
+2025-03-21 16:45:47.4569 INFO Request starting HTTP/2 GET https://localhost:44372/swagger/index.html - - - 
+2025-03-21 16:45:47.5643 INFO Request finished HTTP/2 GET https://localhost:44372/swagger - 301 - - 293.6532ms 
+2025-03-21 16:45:47.6334 INFO Request finished HTTP/2 GET https://localhost:44372/swagger/index.html - 200 - text/html;charset=utf-8 175.7190ms 
+2025-03-21 16:45:47.6692 INFO Request starting HTTP/2 GET https://localhost:44372/swagger/swagger-ui-bundle.js - - - 
+2025-03-21 16:45:47.6692 INFO Request starting HTTP/2 GET https://localhost:44372/_vs/browserLink - - - 
+2025-03-21 16:45:47.6719 INFO Request starting HTTP/2 GET https://localhost:44372/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-21 16:45:47.6719 INFO Request starting HTTP/2 GET https://localhost:44372/swagger/swagger-ui.css - - - 
+2025-03-21 16:45:47.6719 INFO Request starting HTTP/2 GET https://localhost:44372/swagger/swagger-ui-standalone-preset.js - - - 
+2025-03-21 16:45:47.6719 INFO Request finished HTTP/2 GET https://localhost:44372/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript;+charset=utf-8 6.2178ms 
+2025-03-21 16:45:47.6919 INFO Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A' 
+2025-03-21 16:45:47.6919 INFO Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A' 
+2025-03-21 16:45:47.6919 INFO Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A' 
+2025-03-21 16:45:47.7064 INFO Request finished HTTP/2 GET https://localhost:44372/swagger/swagger-ui.css - 200 152034 text/css 31.0243ms 
+2025-03-21 16:45:47.7064 INFO Request finished HTTP/2 GET https://localhost:44372/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 30.3109ms 
+2025-03-21 16:45:47.7441 INFO Request finished HTTP/2 GET https://localhost:44372/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 74.6002ms 
+2025-03-21 16:45:47.7536 INFO Request finished HTTP/2 GET https://localhost:44372/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 84.2734ms 
+2025-03-21 16:45:48.0386 INFO Request starting HTTP/2 GET https://localhost:44372/swagger/v1/swagger.json - - - 
+2025-03-21 16:45:48.0688 INFO Request finished HTTP/2 GET https://localhost:44372/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 30.3186ms 
+2025-03-21 16:45:55.1541 INFO Request starting HTTP/2 GET https://localhost:44372/api/Products/1 - - - 
+2025-03-21 16:45:55.1637 INFO Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user. 
+2025-03-21 16:45:55.2478 INFO AuthenticationScheme: Bearer was challenged. 
+2025-03-21 16:45:55.2497 INFO Request finished HTTP/2 GET https://localhost:44372/api/Products/1 - 401 - - 95.6532ms 
+2025-03-21 16:46:13.2369 INFO Request starting HTTP/2 GET https://localhost:44372/api/Products/1 - - - 
+2025-03-21 16:46:13.2369 INFO Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user. 
+2025-03-21 16:46:13.3210 INFO AuthenticationScheme: Bearer was challenged. 
+2025-03-21 16:46:13.3210 INFO Request finished HTTP/2 GET https://localhost:44372/api/Products/1 - 401 - - 85.6808ms 
+2025-03-21 16:46:14.1835 INFO Request starting HTTP/2 GET https://localhost:44372/api/Products/1 - - - 
+2025-03-21 16:46:14.1960 INFO Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user. 
+2025-03-21 16:46:14.1960 INFO AuthenticationScheme: Bearer was challenged. 
+2025-03-21 16:46:14.1960 INFO Request finished HTTP/2 GET https://localhost:44372/api/Products/1 - 401 - - 15.8305ms 
+2025-03-21 16:46:14.6307 INFO Request starting HTTP/2 GET https://localhost:44372/api/Products/1 - - - 
+2025-03-21 16:46:14.6307 INFO Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user. 
+2025-03-21 16:46:14.6307 INFO AuthenticationScheme: Bearer was challenged. 
+2025-03-21 16:46:14.6307 INFO Request finished HTTP/2 GET https://localhost:44372/api/Products/1 - 401 - - 5.0705ms 
+2025-03-21 16:46:14.8557 INFO Request starting HTTP/2 GET https://localhost:44372/api/Products/1 - - - 
+2025-03-21 16:46:14.8645 INFO Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user. 
+2025-03-21 16:46:14.8645 INFO AuthenticationScheme: Bearer was challenged. 
+2025-03-21 16:46:14.8645 INFO Request finished HTTP/2 GET https://localhost:44372/api/Products/1 - 401 - - 10.0598ms 
+2025-03-21 16:46:15.0485 INFO Request starting HTTP/2 GET https://localhost:44372/api/Products/1 - - - 
+2025-03-21 16:46:15.0485 INFO Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user. 
+2025-03-21 16:46:15.0485 INFO AuthenticationScheme: Bearer was challenged. 
+2025-03-21 16:46:15.0485 INFO Request finished HTTP/2 GET https://localhost:44372/api/Products/1 - 401 - - 2.3535ms 
+2025-03-21 16:46:15.2301 INFO Request starting HTTP/2 GET https://localhost:44372/api/Products/1 - - - 
+2025-03-21 16:46:15.2301 INFO Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user. 
+2025-03-21 16:46:15.2301 INFO AuthenticationScheme: Bearer was challenged. 
+2025-03-21 16:46:15.2301 INFO Request finished HTTP/2 GET https://localhost:44372/api/Products/1 - 401 - - 2.2210ms 
+2025-03-21 16:46:15.4321 INFO Request starting HTTP/2 GET https://localhost:44372/api/Products/1 - - - 
+2025-03-21 16:46:15.4321 INFO Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user. 
+2025-03-21 16:46:15.4321 INFO AuthenticationScheme: Bearer was challenged. 
+2025-03-21 16:46:15.4321 INFO Request finished HTTP/2 GET https://localhost:44372/api/Products/1 - 401 - - 2.3035ms 
+2025-03-21 16:46:48.9362 INFO Request starting HTTP/2 GET https://localhost:44372/api/Products/1 - - - 
+2025-03-21 16:46:48.9385 INFO Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user. 
+2025-03-21 16:46:48.9385 INFO AuthenticationScheme: Bearer was challenged. 
+2025-03-21 16:46:48.9385 INFO Request finished HTTP/2 GET https://localhost:44372/api/Products/1 - 401 - - 5.0958ms 
+2025-03-21 16:46:50.0061 INFO Request starting HTTP/2 GET https://localhost:44372/api/Products/1 - - - 
+2025-03-21 16:46:50.0061 INFO Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user. 
+2025-03-21 16:46:50.0061 INFO AuthenticationScheme: Bearer was challenged. 
+2025-03-21 16:46:50.0061 INFO Request finished HTTP/2 GET https://localhost:44372/api/Products/1 - 401 - - 7.7426ms 
+2025-03-21 16:47:21.0494 INFO Request starting HTTP/2 GET https://localhost:44372/api/Products/1 - - - 
+2025-03-21 16:47:21.0494 INFO Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user. 
+2025-03-21 16:47:21.0494 INFO AuthenticationScheme: Bearer was challenged. 
+2025-03-21 16:47:21.0494 INFO Request finished HTTP/2 GET https://localhost:44372/api/Products/1 - 401 - - 5.6102ms 
+2025-03-21 16:47:45.8180 INFO Request starting HTTP/2 GET https://localhost:44372/api/Products/1 - - - 
+2025-03-21 16:47:45.8180 INFO Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user. 
+2025-03-21 16:47:45.8180 INFO AuthenticationScheme: Bearer was challenged. 
+2025-03-21 16:47:45.8180 INFO Request finished HTTP/2 GET https://localhost:44372/api/Products/1 - 401 - - 2.1567ms 
+2025-03-21 16:48:04.3866 INFO Request starting HTTP/2 GET https://localhost:44372/api/Products/1 - - - 
+2025-03-21 16:48:04.3866 INFO Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user. 
+2025-03-21 16:48:04.3866 INFO AuthenticationScheme: Bearer was challenged. 
+2025-03-21 16:48:04.3866 INFO Request finished HTTP/2 GET https://localhost:44372/api/Products/1 - 401 - - 2.3489ms 
+2025-03-21 16:51:58.1305 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-21 16:51:58.3723 INFO Request starting HTTP/2 GET https://localhost:44372/swagger - - - 
+2025-03-21 16:51:58.4344 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-21 16:51:58.4375 INFO Hosting environment: Development 
+2025-03-21 16:51:58.4375 INFO Content root path: C:\Users\jack\Documents\Api\ProductServices 
+2025-03-21 16:51:58.6541 INFO Request starting HTTP/2 GET https://localhost:44372/swagger/index.html - - - 
+2025-03-21 16:51:58.6575 INFO Request finished HTTP/2 GET https://localhost:44372/swagger - 301 - - 290.4323ms 
+2025-03-21 16:51:58.7520 INFO Request finished HTTP/2 GET https://localhost:44372/swagger/index.html - 200 - text/html;charset=utf-8 98.0722ms 
+2025-03-21 16:51:59.5168 INFO Request starting HTTP/2 GET https://localhost:44372/swagger/swagger-ui-bundle.js - - - 
+2025-03-21 16:51:59.5168 INFO Request starting HTTP/2 GET https://localhost:44372/_vs/browserLink - - - 
+2025-03-21 16:51:59.5168 INFO Request starting HTTP/2 GET https://localhost:44372/swagger/swagger-ui-standalone-preset.js - - - 
+2025-03-21 16:51:59.5494 INFO Request starting HTTP/2 GET https://localhost:44372/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-21 16:51:59.5494 INFO Request starting HTTP/2 GET https://localhost:44372/swagger/swagger-ui.css - - - 
+2025-03-21 16:51:59.5494 INFO Request finished HTTP/2 GET https://localhost:44372/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript;+charset=utf-8 2.4582ms 
+2025-03-21 16:51:59.5494 INFO Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A' 
+2025-03-21 16:51:59.5640 INFO Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A' 
+2025-03-21 16:51:59.5979 INFO Request finished HTTP/2 GET https://localhost:44372/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 76.7278ms 
+2025-03-21 16:51:59.5979 INFO Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A' 
+2025-03-21 16:51:59.5979 INFO Request finished HTTP/2 GET https://localhost:44372/swagger/swagger-ui.css - 200 152034 text/css 46.4075ms 
+2025-03-21 16:51:59.6310 INFO Request finished HTTP/2 GET https://localhost:44372/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 114.2128ms 
+2025-03-21 16:51:59.6310 INFO Request finished HTTP/2 GET https://localhost:44372/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 116.3337ms 
+2025-03-21 16:51:59.8875 INFO Request starting HTTP/2 GET https://localhost:44372/swagger/v1/swagger.json - - - 
+2025-03-21 16:51:59.9182 INFO Request finished HTTP/2 GET https://localhost:44372/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 30.6343ms 
+2025-03-21 16:52:29.7607 INFO Request starting HTTP/2 GET https://localhost:44372/api/Products/1 - - - 
+2025-03-21 16:52:29.7701 INFO Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user. 
+2025-03-21 16:52:29.9059 INFO AuthenticationScheme: Bearer was challenged. 
+2025-03-21 16:52:29.9059 INFO Request finished HTTP/2 GET https://localhost:44372/api/Products/1 - 401 - - 147.0053ms 
+2025-03-21 16:53:01.9343 INFO Request starting HTTP/2 GET https://localhost:44372/api/Products/1 - - - 
+2025-03-21 16:53:01.9395 INFO Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user. 
+2025-03-21 16:53:01.9395 INFO AuthenticationScheme: Bearer was challenged. 
+2025-03-21 16:53:01.9565 INFO Request finished HTTP/2 GET https://localhost:44372/api/Products/1 - 401 - - 22.2414ms 
+2025-03-21 16:53:28.6596 INFO Request starting HTTP/2 GET https://localhost:44372/api/Products/1 - - - 
+2025-03-21 16:53:28.6596 INFO Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user. 
+2025-03-21 16:53:28.6712 INFO AuthenticationScheme: Bearer was challenged. 
+2025-03-21 16:53:28.6712 INFO Request finished HTTP/2 GET https://localhost:44372/api/Products/1 - 401 - - 15.1516ms 
+2025-03-21 16:53:29.2623 INFO Request starting HTTP/2 GET https://localhost:44372/api/Products/1 - - - 
+2025-03-21 16:53:29.2623 INFO Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user. 
+2025-03-21 16:53:29.2654 INFO AuthenticationScheme: Bearer was challenged. 
+2025-03-21 16:53:29.2654 INFO Request finished HTTP/2 GET https://localhost:44372/api/Products/1 - 401 - - 9.1013ms 
+2025-03-21 16:53:29.4298 INFO Request starting HTTP/2 GET https://localhost:44372/api/Products/1 - - - 
+2025-03-21 16:53:29.4298 INFO Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user. 
+2025-03-21 16:53:29.4298 INFO AuthenticationScheme: Bearer was challenged. 
+2025-03-21 16:53:29.4298 INFO Request finished HTTP/2 GET https://localhost:44372/api/Products/1 - 401 - - 2.4776ms 
+2025-03-21 16:53:29.5924 INFO Request starting HTTP/2 GET https://localhost:44372/api/Products/1 - - - 
+2025-03-21 16:53:29.5924 INFO Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user. 
+2025-03-21 16:53:29.5924 INFO AuthenticationScheme: Bearer was challenged. 
+2025-03-21 16:53:29.5964 INFO Request finished HTTP/2 GET https://localhost:44372/api/Products/1 - 401 - - 3.5941ms 
+2025-03-21 16:53:29.7321 INFO Request starting HTTP/2 GET https://localhost:44372/api/Products/1 - - - 
+2025-03-21 16:53:29.7321 INFO Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user. 
+2025-03-21 16:53:29.7340 INFO AuthenticationScheme: Bearer was challenged. 
+2025-03-21 16:53:29.7340 INFO Request finished HTTP/2 GET https://localhost:44372/api/Products/1 - 401 - - 3.0401ms 
+2025-03-21 16:53:29.9033 INFO Request starting HTTP/2 GET https://localhost:44372/api/Products/1 - - - 
+2025-03-21 16:53:29.9033 INFO Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user. 
+2025-03-21 16:53:29.9033 INFO AuthenticationScheme: Bearer was challenged. 
+2025-03-21 16:53:29.9033 INFO Request finished HTTP/2 GET https://localhost:44372/api/Products/1 - 401 - - 2.1917ms 
+2025-03-21 16:53:30.0848 INFO Request starting HTTP/2 GET https://localhost:44372/api/Products/1 - - - 
+2025-03-21 16:53:30.0848 INFO Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user. 
+2025-03-21 16:53:30.0848 INFO AuthenticationScheme: Bearer was challenged. 
+2025-03-21 16:53:30.0848 INFO Request finished HTTP/2 GET https://localhost:44372/api/Products/1 - 401 - - 4.2678ms 
+2025-03-21 16:53:30.1982 INFO Request starting HTTP/2 GET https://localhost:44372/api/Products/1 - - - 
+2025-03-21 16:53:30.1982 INFO Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user. 
+2025-03-21 16:53:30.1982 INFO AuthenticationScheme: Bearer was challenged. 
+2025-03-21 16:53:30.1982 INFO Request finished HTTP/2 GET https://localhost:44372/api/Products/1 - 401 - - 2.1621ms 
+2025-03-21 16:53:30.3492 INFO Request starting HTTP/2 GET https://localhost:44372/api/Products/1 - - - 
+2025-03-21 16:53:30.3492 INFO Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user. 
+2025-03-21 16:53:30.3492 INFO AuthenticationScheme: Bearer was challenged. 
+2025-03-21 16:53:30.3492 INFO Request finished HTTP/2 GET https://localhost:44372/api/Products/1 - 401 - - 1.5569ms 
+2025-03-21 16:55:03.3722 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-21 16:55:03.6155 INFO Request starting HTTP/2 GET https://localhost:44372/swagger - - - 
+2025-03-21 16:55:03.6765 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-21 16:55:03.6765 INFO Hosting environment: Development 
+2025-03-21 16:55:03.6765 INFO Content root path: C:\Users\jack\Documents\Api\ProductServices 
+2025-03-21 16:55:03.7903 INFO Request starting HTTP/2 GET https://localhost:44372/swagger/index.html - - - 
+2025-03-21 16:55:03.8757 INFO Request finished HTTP/2 GET https://localhost:44372/swagger - 301 - - 265.6424ms 
+2025-03-21 16:55:03.9457 INFO Request finished HTTP/2 GET https://localhost:44372/swagger/index.html - 200 - text/html;charset=utf-8 155.5939ms 
+2025-03-21 16:55:03.9808 INFO Request starting HTTP/2 GET https://localhost:44372/swagger/swagger-ui.css - - - 
+2025-03-21 16:55:03.9808 INFO Request starting HTTP/2 GET https://localhost:44372/swagger/swagger-ui-bundle.js - - - 
+2025-03-21 16:55:03.9808 INFO Request starting HTTP/2 GET https://localhost:44372/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-21 16:55:03.9854 INFO Request starting HTTP/2 GET https://localhost:44372/_vs/browserLink - - - 
+2025-03-21 16:55:03.9854 INFO Request starting HTTP/2 GET https://localhost:44372/swagger/swagger-ui-standalone-preset.js - - - 
+2025-03-21 16:55:03.9854 INFO Request finished HTTP/2 GET https://localhost:44372/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript;+charset=utf-8 6.1873ms 
+2025-03-21 16:55:03.9854 INFO Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A' 
+2025-03-21 16:55:03.9854 INFO Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A' 
+2025-03-21 16:55:04.0026 INFO Request finished HTTP/2 GET https://localhost:44372/swagger/swagger-ui.css - 200 152034 text/css 21.7591ms 
+2025-03-21 16:55:04.0026 INFO Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A' 
+2025-03-21 16:55:04.0026 INFO Request finished HTTP/2 GET https://localhost:44372/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 22.2290ms 
+2025-03-21 16:55:04.0819 INFO Request finished HTTP/2 GET https://localhost:44372/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 100.8153ms 
+2025-03-21 16:55:04.1352 INFO Request finished HTTP/2 GET https://localhost:44372/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 150.4072ms 
+2025-03-21 16:55:04.3579 INFO Request starting HTTP/2 GET https://localhost:44372/swagger/v1/swagger.json - - - 
+2025-03-21 16:55:04.3774 INFO Request finished HTTP/2 GET https://localhost:44372/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 19.6340ms 
+2025-03-21 16:55:25.7339 INFO Request starting HTTP/2 GET https://localhost:44372/api/Products/1 - - - 
+2025-03-21 16:55:25.8183 INFO Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user. 
+2025-03-21 16:55:25.8332 INFO AuthenticationScheme: Bearer was challenged. 
+2025-03-21 16:55:25.8332 INFO Request finished HTTP/2 GET https://localhost:44372/api/Products/1 - 401 - - 100.6295ms 
+2025-03-21 16:57:43.8762 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-21 16:57:44.1211 INFO Request starting HTTP/2 GET https://localhost:44372/swagger - - - 
+2025-03-21 16:57:44.2454 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-21 16:57:44.2454 INFO Hosting environment: Development 
+2025-03-21 16:57:44.2495 INFO Content root path: C:\Users\jack\Documents\Api\ProductServices 
+2025-03-21 16:57:44.3520 INFO Request starting HTTP/2 GET https://localhost:44372/swagger/index.html - - - 
+2025-03-21 16:57:44.4405 INFO Request finished HTTP/2 GET https://localhost:44372/swagger - 301 - - 325.6174ms 
+2025-03-21 16:57:44.5123 INFO Request finished HTTP/2 GET https://localhost:44372/swagger/index.html - 200 - text/html;charset=utf-8 160.3694ms 
+2025-03-21 16:57:44.5542 INFO Request starting HTTP/2 GET https://localhost:44372/swagger/swagger-ui-bundle.js - - - 
+2025-03-21 16:57:44.5542 INFO Request starting HTTP/2 GET https://localhost:44372/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-21 16:57:44.5815 INFO Request starting HTTP/2 GET https://localhost:44372/_vs/browserLink - - - 
+2025-03-21 16:57:44.5815 INFO Request starting HTTP/2 GET https://localhost:44372/swagger/swagger-ui-standalone-preset.js - - - 
+2025-03-21 16:57:44.5815 INFO Request starting HTTP/2 GET https://localhost:44372/swagger/swagger-ui.css - - - 
+2025-03-21 16:57:44.5815 INFO Request finished HTTP/2 GET https://localhost:44372/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript;+charset=utf-8 30.4762ms 
+2025-03-21 16:57:44.6014 INFO Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A' 
+2025-03-21 16:57:44.6014 INFO Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A' 
+2025-03-21 16:57:44.6117 INFO Request finished HTTP/2 GET https://localhost:44372/swagger/swagger-ui.css - 200 152034 text/css 29.7034ms 
+2025-03-21 16:57:44.6117 INFO Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A' 
+2025-03-21 16:57:44.6117 INFO Request finished HTTP/2 GET https://localhost:44372/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 38.7263ms 
+2025-03-21 16:57:44.6634 INFO Request finished HTTP/2 GET https://localhost:44372/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 108.0757ms 
+2025-03-21 16:57:44.6634 INFO Request finished HTTP/2 GET https://localhost:44372/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 116.4703ms 
+2025-03-21 16:57:44.9000 INFO Request starting HTTP/2 GET https://localhost:44372/swagger/v1/swagger.json - - - 
+2025-03-21 16:57:44.9294 INFO Request finished HTTP/2 GET https://localhost:44372/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 29.6537ms 
+2025-03-21 16:57:59.9785 INFO Request starting HTTP/2 GET https://localhost:44372/api/Products/2 - - - 
+2025-03-21 16:58:00.1401 INFO Executing endpoint 'ProductServices.Controllers.ProductsController.GetProduct (ProductServices)' 
+2025-03-21 16:58:00.1746 INFO Route matched with {action = "GetProduct", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProduct(Int32) on controller ProductServices.Controllers.ProductsController (ProductServices). 
+2025-03-21 16:58:00.3562 INFO Executed action ProductServices.Controllers.ProductsController.GetProduct (ProductServices) in 175.0841ms 
+2025-03-21 16:58:00.4201 INFO Executed endpoint 'ProductServices.Controllers.ProductsController.GetProduct (ProductServices)' 
+2025-03-21 16:58:00.6102 ERROR An unhandled exception has occurred while executing the request. System.InvalidOperationException: Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'Shared.Repositories.Repository`1[ProductServices.Data.Models.Product]'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateOpenGeneric(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot, Boolean throwOnConstraintViolation)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateOpenGeneric(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method9(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-03-21 16:58:00.6102 INFO Request finished HTTP/2 GET https://localhost:44372/api/Products/2 - 500 - text/plain;+charset=utf-8 641.6502ms 
+2025-03-21 16:58:22.5150 INFO Request starting HTTP/2 GET https://localhost:44372/api/Products/2 - - - 
+2025-03-21 16:58:22.5385 INFO Executing endpoint 'ProductServices.Controllers.ProductsController.GetProduct (ProductServices)' 
+2025-03-21 16:58:22.5385 INFO Route matched with {action = "GetProduct", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProduct(Int32) on controller ProductServices.Controllers.ProductsController (ProductServices). 
+2025-03-21 16:58:22.6305 INFO Executed action ProductServices.Controllers.ProductsController.GetProduct (ProductServices) in 91.3051ms 
+2025-03-21 16:58:22.6884 INFO Executed endpoint 'ProductServices.Controllers.ProductsController.GetProduct (ProductServices)' 
+2025-03-21 16:58:22.8189 ERROR An unhandled exception has occurred while executing the request. System.InvalidOperationException: Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'Shared.Repositories.Repository`1[ProductServices.Data.Models.Product]'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateOpenGeneric(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot, Boolean throwOnConstraintViolation)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateOpenGeneric(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method9(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-03-21 16:58:22.8189 INFO Request finished HTTP/2 GET https://localhost:44372/api/Products/2 - 500 - text/plain;+charset=utf-8 309.5241ms 
+2025-03-21 17:00:21.9024 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-21 17:00:22.1553 INFO Request starting HTTP/2 GET https://localhost:44372/swagger - - - 
+2025-03-21 17:00:22.2214 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-21 17:00:22.2214 INFO Hosting environment: Development 
+2025-03-21 17:00:22.2214 INFO Content root path: C:\Users\jack\Documents\Api\ProductServices 
+2025-03-21 17:00:22.3284 INFO Request starting HTTP/2 GET https://localhost:44372/swagger/index.html - - - 
+2025-03-21 17:00:22.4237 INFO Request finished HTTP/2 GET https://localhost:44372/swagger - 301 - - 275.4832ms 
+2025-03-21 17:00:22.4890 INFO Request finished HTTP/2 GET https://localhost:44372/swagger/index.html - 200 - text/html;charset=utf-8 160.7046ms 
+2025-03-21 17:00:22.5283 INFO Request starting HTTP/2 GET https://localhost:44372/swagger/swagger-ui-bundle.js - - - 
+2025-03-21 17:00:22.5304 INFO Request starting HTTP/2 GET https://localhost:44372/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-21 17:00:22.5304 INFO Request starting HTTP/2 GET https://localhost:44372/_vs/browserLink - - - 
+2025-03-21 17:00:22.5304 INFO Request starting HTTP/2 GET https://localhost:44372/swagger/swagger-ui.css - - - 
+2025-03-21 17:00:22.5304 INFO Request starting HTTP/2 GET https://localhost:44372/swagger/swagger-ui-standalone-preset.js - - - 
+2025-03-21 17:00:22.5304 INFO Request finished HTTP/2 GET https://localhost:44372/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript;+charset=utf-8 8.4277ms 
+2025-03-21 17:00:22.5497 INFO Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A' 
+2025-03-21 17:00:22.5497 INFO Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A' 
+2025-03-21 17:00:22.5497 INFO Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A' 
+2025-03-21 17:00:22.5816 INFO Request finished HTTP/2 GET https://localhost:44372/swagger/swagger-ui.css - 200 152034 text/css 47.7422ms 
+2025-03-21 17:00:22.5816 INFO Request finished HTTP/2 GET https://localhost:44372/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 45.3524ms 
+2025-03-21 17:00:22.6045 INFO Request finished HTTP/2 GET https://localhost:44372/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 75.8988ms 
+2025-03-21 17:00:22.6136 INFO Request finished HTTP/2 GET https://localhost:44372/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 85.2355ms 
+2025-03-21 17:00:22.8402 INFO Request starting HTTP/2 GET https://localhost:44372/swagger/v1/swagger.json - - - 
+2025-03-21 17:00:22.8774 INFO Request finished HTTP/2 GET https://localhost:44372/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 37.1946ms 
+2025-03-21 17:00:37.1492 INFO Request starting HTTP/2 GET https://localhost:44372/api/Products/2 - - - 
+2025-03-21 17:00:37.2887 INFO Executing endpoint 'ProductServices.Controllers.ProductsController.GetProduct (ProductServices)' 
+2025-03-21 17:00:37.3143 INFO Route matched with {action = "GetProduct", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProduct(Int32) on controller ProductServices.Controllers.ProductsController (ProductServices). 
+2025-03-21 17:00:37.4767 INFO Executed action ProductServices.Controllers.ProductsController.GetProduct (ProductServices) in 154.7975ms 
+2025-03-21 17:00:37.5603 INFO Executed endpoint 'ProductServices.Controllers.ProductsController.GetProduct (ProductServices)' 
+2025-03-21 17:00:37.7448 ERROR An unhandled exception has occurred while executing the request. System.InvalidOperationException: Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'Shared.Repositories.Repository`1[ProductServices.Data.Models.Product]'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateOpenGeneric(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot, Boolean throwOnConstraintViolation)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateOpenGeneric(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method9(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-03-21 17:00:37.7568 INFO Request finished HTTP/2 GET https://localhost:44372/api/Products/2 - 500 - text/plain;+charset=utf-8 607.6020ms 
+2025-03-21 23:16:24.7277 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-21 23:16:24.9756 INFO Now listening on: http://localhost:5176 
+2025-03-21 23:16:25.0309 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-21 23:16:25.0342 INFO Hosting environment: Development 
+2025-03-21 23:16:25.0342 INFO Content root path: C:\Users\jack\Documents\Api\ProductServices 
+2025-03-21 23:16:26.4675 INFO Request starting HTTP/1.1 GET http://localhost:5176/swagger - - - 
+2025-03-21 23:16:26.6932 INFO Request finished HTTP/1.1 GET http://localhost:5176/swagger - 301 0 - 230.1153ms 
+2025-03-21 23:16:26.6932 INFO Request starting HTTP/1.1 GET http://localhost:5176/swagger/index.html - - - 
+2025-03-21 23:16:26.7693 INFO Request finished HTTP/1.1 GET http://localhost:5176/swagger/index.html - 200 - text/html;charset=utf-8 74.1093ms 
+2025-03-21 23:16:26.8072 INFO Request starting HTTP/1.1 GET http://localhost:5176/swagger/swagger-ui-bundle.js - - - 
+2025-03-21 23:16:26.8072 INFO Request starting HTTP/1.1 GET http://localhost:5176/swagger/swagger-ui.css - - - 
+2025-03-21 23:16:26.8072 INFO Request starting HTTP/1.1 GET http://localhost:5176/swagger/swagger-ui-standalone-preset.js - - - 
+2025-03-21 23:16:26.8072 INFO Request starting HTTP/1.1 GET http://localhost:5176/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-21 23:16:26.8072 INFO Request finished HTTP/1.1 GET http://localhost:5176/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript;+charset=utf-8 2.1885ms 
+2025-03-21 23:16:26.8155 INFO Request starting HTTP/1.1 GET http://localhost:5176/_vs/browserLink - - - 
+2025-03-21 23:16:26.8656 INFO Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A' 
+2025-03-21 23:16:26.8812 INFO Request finished HTTP/1.1 GET http://localhost:5176/swagger/swagger-ui.css - 200 152034 text/css 74.0289ms 
+2025-03-21 23:16:26.8812 INFO Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A' 
+2025-03-21 23:16:26.8812 INFO Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A' 
+2025-03-21 23:16:26.8994 INFO Request finished HTTP/1.1 GET http://localhost:5176/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 88.1243ms 
+2025-03-21 23:16:26.8994 INFO Request finished HTTP/1.1 GET http://localhost:5176/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 92.7136ms 
+2025-03-21 23:16:26.9180 INFO Request finished HTTP/1.1 GET http://localhost:5176/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 102.4633ms 
+2025-03-21 23:16:27.1229 INFO Request starting HTTP/1.1 GET http://localhost:5176/swagger/v1/swagger.json - - - 
+2025-03-21 23:16:27.1786 INFO Request finished HTTP/1.1 GET http://localhost:5176/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 55.7120ms 
+2025-03-21 23:16:27.1786 INFO Request starting HTTP/1.1 GET http://localhost:5176/swagger/favicon-32x32.png - - - 
+2025-03-21 23:16:27.1786 INFO Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A' 
+2025-03-21 23:16:27.1927 INFO Request finished HTTP/1.1 GET http://localhost:5176/swagger/favicon-32x32.png - 200 628 image/png 10.1598ms 
+2025-03-21 23:16:46.3154 INFO Request starting HTTP/1.1 GET http://localhost:5176/api/Products/1 - - - 
+2025-03-21 23:16:46.3308 WARN Failed to determine the https port for redirect. 
+2025-03-21 23:16:46.4799 INFO Executing endpoint 'ProductServices.Controllers.ProductsController.GetProduct (ProductServices)' 
+2025-03-21 23:16:46.5036 INFO Route matched with {action = "GetProduct", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProduct(Int32) on controller ProductServices.Controllers.ProductsController (ProductServices). 
+2025-03-21 23:16:47.2756 WARN No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2025-03-21 23:16:53.9825 INFO Executed DbCommand (64ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Name], [p].[Price]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0 
+2025-03-21 23:16:54.0720 INFO Executing ObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2025-03-21 23:16:54.0836 INFO Executed action ProductServices.Controllers.ProductsController.GetProduct (ProductServices) in 7574.2041ms 
+2025-03-21 23:16:54.0836 INFO Executed endpoint 'ProductServices.Controllers.ProductsController.GetProduct (ProductServices)' 
+2025-03-21 23:16:54.0836 INFO Request finished HTTP/1.1 GET http://localhost:5176/api/Products/1 - 404 - application/json;+charset=utf-8 7777.6901ms 
+2025-03-21 23:17:16.2374 INFO Request starting HTTP/1.1 GET http://localhost:5176/api/Products/1 - - - 
+2025-03-21 23:17:16.2374 INFO Executing endpoint 'ProductServices.Controllers.ProductsController.GetProduct (ProductServices)' 
+2025-03-21 23:17:16.2550 INFO Route matched with {action = "GetProduct", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProduct(Int32) on controller ProductServices.Controllers.ProductsController (ProductServices). 
+2025-03-21 23:17:16.3308 INFO Executed DbCommand (5ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Name], [p].[Price]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0 
+2025-03-21 23:17:31.7954 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-21 23:17:32.0278 INFO Now listening on: http://localhost:5176 
+2025-03-21 23:17:32.0805 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-21 23:17:32.0805 INFO Hosting environment: Development 
+2025-03-21 23:17:32.0805 INFO Content root path: C:\Users\jack\Documents\Api\ProductServices 
+2025-03-21 23:17:33.3970 INFO Request starting HTTP/1.1 GET http://localhost:5176/swagger/index.html - - - 
+2025-03-21 23:17:34.0495 INFO Request finished HTTP/1.1 GET http://localhost:5176/swagger/index.html - 200 - text/html;charset=utf-8 665.3294ms 
+2025-03-21 23:17:34.1596 INFO Request starting HTTP/1.1 GET http://localhost:5176/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-21 23:17:34.1596 INFO Request starting HTTP/1.1 GET http://localhost:5176/_vs/browserLink - - - 
+2025-03-21 23:17:34.1596 INFO Request finished HTTP/1.1 GET http://localhost:5176/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript;+charset=utf-8 15.2582ms 
+2025-03-21 23:17:34.5638 INFO Request finished HTTP/1.1 GET http://localhost:5176/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 403.9140ms 
+2025-03-21 23:17:34.6712 INFO Request starting HTTP/1.1 GET http://localhost:5176/swagger/v1/swagger.json - - - 
+2025-03-21 23:17:34.7354 INFO Request finished HTTP/1.1 GET http://localhost:5176/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 64.2308ms 
+2025-03-21 23:17:53.0590 INFO Request starting HTTP/1.1 GET http://localhost:5176/api/Products/1 - - - 
+2025-03-21 23:17:53.0747 WARN Failed to determine the https port for redirect. 
+2025-03-21 23:17:53.2250 INFO Executing endpoint 'ProductServices.Controllers.ProductsController.GetProduct (ProductServices)' 
+2025-03-21 23:17:53.2490 INFO Route matched with {action = "GetProduct", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProduct(Int32) on controller ProductServices.Controllers.ProductsController (ProductServices). 
+2025-03-21 23:17:53.8243 WARN No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2025-03-21 23:17:54.6629 INFO Executed DbCommand (54ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Name], [p].[Price]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0 
+2025-03-21 23:17:58.5970 INFO Executing OkObjectResult, writing value of type '<>f__AnonymousType1`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2025-03-21 23:17:58.6182 INFO Executed action ProductServices.Controllers.ProductsController.GetProduct (ProductServices) in 5362.7159ms 
+2025-03-21 23:17:58.6182 INFO Executed endpoint 'ProductServices.Controllers.ProductsController.GetProduct (ProductServices)' 
+2025-03-21 23:17:58.6309 INFO Request finished HTTP/1.1 GET http://localhost:5176/api/Products/1 - 200 - application/json;+charset=utf-8 5571.9068ms 
+2025-03-24 11:42:34.0047 ERROR Fallo en servicio Customer Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\jack\Documents\Api\ProductServices\Program.cs:line 75
+2025-03-24 11:42:58.2221 ERROR Fallo en servicio Customer Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\jack\Documents\Api\ProductServices\Program.cs:line 75
+2025-03-24 16:12:53.4794 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-24 16:12:54.2004 INFO Now listening on: http://localhost:5176 
+2025-03-24 16:12:54.2956 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-24 16:12:54.3050 INFO Hosting environment: Development 
+2025-03-24 16:12:54.3193 INFO Content root path: C:\Users\jack\Documents\Api\ProductServices 
+2025-03-24 16:13:11.0098 INFO Request starting HTTP/1.1 GET http://localhost:5176/swagger/index.html - - - 
+2025-03-24 16:13:11.9679 INFO Request finished HTTP/1.1 GET http://localhost:5176/swagger/index.html - 200 - text/html;charset=utf-8 975.7429ms 
+2025-03-24 16:13:15.8421 INFO Request starting HTTP/1.1 GET http://localhost:5176/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-24 16:13:15.8421 INFO Request starting HTTP/1.1 GET http://localhost:5176/_vs/browserLink - - - 
+2025-03-24 16:13:15.8509 INFO Request finished HTTP/1.1 GET http://localhost:5176/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript;+charset=utf-8 8.8204ms 
+2025-03-24 16:13:19.8157 INFO Request finished HTTP/1.1 GET http://localhost:5176/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 3970.6863ms 
+2025-03-24 16:13:19.8832 INFO Request starting HTTP/1.1 GET http://localhost:5176/swagger/v1/swagger.json - - - 
+2025-03-24 16:13:19.9153 INFO Request finished HTTP/1.1 GET http://localhost:5176/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 32.1449ms 
+2025-03-24 16:40:18.3973 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-24 16:40:19.0080 INFO Now listening on: https://localhost:7270 
+2025-03-24 16:40:19.0080 INFO Now listening on: http://localhost:5176 
+2025-03-24 16:40:19.1624 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-24 16:40:19.1624 INFO Hosting environment: Development 
+2025-03-24 16:40:19.1624 INFO Content root path: C:\Users\jack\Documents\Api\ProductServices 
+2025-03-24 16:40:25.9755 INFO Request starting HTTP/2 GET https://localhost:7270/swagger - - - 
+2025-03-24 16:40:26.7324 INFO Request finished HTTP/2 GET https://localhost:7270/swagger - 301 0 - 763.5080ms 
+2025-03-24 16:40:26.8071 INFO Request starting HTTP/2 GET https://localhost:7270/swagger/index.html - - - 
+2025-03-24 16:40:27.0321 INFO Request finished HTTP/2 GET https://localhost:7270/swagger/index.html - 200 - text/html;charset=utf-8 233.1020ms 
+2025-03-24 16:40:27.3140 INFO Request starting HTTP/2 GET https://localhost:7270/swagger/swagger-ui.css - - - 
+2025-03-24 16:40:27.3140 INFO Request starting HTTP/2 GET https://localhost:7270/swagger/swagger-ui-bundle.js - - - 
+2025-03-24 16:40:27.3140 INFO Request starting HTTP/2 GET https://localhost:7270/swagger/swagger-ui-standalone-preset.js - - - 
+2025-03-24 16:40:27.3471 INFO Request starting HTTP/2 GET https://localhost:7270/_vs/browserLink - - - 
+2025-03-24 16:40:27.3471 INFO Request starting HTTP/2 GET https://localhost:7270/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-24 16:40:27.5264 INFO Request finished HTTP/2 GET https://localhost:7270/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript;+charset=utf-8 178.8633ms 
+2025-03-24 16:40:27.5264 INFO Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A' 
+2025-03-24 16:40:27.5264 INFO Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A' 
+2025-03-24 16:40:27.5659 INFO Request finished HTTP/2 GET https://localhost:7270/swagger/swagger-ui.css - 200 152034 text/css 251.9080ms 
+2025-03-24 16:40:27.5659 INFO Request finished HTTP/2 GET https://localhost:7270/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 249.7614ms 
+2025-03-24 16:40:27.6967 INFO Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A' 
+2025-03-24 16:40:27.6967 INFO Request finished HTTP/2 GET https://localhost:7270/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 380.4537ms 
+2025-03-24 16:40:28.4868 INFO Request finished HTTP/2 GET https://localhost:7270/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 1139.6900ms 
+2025-03-24 16:40:28.5826 INFO Request starting HTTP/2 GET https://localhost:7270/swagger/v1/swagger.json - - - 
+2025-03-24 16:40:28.6308 INFO Request finished HTTP/2 GET https://localhost:7270/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 48.2524ms 
+2025-03-24 16:40:28.6888 INFO Request starting HTTP/2 GET https://localhost:7270/swagger/favicon-32x32.png - - - 
+2025-03-24 16:40:28.6937 INFO Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A' 
+2025-03-24 16:40:28.6937 INFO Request finished HTTP/2 GET https://localhost:7270/swagger/favicon-32x32.png - 200 628 image/png 6.9531ms 
+2025-03-24 16:46:38.5134 INFO Request starting HTTP/2 GET https://localhost:7270/api/Products/1 - - - 
+2025-03-24 16:46:38.8899 INFO Executing endpoint 'ProductServices.Controllers.ProductsController.GetProduct (ProductServices)' 
+2025-03-24 16:46:38.9193 INFO Route matched with {action = "GetProduct", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProduct(Int32) on controller ProductServices.Controllers.ProductsController (ProductServices). 
+2025-03-24 16:46:39.6999 WARN No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2025-03-24 16:47:03.3036 INFO Executed DbCommand (2,024ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0 
+2025-03-24 16:47:03.4540 INFO Executing OkObjectResult, writing value of type '<>f__AnonymousType1`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2025-03-24 16:47:03.4742 INFO Executed action ProductServices.Controllers.ProductsController.GetProduct (ProductServices) in 24536.922ms 
+2025-03-24 16:47:03.4742 INFO Executed endpoint 'ProductServices.Controllers.ProductsController.GetProduct (ProductServices)' 
+2025-03-24 16:47:03.4742 INFO Request finished HTTP/2 GET https://localhost:7270/api/Products/1 - 200 - application/json;+charset=utf-8 24982.4468ms 
+2025-03-24 16:50:39.3998 INFO Executed DbCommand (27ms) [Parameters=[@__request_ProductId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__request_ProductId_0 
+2025-03-24 16:55:22.9404 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-24 16:55:24.0173 INFO Now listening on: https://localhost:7270 
+2025-03-24 16:55:24.0173 INFO Now listening on: http://localhost:5176 
+2025-03-24 16:55:24.5148 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-24 16:55:24.5225 INFO Hosting environment: Development 
+2025-03-24 16:55:24.5225 INFO Content root path: C:\Users\jack\Documents\Api\ProductServices 
+2025-03-24 16:55:33.1320 INFO Request starting HTTP/2 GET https://localhost:7270/swagger/index.html - - - 
+2025-03-24 16:55:37.3002 INFO Request finished HTTP/2 GET https://localhost:7270/swagger/index.html - 200 - text/html;charset=utf-8 4180.3120ms 
+2025-03-24 16:55:37.8298 INFO Request starting HTTP/2 GET https://localhost:7270/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-24 16:55:37.8449 INFO Request starting HTTP/2 GET https://localhost:7270/_vs/browserLink - - - 
+2025-03-24 16:55:38.5836 INFO Request finished HTTP/2 GET https://localhost:7270/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript;+charset=utf-8 753.7328ms 
+2025-03-24 16:55:40.9118 INFO Request finished HTTP/2 GET https://localhost:7270/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 3067.0275ms 
+2025-03-24 16:55:41.1109 INFO Request starting HTTP/2 GET https://localhost:7270/swagger/v1/swagger.json - - - 
+2025-03-24 16:55:41.1451 INFO Request finished HTTP/2 GET https://localhost:7270/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 34.1862ms 
+2025-03-24 16:57:07.2261 WARN No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2025-03-24 16:57:08.8500 INFO Executed DbCommand (119ms) [Parameters=[@__request_ProductId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__request_ProductId_0 
+2025-03-24 17:00:33.0693 INFO Request starting HTTP/2 GET https://localhost:7270/api/Products/1 - - - 
+2025-03-24 17:00:33.3245 INFO Executing endpoint 'ProductServices.Controllers.ProductsController.GetProduct (ProductServices)' 
+2025-03-24 17:00:33.3928 INFO Route matched with {action = "GetProduct", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProduct(Int32) on controller ProductServices.Controllers.ProductsController (ProductServices). 
+2025-03-24 17:00:33.5518 INFO Executed DbCommand (54ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0 
+2025-03-24 17:00:33.5636 INFO Executing OkObjectResult, writing value of type '<>f__AnonymousType1`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2025-03-24 17:00:33.5867 INFO Executed action ProductServices.Controllers.ProductsController.GetProduct (ProductServices) in 185.7899ms 
+2025-03-24 17:00:33.5867 INFO Executed endpoint 'ProductServices.Controllers.ProductsController.GetProduct (ProductServices)' 
+2025-03-24 17:00:33.6130 INFO Request finished HTTP/2 GET https://localhost:7270/api/Products/1 - 200 - application/json;+charset=utf-8 543.7771ms 
+2025-03-24 17:02:56.7611 INFO Executed DbCommand (19ms) [Parameters=[@__request_ProductId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__request_ProductId_0 
+2025-03-24 17:07:57.3913 INFO Executed DbCommand (4ms) [Parameters=[@__request_ProductId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__request_ProductId_0 
+2025-03-24 17:10:51.1778 INFO Executed DbCommand (4ms) [Parameters=[@__request_ProductId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__request_ProductId_0 
+2025-03-24 17:11:15.3521 INFO Executed DbCommand (4ms) [Parameters=[@__request_ProductId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__request_ProductId_0 
+2025-03-24 17:12:29.1168 INFO Executed DbCommand (12ms) [Parameters=[@__request_ProductId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__request_ProductId_0 
+2025-03-24 17:22:12.4200 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-24 17:22:13.0318 INFO Now listening on: https://localhost:7270 
+2025-03-24 17:22:13.0318 INFO Now listening on: http://localhost:5176 
+2025-03-24 17:22:13.1445 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-24 17:22:13.1445 INFO Hosting environment: Development 
+2025-03-24 17:22:13.1510 INFO Content root path: C:\Users\jack\Documents\Api\ProductServices 
+2025-03-24 17:22:18.0373 INFO Request starting HTTP/2 GET https://localhost:7270/swagger/index.html - - - 
+2025-03-24 17:22:18.8087 INFO Request finished HTTP/2 GET https://localhost:7270/swagger/index.html - 200 - text/html;charset=utf-8 778.6079ms 
+2025-03-24 17:22:18.9276 INFO Request starting HTTP/2 GET https://localhost:7270/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-24 17:22:18.9276 INFO Request starting HTTP/2 GET https://localhost:7270/_vs/browserLink - - - 
+2025-03-24 17:22:19.0202 INFO Request finished HTTP/2 GET https://localhost:7270/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript;+charset=utf-8 92.5635ms 
+2025-03-24 17:22:19.3453 INFO Request finished HTTP/2 GET https://localhost:7270/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 417.6895ms 
+2025-03-24 17:22:19.4058 INFO Request starting HTTP/2 GET https://localhost:7270/swagger/v1/swagger.json - - - 
+2025-03-24 17:22:19.4252 INFO Request finished HTTP/2 GET https://localhost:7270/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 19.7378ms 
+2025-03-24 19:21:40.3578 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-24 19:21:41.2768 INFO Now listening on: https://localhost:7270 
+2025-03-24 19:21:41.2768 INFO Now listening on: http://localhost:5176 
+2025-03-24 19:21:41.5390 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-24 19:21:41.5390 INFO Hosting environment: Development 
+2025-03-24 19:21:41.5799 INFO Content root path: C:\Users\jack\Documents\Api\ProductServices 
+2025-03-24 19:21:52.4281 INFO Request starting HTTP/2 GET https://localhost:7270/swagger/index.html - - - 
+2025-03-24 19:21:54.4777 INFO Request finished HTTP/2 GET https://localhost:7270/swagger/index.html - 200 - text/html;charset=utf-8 2049.2751ms 
+2025-03-24 19:21:54.5000 INFO Request starting HTTP/2 GET https://localhost:7270/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-24 19:21:54.5000 INFO Request starting HTTP/2 GET https://localhost:7270/_vs/browserLink - - - 
+2025-03-24 19:21:54.5985 INFO Request finished HTTP/2 GET https://localhost:7270/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript;+charset=utf-8 98.6715ms 
+2025-03-24 19:21:56.0999 INFO Request finished HTTP/2 GET https://localhost:7270/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 1599.3870ms 
+2025-03-24 19:21:56.1966 INFO Request starting HTTP/2 GET https://localhost:7270/swagger/v1/swagger.json - - - 
+2025-03-24 19:21:56.2447 INFO Request finished HTTP/2 GET https://localhost:7270/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 48.1400ms 
+2025-03-24 19:48:46.8565 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-24 19:48:50.9332 INFO Now listening on: https://localhost:7270 
+2025-03-24 19:48:50.9749 INFO Now listening on: http://localhost:5176 
+2025-03-24 19:48:51.2411 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-24 19:48:51.2723 INFO Hosting environment: Development 
+2025-03-24 19:48:51.3091 INFO Content root path: C:\Users\jack\Documents\Api\ProductServices 
+2025-03-24 19:48:56.0094 INFO Request starting HTTP/2 GET https://localhost:7270/swagger/index.html - - - 
+2025-03-24 19:48:56.6897 INFO Request finished HTTP/2 GET https://localhost:7270/swagger/index.html - 200 - text/html;charset=utf-8 687.1795ms 
+2025-03-24 19:48:59.0501 INFO Request starting HTTP/2 GET https://localhost:7270/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-24 19:48:59.0501 INFO Request starting HTTP/2 GET https://localhost:7270/_vs/browserLink - - - 
+2025-03-24 19:48:59.0876 INFO Request finished HTTP/2 GET https://localhost:7270/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript;+charset=utf-8 37.7242ms 
+2025-03-24 19:48:59.6925 INFO Request finished HTTP/2 GET https://localhost:7270/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 639.9000ms 
+2025-03-24 19:48:59.8195 INFO Request starting HTTP/2 GET https://localhost:7270/swagger/v1/swagger.json - - - 
+2025-03-24 19:48:59.8405 INFO Request finished HTTP/2 GET https://localhost:7270/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 21.0951ms 
+2025-03-24 20:02:19.0203 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-24 20:02:19.6194 INFO Now listening on: https://localhost:7270 
+2025-03-24 20:02:19.6194 INFO Now listening on: http://localhost:5176 
+2025-03-24 20:02:19.7196 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-24 20:02:19.7196 INFO Hosting environment: Development 
+2025-03-24 20:02:19.7297 INFO Content root path: C:\Users\jack\Documents\Api\ProductServices 
+2025-03-24 20:02:25.3491 INFO Request starting HTTP/2 GET https://localhost:7270/swagger/index.html - - - 
+2025-03-24 20:02:28.1691 INFO Request finished HTTP/2 GET https://localhost:7270/swagger/index.html - 200 - text/html;charset=utf-8 2826.8507ms 
+2025-03-24 20:02:33.0284 INFO Request starting HTTP/2 GET https://localhost:7270/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-24 20:02:33.0284 INFO Request starting HTTP/2 GET https://localhost:7270/_vs/browserLink - - - 
+2025-03-24 20:02:33.3480 INFO Request finished HTTP/2 GET https://localhost:7270/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript;+charset=utf-8 319.6022ms 
+2025-03-24 20:02:33.5414 INFO Request finished HTTP/2 GET https://localhost:7270/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 507.9352ms 
+2025-03-24 20:02:33.6520 INFO Request starting HTTP/2 GET https://localhost:7270/swagger/v1/swagger.json - - - 
+2025-03-24 20:02:33.6874 INFO Request finished HTTP/2 GET https://localhost:7270/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 35.4419ms 
+2025-03-24 20:10:44.7235 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-24 20:10:45.7332 INFO Now listening on: https://localhost:7270 
+2025-03-24 20:10:45.8699 INFO Now listening on: http://localhost:5176 
+2025-03-24 20:10:46.1992 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-24 20:10:46.2798 INFO Hosting environment: Development 
+2025-03-24 20:10:46.2798 INFO Content root path: C:\Users\jack\Documents\Api\ProductServices 
+2025-03-24 20:10:50.2676 INFO Request starting HTTP/2 GET https://localhost:7270/swagger/index.html - - - 
+2025-03-24 20:10:50.8254 INFO Request finished HTTP/2 GET https://localhost:7270/swagger/index.html - 200 - text/html;charset=utf-8 564.4976ms 
+2025-03-24 20:10:55.8012 INFO Request starting HTTP/2 GET https://localhost:7270/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-24 20:10:55.8012 INFO Request starting HTTP/2 GET https://localhost:7270/_vs/browserLink - - - 
+2025-03-24 20:10:55.9973 INFO Request finished HTTP/2 GET https://localhost:7270/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript;+charset=utf-8 196.1268ms 
+2025-03-24 20:10:57.4475 INFO Request finished HTTP/2 GET https://localhost:7270/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 1643.0278ms 
+2025-03-24 20:10:57.7398 INFO Request starting HTTP/2 GET https://localhost:7270/swagger/v1/swagger.json - - - 
+2025-03-24 20:10:57.7704 INFO Request finished HTTP/2 GET https://localhost:7270/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 30.6522ms 
+2025-03-24 20:11:40.1524 WARN No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2025-03-24 20:11:44.1736 INFO Executed DbCommand (1,116ms) [Parameters=[@__request_ProductId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__request_ProductId_0 
+2025-03-24 20:14:16.3893 INFO Executed DbCommand (32ms) [Parameters=[@__request_ProductId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__request_ProductId_0 
+2025-03-24 20:19:59.7242 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-24 20:20:02.3768 INFO Now listening on: https://localhost:7270 
+2025-03-24 20:20:02.8126 INFO Now listening on: http://localhost:5176 
+2025-03-24 20:20:05.7702 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-24 20:20:06.1837 INFO Hosting environment: Development 
+2025-03-24 20:20:06.8567 INFO Content root path: C:\Users\jack\Documents\Api\ProductServices 
+2025-03-24 20:20:07.5783 INFO Request starting HTTP/2 GET https://localhost:7270/swagger/index.html - - - 
+2025-03-24 20:20:09.5401 INFO Request finished HTTP/2 GET https://localhost:7270/swagger/index.html - 200 - text/html;charset=utf-8 1971.3085ms 
+2025-03-24 20:20:09.8182 INFO Request starting HTTP/2 GET https://localhost:7270/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-24 20:20:09.8293 INFO Request starting HTTP/2 GET https://localhost:7270/_vs/browserLink - - - 
+2025-03-24 20:20:09.8905 INFO Request finished HTTP/2 GET https://localhost:7270/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript;+charset=utf-8 72.2012ms 
+2025-03-24 20:20:10.3775 INFO Request finished HTTP/2 GET https://localhost:7270/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 548.2112ms 
+2025-03-24 20:20:10.8573 INFO Request starting HTTP/2 GET https://localhost:7270/swagger/v1/swagger.json - - - 
+2025-03-24 20:20:10.9648 INFO Request finished HTTP/2 GET https://localhost:7270/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 107.6293ms 
+2025-03-24 20:21:37.8740 WARN No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2025-03-24 20:21:39.5978 INFO Executed DbCommand (107ms) [Parameters=[@__request_ProductId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__request_ProductId_0 
+2025-03-24 20:22:40.6105 INFO Executed DbCommand (27ms) [Parameters=[@__request_ProductId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__request_ProductId_0 
+2025-03-24 20:24:58.8074 INFO Executed DbCommand (3ms) [Parameters=[@__request_ProductId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__request_ProductId_0 
+2025-03-24 21:44:15.1193 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-24 21:44:16.9918 INFO Now listening on: https://localhost:7270 
+2025-03-24 21:44:17.2722 INFO Now listening on: http://localhost:5176 
+2025-03-24 21:44:18.1028 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-24 21:44:18.3099 INFO Hosting environment: Development 
+2025-03-24 21:44:18.3862 INFO Content root path: C:\Users\jack\Documents\Api\ProductServices 
+2025-03-24 21:44:21.5853 INFO Request starting HTTP/2 GET https://localhost:7270/swagger/index.html - - - 
+2025-03-24 21:44:23.8615 INFO Request finished HTTP/2 GET https://localhost:7270/swagger/index.html - 200 - text/html;charset=utf-8 2285.0288ms 
+2025-03-24 21:44:25.5476 INFO Request starting HTTP/2 GET https://localhost:7270/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-24 21:44:25.5476 INFO Request starting HTTP/2 GET https://localhost:7270/_vs/browserLink - - - 
+2025-03-24 21:44:25.9613 INFO Request finished HTTP/2 GET https://localhost:7270/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript;+charset=utf-8 413.6128ms 
+2025-03-24 21:44:27.2202 INFO Request finished HTTP/2 GET https://localhost:7270/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 1661.7668ms 
+2025-03-24 21:44:27.4917 INFO Request starting HTTP/2 GET https://localhost:7270/swagger/v1/swagger.json - - - 
+2025-03-24 21:44:27.5598 INFO Request finished HTTP/2 GET https://localhost:7270/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 68.1354ms 
+2025-03-24 21:47:13.7731 WARN No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2025-03-24 21:47:16.0527 INFO Executed DbCommand (368ms) [Parameters=[@__request_ProductId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__request_ProductId_0 
+2025-03-24 21:51:56.7052 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-24 21:51:57.4302 INFO Now listening on: https://localhost:7270 
+2025-03-24 21:51:57.5519 INFO Now listening on: http://localhost:5176 
+2025-03-24 21:51:57.7106 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-24 21:51:57.7931 INFO Hosting environment: Development 
+2025-03-24 21:51:57.8541 INFO Content root path: C:\Users\jack\Documents\Api\ProductServices 
+2025-03-24 21:52:02.5401 INFO Request starting HTTP/2 GET https://localhost:7270/swagger/index.html - - - 
+2025-03-24 21:52:05.1804 INFO Request finished HTTP/2 GET https://localhost:7270/swagger/index.html - 200 - text/html;charset=utf-8 2648.3861ms 
+2025-03-24 21:52:05.3891 INFO Request starting HTTP/2 GET https://localhost:7270/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-24 21:52:05.4283 INFO Request starting HTTP/2 GET https://localhost:7270/_vs/browserLink - - - 
+2025-03-24 21:52:05.6274 INFO Request finished HTTP/2 GET https://localhost:7270/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript;+charset=utf-8 238.2398ms 
+2025-03-24 21:52:07.7661 INFO Request finished HTTP/2 GET https://localhost:7270/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 2337.9135ms 
+2025-03-24 21:52:07.9729 INFO Request starting HTTP/2 GET https://localhost:7270/swagger/v1/swagger.json - - - 
+2025-03-24 21:52:08.0058 INFO Request finished HTTP/2 GET https://localhost:7270/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 32.9502ms 
+2025-03-24 21:55:40.4852 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-24 21:55:43.1619 INFO Now listening on: https://localhost:7270 
+2025-03-24 21:55:43.1619 INFO Now listening on: http://localhost:5176 
+2025-03-24 21:55:43.2690 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-24 21:55:43.2690 INFO Hosting environment: Development 
+2025-03-24 21:55:43.3085 INFO Content root path: C:\Users\jack\Documents\Api\ProductServices 
+2025-03-24 21:55:47.1529 INFO Request starting HTTP/2 GET https://localhost:7270/swagger/index.html - - - 
+2025-03-24 21:55:48.9622 INFO Request finished HTTP/2 GET https://localhost:7270/swagger/index.html - 200 - text/html;charset=utf-8 1816.9962ms 
+2025-03-24 21:55:49.2696 INFO Request starting HTTP/2 GET https://localhost:7270/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-24 21:55:49.4216 INFO Request starting HTTP/2 GET https://localhost:7270/_vs/browserLink - - - 
+2025-03-24 21:55:49.5347 INFO Request finished HTTP/2 GET https://localhost:7270/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript;+charset=utf-8 265.4064ms 
+2025-03-24 21:55:50.5319 INFO Request finished HTTP/2 GET https://localhost:7270/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 1110.4722ms 
+2025-03-24 21:55:50.7149 INFO Request starting HTTP/2 GET https://localhost:7270/swagger/v1/swagger.json - - - 
+2025-03-24 21:55:50.7731 INFO Request finished HTTP/2 GET https://localhost:7270/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 58.2666ms 
+2025-03-24 21:56:57.7293 WARN No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2025-03-24 21:56:59.6737 INFO Executed DbCommand (105ms) [Parameters=[@__request_ProductId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__request_ProductId_0 
+2025-03-24 22:12:17.7009 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-24 22:12:18.4301 INFO Now listening on: https://localhost:7270 
+2025-03-24 22:12:18.4423 INFO Now listening on: http://localhost:5176 
+2025-03-24 22:12:18.5663 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-24 22:12:18.5663 INFO Hosting environment: Development 
+2025-03-24 22:12:18.5839 INFO Content root path: C:\Users\jack\Documents\Api\ProductServices 
+2025-03-24 22:12:22.3843 INFO Request starting HTTP/2 GET https://localhost:7270/swagger/index.html - - - 
+2025-03-24 22:12:23.0133 INFO Request finished HTTP/2 GET https://localhost:7270/swagger/index.html - 200 - text/html;charset=utf-8 636.3146ms 
+2025-03-24 22:12:24.6721 INFO Request starting HTTP/2 GET https://localhost:7270/_vs/browserLink - - - 
+2025-03-24 22:12:24.6721 INFO Request starting HTTP/2 GET https://localhost:7270/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-24 22:12:24.8293 INFO Request finished HTTP/2 GET https://localhost:7270/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript;+charset=utf-8 157.3560ms 
+2025-03-24 22:12:25.0518 INFO Request finished HTTP/2 GET https://localhost:7270/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 379.9328ms 
+2025-03-24 22:12:25.1612 INFO Request starting HTTP/2 GET https://localhost:7270/swagger/v1/swagger.json - - - 
+2025-03-24 22:12:25.2104 INFO Request finished HTTP/2 GET https://localhost:7270/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 49.2215ms 
+2025-03-24 22:16:58.2598 WARN No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2025-03-24 22:17:01.4401 INFO Executed DbCommand (895ms) [Parameters=[@__request_ProductId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__request_ProductId_0 
+2025-03-24 22:30:40.0584 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-24 22:30:41.3205 INFO Now listening on: https://localhost:7270 
+2025-03-24 22:30:41.3258 INFO Now listening on: http://localhost:5176 
+2025-03-24 22:30:42.8598 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-24 22:30:42.9578 INFO Hosting environment: Development 
+2025-03-24 22:30:43.0232 INFO Content root path: C:\Users\jack\Documents\Api\ProductServices 
+2025-03-24 22:30:47.6679 INFO Request starting HTTP/2 GET https://localhost:7270/swagger/index.html - - - 
+2025-03-24 22:30:50.3554 INFO Request finished HTTP/2 GET https://localhost:7270/swagger/index.html - 200 - text/html;charset=utf-8 2695.0369ms 
+2025-03-24 22:30:53.6871 INFO Request starting HTTP/2 GET https://localhost:7270/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-24 22:30:53.6871 INFO Request starting HTTP/2 GET https://localhost:7270/_vs/browserLink - - - 
+2025-03-24 22:30:53.7584 INFO Request finished HTTP/2 GET https://localhost:7270/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript;+charset=utf-8 71.3603ms 
+2025-03-24 22:30:55.5735 INFO Request finished HTTP/2 GET https://localhost:7270/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 1875.8781ms 
+2025-03-24 22:30:55.8030 INFO Request starting HTTP/2 GET https://localhost:7270/swagger/v1/swagger.json - - - 
+2025-03-24 22:30:55.8229 INFO Request finished HTTP/2 GET https://localhost:7270/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 19.8277ms 
+2025-03-24 22:31:12.5735 INFO Request starting HTTP/2 GET https://localhost:7270/api/Products/1 - - - 
+2025-03-24 22:31:12.7578 INFO Executing endpoint 'ProductServices.Controllers.ProductsController.GetProduct (ProductServices)' 
+2025-03-24 22:31:12.7913 INFO Route matched with {action = "GetProduct", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProduct(Int32) on controller ProductServices.Controllers.ProductsController (ProductServices). 
+2025-03-24 22:31:13.4504 WARN No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2025-03-24 22:31:14.7877 INFO Executed DbCommand (181ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0 
+2025-03-24 22:31:14.9229 INFO Executing OkObjectResult, writing value of type '<>f__AnonymousType1`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2025-03-24 22:31:14.9597 INFO Executed action ProductServices.Controllers.ProductsController.GetProduct (ProductServices) in 2157.5593ms 
+2025-03-24 22:31:14.9597 INFO Executed endpoint 'ProductServices.Controllers.ProductsController.GetProduct (ProductServices)' 
+2025-03-24 22:31:14.9785 INFO Request finished HTTP/2 GET https://localhost:7270/api/Products/1 - 200 - application/json;+charset=utf-8 2404.9976ms 
+2025-03-24 22:33:42.8577 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-24 22:33:43.4443 INFO Now listening on: https://localhost:7270 
+2025-03-24 22:33:43.4443 INFO Now listening on: http://localhost:5176 
+2025-03-24 22:33:43.5302 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-24 22:33:43.5302 INFO Hosting environment: Development 
+2025-03-24 22:33:43.5302 INFO Content root path: C:\Users\jack\Documents\Api\ProductServices 
+2025-03-24 22:33:47.3966 INFO Request starting HTTP/2 GET https://localhost:7270/swagger/index.html - - - 
+2025-03-24 22:33:47.9728 INFO Request finished HTTP/2 GET https://localhost:7270/swagger/index.html - 200 - text/html;charset=utf-8 583.6909ms 
+2025-03-24 22:33:48.1435 INFO Request starting HTTP/2 GET https://localhost:7270/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-24 22:33:48.1852 INFO Request starting HTTP/2 GET https://localhost:7270/_vs/browserLink - - - 
+2025-03-24 22:33:48.2831 INFO Request finished HTTP/2 GET https://localhost:7270/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript;+charset=utf-8 139.6980ms 
+2025-03-24 22:33:48.6611 INFO Request finished HTTP/2 GET https://localhost:7270/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 475.9632ms 
+2025-03-24 22:33:48.8064 INFO Request starting HTTP/2 GET https://localhost:7270/swagger/v1/swagger.json - - - 
+2025-03-24 22:33:48.8623 INFO Request finished HTTP/2 GET https://localhost:7270/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 55.9108ms 
+2025-03-24 22:35:15.7749 WARN No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2025-03-24 22:35:22.2816 INFO Executed DbCommand (936ms) [Parameters=[@__request_ProductId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__request_ProductId_0 
+2025-03-24 22:40:23.2553 INFO Executed DbCommand (55ms) [Parameters=[@__request_ProductId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__request_ProductId_0 
+2025-03-24 22:48:14.2464 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-24 22:48:14.7920 INFO Now listening on: https://localhost:7270 
+2025-03-24 22:48:14.7974 INFO Now listening on: http://localhost:5176 
+2025-03-24 22:48:15.0994 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-24 22:48:15.0994 INFO Hosting environment: Development 
+2025-03-24 22:48:15.1082 INFO Content root path: C:\Users\jack\Documents\Api\ProductServices 
+2025-03-24 22:48:18.9467 INFO Request starting HTTP/2 GET https://localhost:7270/swagger/index.html - - - 
+2025-03-24 22:48:20.8600 INFO Request finished HTTP/2 GET https://localhost:7270/swagger/index.html - 200 - text/html;charset=utf-8 1920.9454ms 
+2025-03-24 22:48:21.0449 INFO Request starting HTTP/2 GET https://localhost:7270/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-24 22:48:21.0449 INFO Request starting HTTP/2 GET https://localhost:7270/_vs/browserLink - - - 
+2025-03-24 22:48:21.0908 INFO Request finished HTTP/2 GET https://localhost:7270/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript;+charset=utf-8 45.9536ms 
+2025-03-24 22:48:21.8004 INFO Request finished HTTP/2 GET https://localhost:7270/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 747.4473ms 
+2025-03-24 22:48:22.0032 INFO Request starting HTTP/2 GET https://localhost:7270/swagger/v1/swagger.json - - - 
+2025-03-24 22:48:22.0724 INFO Request finished HTTP/2 GET https://localhost:7270/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 69.2286ms 
+2025-03-24 22:50:09.6130 WARN No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2025-03-24 22:50:11.3921 INFO Executed DbCommand (77ms) [Parameters=[@__request_ProductId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__request_ProductId_0 
+2025-03-24 23:00:03.0651 INFO Executed DbCommand (248ms) [Parameters=[@__request_ProductId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__request_ProductId_0 
+2025-03-24 23:00:42.9813 INFO Executed DbCommand (7ms) [Parameters=[@__request_ProductId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__request_ProductId_0 
+2025-03-24 23:04:10.5884 INFO Executed DbCommand (7ms) [Parameters=[@__request_ProductId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__request_ProductId_0 
+2025-03-24 23:04:30.0594 INFO Executed DbCommand (5ms) [Parameters=[@__request_ProductId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__request_ProductId_0 
+2025-03-24 23:05:23.9248 INFO Executed DbCommand (68ms) [Parameters=[@__request_ProductId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__request_ProductId_0 
+2025-03-25 12:11:47.4006 ERROR Error starting product service RabbitMQ.Client.Exceptions.BrokerUnreachableException: None of the specified endpoints were reachable
+ ---> System.IO.IOException: connection.start was never received, likely due to a network timeout
+   at RabbitMQ.Client.Framing.Impl.Connection.StartAndTune()
+   at RabbitMQ.Client.Framing.Impl.Connection.Open(Boolean insist)
+   at RabbitMQ.Client.Framing.Impl.Connection..ctor(IConnectionFactory factory, Boolean insist, IFrameHandler frameHandler, String clientProvidedName)
+   at RabbitMQ.Client.Framing.Impl.AutorecoveringConnection.Init(IFrameHandler fh)
+   at RabbitMQ.Client.Framing.Impl.AutorecoveringConnection.Init(IEndpointResolver endpoints)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(String clientProvidedName)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection()
+   at ProductServices.Validator.ProductStockValidatorConsumer..ctor(IServiceProvider serviceProvider) in C:\Users\jack\Documents\Api\ProductServices\Validator\ProductStockValidatorConsumer.cs:line 32
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitIEnumerable(IEnumerableCallSite enumerableCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at Program.<Main>$(String[] args) in C:\Users\jack\Documents\Api\ProductServices\Program.cs:line 106
+2025-03-25 12:12:55.9543 ERROR Error starting product service RabbitMQ.Client.Exceptions.BrokerUnreachableException: None of the specified endpoints were reachable
+ ---> System.IO.IOException: connection.start was never received, likely due to a network timeout
+   at RabbitMQ.Client.Framing.Impl.Connection.StartAndTune()
+   at RabbitMQ.Client.Framing.Impl.Connection.Open(Boolean insist)
+   at RabbitMQ.Client.Framing.Impl.Connection..ctor(IConnectionFactory factory, Boolean insist, IFrameHandler frameHandler, String clientProvidedName)
+   at RabbitMQ.Client.Framing.Impl.AutorecoveringConnection.Init(IFrameHandler fh)
+   at RabbitMQ.Client.Framing.Impl.AutorecoveringConnection.Init(IEndpointResolver endpoints)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(String clientProvidedName)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection()
+   at ProductServices.Validator.ProductStockValidatorConsumer..ctor(IServiceProvider serviceProvider) in C:\Users\jack\Documents\Api\ProductServices\Validator\ProductStockValidatorConsumer.cs:line 32
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitIEnumerable(IEnumerableCallSite enumerableCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at Program.<Main>$(String[] args) in C:\Users\jack\Documents\Api\ProductServices\Program.cs:line 106
+2025-03-25 12:14:52.5964 ERROR Error starting product service RabbitMQ.Client.Exceptions.BrokerUnreachableException: None of the specified endpoints were reachable
+ ---> System.IO.IOException: connection.start was never received, likely due to a network timeout
+   at RabbitMQ.Client.Framing.Impl.Connection.StartAndTune()
+   at RabbitMQ.Client.Framing.Impl.Connection.Open(Boolean insist)
+   at RabbitMQ.Client.Framing.Impl.Connection..ctor(IConnectionFactory factory, Boolean insist, IFrameHandler frameHandler, String clientProvidedName)
+   at RabbitMQ.Client.Framing.Impl.AutorecoveringConnection.Init(IFrameHandler fh)
+   at RabbitMQ.Client.Framing.Impl.AutorecoveringConnection.Init(IEndpointResolver endpoints)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(String clientProvidedName)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection()
+   at ProductServices.Validator.ProductStockValidatorConsumer..ctor(IServiceProvider serviceProvider) in C:\Users\jack\Documents\Api\ProductServices\Validator\ProductStockValidatorConsumer.cs:line 32
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitIEnumerable(IEnumerableCallSite enumerableCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at Program.<Main>$(String[] args) in C:\Users\jack\Documents\Api\ProductServices\Program.cs:line 106
+2025-03-25 12:24:00.2223 ERROR Error starting product service RabbitMQ.Client.Exceptions.BrokerUnreachableException: None of the specified endpoints were reachable
+ ---> System.IO.IOException: connection.start was never received, likely due to a network timeout
+   at RabbitMQ.Client.Framing.Impl.Connection.StartAndTune()
+   at RabbitMQ.Client.Framing.Impl.Connection.Open(Boolean insist)
+   at RabbitMQ.Client.Framing.Impl.Connection..ctor(IConnectionFactory factory, Boolean insist, IFrameHandler frameHandler, String clientProvidedName)
+   at RabbitMQ.Client.Framing.Impl.AutorecoveringConnection.Init(IFrameHandler fh)
+   at RabbitMQ.Client.Framing.Impl.AutorecoveringConnection.Init(IEndpointResolver endpoints)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(String clientProvidedName)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection()
+   at ProductServices.Validator.ProductStockValidatorConsumer..ctor(IServiceProvider serviceProvider) in C:\Users\jack\Documents\Api\ProductServices\Validator\ProductStockValidatorConsumer.cs:line 32
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitIEnumerable(IEnumerableCallSite enumerableCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at Program.<Main>$(String[] args) in C:\Users\jack\Documents\Api\ProductServices\Program.cs:line 106
+2025-03-25 12:34:53.4184 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-25 12:34:53.9483 INFO Now listening on: http://localhost:5176 
+2025-03-25 12:34:54.0530 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-25 12:34:54.0530 INFO Hosting environment: Development 
+2025-03-25 12:34:54.0530 INFO Content root path: C:\Users\jack\Documents\Api\ProductServices 
+2025-03-25 12:34:58.9392 INFO Request starting HTTP/1.1 GET http://localhost:5176/swagger/index.html - - - 
+2025-03-25 12:34:59.7687 INFO Request finished HTTP/1.1 GET http://localhost:5176/swagger/index.html - 200 - text/html;charset=utf-8 839.9223ms 
+2025-03-25 12:34:59.8160 INFO Request starting HTTP/1.1 GET http://localhost:5176/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-25 12:34:59.8233 INFO Request finished HTTP/1.1 GET http://localhost:5176/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript;+charset=utf-8 7.2528ms 
+2025-03-25 12:35:03.3785 INFO Request starting HTTP/1.1 GET http://localhost:5176/_vs/browserLink - - - 
+2025-03-25 12:35:06.5174 INFO Request finished HTTP/1.1 GET http://localhost:5176/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 3138.9373ms 
+2025-03-25 12:35:06.6044 INFO Request starting HTTP/1.1 GET http://localhost:5176/swagger/v1/swagger.json - - - 
+2025-03-25 12:35:06.6865 INFO Request finished HTTP/1.1 GET http://localhost:5176/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 82.1074ms 
+2025-03-25 12:39:16.8513 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-25 12:39:17.1468 INFO Now listening on: http://localhost:5176 
+2025-03-25 12:39:17.2290 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-25 12:39:17.2290 INFO Hosting environment: Development 
+2025-03-25 12:39:17.2290 INFO Content root path: C:\Users\jack\Documents\Api\ProductServices 
+2025-03-25 12:39:19.3498 INFO Request starting HTTP/1.1 GET http://localhost:5176/swagger/index.html - - - 
+2025-03-25 12:39:19.7235 INFO Request finished HTTP/1.1 GET http://localhost:5176/swagger/index.html - 200 - text/html;charset=utf-8 386.2206ms 
+2025-03-25 12:39:19.7907 INFO Request starting HTTP/1.1 GET http://localhost:5176/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-25 12:39:19.7907 INFO Request starting HTTP/1.1 GET http://localhost:5176/_vs/browserLink - - - 
+2025-03-25 12:39:19.8075 INFO Request finished HTTP/1.1 GET http://localhost:5176/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript;+charset=utf-8 16.8567ms 
+2025-03-25 12:39:19.9272 INFO Request finished HTTP/1.1 GET http://localhost:5176/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 133.1510ms 
+2025-03-25 12:39:19.9905 INFO Request starting HTTP/1.1 GET http://localhost:5176/swagger/v1/swagger.json - - - 
+2025-03-25 12:39:20.0159 INFO Request finished HTTP/1.1 GET http://localhost:5176/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 25.3599ms 
+2025-03-25 12:40:09.9116 INFO Request starting HTTP/1.1 GET http://localhost:5176/api/Products - - - 
+2025-03-25 12:40:09.9315 WARN Failed to determine the https port for redirect. 
+2025-03-25 12:40:10.3034 INFO Executing endpoint 'ProductServices.Controllers.ProductsController.GetProducts (ProductServices)' 
+2025-03-25 12:40:10.3500 INFO Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts() on controller ProductServices.Controllers.ProductsController (ProductServices). 
+2025-03-25 12:40:11.5809 WARN No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2025-03-25 12:40:12.2475 INFO Executed action ProductServices.Controllers.ProductsController.GetProducts (ProductServices) in 1884.8982ms 
+2025-03-25 12:40:12.4164 INFO Executed endpoint 'ProductServices.Controllers.ProductsController.GetProducts (ProductServices)' 
+2025-03-25 12:40:12.8509 ERROR An unhandled exception has occurred while executing the request. System.InvalidOperationException: Unable to resolve service for type 'Microsoft.Extensions.Logging.ILogger' while attempting to activate 'ProductServices.Controllers.ProductsController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method9(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-03-25 12:40:12.8826 INFO Request finished HTTP/1.1 GET http://localhost:5176/api/Products - 500 - text/plain;+charset=utf-8 2971.1341ms 
+2025-03-25 12:41:17.8261 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-25 12:41:18.1467 INFO Now listening on: http://localhost:5176 
+2025-03-25 12:41:18.2244 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-25 12:41:18.2244 INFO Hosting environment: Development 
+2025-03-25 12:41:18.2244 INFO Content root path: C:\Users\jack\Documents\Api\ProductServices 
+2025-03-25 12:41:20.7928 INFO Request starting HTTP/1.1 GET http://localhost:5176/swagger/index.html - - - 
+2025-03-25 12:41:21.2661 INFO Request finished HTTP/1.1 GET http://localhost:5176/swagger/index.html - 200 - text/html;charset=utf-8 517.4385ms 
+2025-03-25 12:41:21.5211 INFO Request starting HTTP/1.1 GET http://localhost:5176/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-25 12:41:21.5380 INFO Request starting HTTP/1.1 GET http://localhost:5176/_vs/browserLink - - - 
+2025-03-25 12:41:21.5380 INFO Request finished HTTP/1.1 GET http://localhost:5176/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript;+charset=utf-8 26.9125ms 
+2025-03-25 12:41:21.7890 INFO Request finished HTTP/1.1 GET http://localhost:5176/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 251.1009ms 
+2025-03-25 12:41:21.8543 INFO Request starting HTTP/1.1 GET http://localhost:5176/swagger/v1/swagger.json - - - 
+2025-03-25 12:41:21.8831 INFO Request finished HTTP/1.1 GET http://localhost:5176/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 28.9169ms 
+2025-03-25 12:41:36.6445 INFO Request starting HTTP/1.1 GET http://localhost:5176/api/Products - - - 
+2025-03-25 12:41:36.6642 WARN Failed to determine the https port for redirect. 
+2025-03-25 12:41:36.9542 INFO Executing endpoint 'ProductServices.Controllers.ProductsController.GetProducts (ProductServices)' 
+2025-03-25 12:41:37.0094 INFO Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts() on controller ProductServices.Controllers.ProductsController (ProductServices). 
+2025-03-25 12:41:38.1016 WARN No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2025-03-25 12:41:38.7576 INFO Executed action ProductServices.Controllers.ProductsController.GetProducts (ProductServices) in 1735.0092ms 
+2025-03-25 12:41:38.9005 INFO Executed endpoint 'ProductServices.Controllers.ProductsController.GetProducts (ProductServices)' 
+2025-03-25 12:41:39.2848 ERROR An unhandled exception has occurred while executing the request. System.InvalidOperationException: Unable to resolve service for type 'Microsoft.Extensions.Logging.ILogger' while attempting to activate 'ProductServices.Controllers.ProductsController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method9(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-03-25 12:41:39.3137 INFO Request finished HTTP/1.1 GET http://localhost:5176/api/Products - 500 - text/plain;+charset=utf-8 2669.2048ms 
+2025-03-25 12:44:01.0024 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-25 12:44:01.2861 INFO Now listening on: http://localhost:5176 
+2025-03-25 12:44:01.3913 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-25 12:44:01.4035 INFO Hosting environment: Development 
+2025-03-25 12:44:01.4180 INFO Content root path: C:\Users\jack\Documents\Api\ProductServices 
+2025-03-25 12:44:04.2649 INFO Request starting HTTP/1.1 GET http://localhost:5176/swagger/index.html - - - 
+2025-03-25 12:44:05.8208 INFO Request finished HTTP/1.1 GET http://localhost:5176/swagger/index.html - 200 - text/html;charset=utf-8 1565.9479ms 
+2025-03-25 12:44:06.0248 INFO Request starting HTTP/1.1 GET http://localhost:5176/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-25 12:44:06.0511 INFO Request starting HTTP/1.1 GET http://localhost:5176/_vs/browserLink - - - 
+2025-03-25 12:44:06.0618 INFO Request finished HTTP/1.1 GET http://localhost:5176/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript;+charset=utf-8 37.0032ms 
+2025-03-25 12:44:06.6873 INFO Request finished HTTP/1.1 GET http://localhost:5176/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 636.3626ms 
+2025-03-25 12:44:06.7554 INFO Request starting HTTP/1.1 GET http://localhost:5176/swagger/v1/swagger.json - - - 
+2025-03-25 12:44:06.7843 INFO Request finished HTTP/1.1 GET http://localhost:5176/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 28.9609ms 
+2025-03-25 12:44:33.3973 INFO Request starting HTTP/1.1 GET http://localhost:5176/api/Products - - - 
+2025-03-25 12:44:33.4172 WARN Failed to determine the https port for redirect. 
+2025-03-25 12:44:33.7194 INFO Executing endpoint 'ProductServices.Controllers.ProductsController.GetProducts (ProductServices)' 
+2025-03-25 12:44:33.7546 INFO Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts() on controller ProductServices.Controllers.ProductsController (ProductServices). 
+2025-03-25 12:44:34.9759 WARN No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2025-03-25 12:44:36.7072 INFO Executed DbCommand (87ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p] 
+2025-03-25 12:44:36.9162 INFO Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[ProductServices.Data.Models.Product, ProductServices, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[<>f__AnonymousType2`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], ProductServices, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+2025-03-25 12:44:36.9539 INFO Executed action ProductServices.Controllers.ProductsController.GetProducts (ProductServices) in 3188.6796ms 
+2025-03-25 12:44:36.9539 INFO Executed endpoint 'ProductServices.Controllers.ProductsController.GetProducts (ProductServices)' 
+2025-03-25 12:44:36.9764 INFO Request finished HTTP/1.1 GET http://localhost:5176/api/Products - 200 - application/json;+charset=utf-8 3579.1334ms 
+2025-03-25 12:59:50.8318 INFO User profile is available. Using 'C:\Users\jack\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2025-03-25 12:59:51.2609 INFO Now listening on: http://localhost:5176 
+2025-03-25 12:59:51.3626 INFO Application started. Press Ctrl+C to shut down. 
+2025-03-25 12:59:51.3806 INFO Hosting environment: Development 
+2025-03-25 12:59:51.3806 INFO Content root path: C:\Users\jack\Documents\Api\ProductServices 
+2025-03-25 12:59:54.9400 INFO Request starting HTTP/1.1 GET http://localhost:5176/swagger/index.html - - - 
+2025-03-25 12:59:57.2559 INFO Request finished HTTP/1.1 GET http://localhost:5176/swagger/index.html - 200 - text/html;charset=utf-8 2325.4367ms 
+2025-03-25 12:59:57.6275 INFO Request starting HTTP/1.1 GET http://localhost:5176/_framework/aspnetcore-browser-refresh.js - - - 
+2025-03-25 12:59:57.6275 INFO Request starting HTTP/1.1 GET http://localhost:5176/_vs/browserLink - - - 
+2025-03-25 12:59:57.6522 INFO Request finished HTTP/1.1 GET http://localhost:5176/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript;+charset=utf-8 24.7441ms 
+2025-03-25 12:59:58.9075 INFO Request finished HTTP/1.1 GET http://localhost:5176/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 1279.9625ms 
+2025-03-25 12:59:59.1466 INFO Request starting HTTP/1.1 GET http://localhost:5176/swagger/v1/swagger.json - - - 
+2025-03-25 12:59:59.2822 INFO Request finished HTTP/1.1 GET http://localhost:5176/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 135.6333ms 
+2025-03-25 13:02:56.4725 WARN No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. 
+2025-03-25 13:02:58.8449 INFO Executed DbCommand (422ms) [Parameters=[@__request_ProductId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__request_ProductId_0 
+2025-03-25 13:05:53.5165 INFO Executed DbCommand (7ms) [Parameters=[@__request_ProductId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__request_ProductId_0 
+2025-03-25 13:06:57.4981 INFO Executed DbCommand (45ms) [Parameters=[@__request_ProductId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__request_ProductId_0 
+2025-03-25 13:08:00.5549 INFO Executed DbCommand (61ms) [Parameters=[@__request_ProductId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__request_ProductId_0 

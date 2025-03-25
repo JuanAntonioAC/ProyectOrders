@@ -1,0 +1,19 @@
+[
+  {
+    "ContainingType": "CustomerService.Controllers.CustomersController",
+    "Method": "GetCustomerDetails",
+    "RelativePath": "api/Costumer/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "GetCustomerDetails"
+  }
+]
