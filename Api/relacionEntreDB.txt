@@ -1,0 +1,9 @@
+yo me imagino hacerlo asi, sin ef ya que ahi no se puede hacer
+desde la db, haciendo hacia la tabla la FK desde el moto sql, teniendo en cuenta que va a marcar
+error cuando el key este mal
+
+
+ALTER TABLE [OrderDB].[dbo].[Orders]
+ADD CONSTRAINT FK_Orders_Customers
+FOREIGN KEY (CustomerId)
+REFERENCES [CustomerDB].[dbo].[Customers](Id)
